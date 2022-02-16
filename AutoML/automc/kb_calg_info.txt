@@ -1,0 +1,23 @@
+calg_name	technique_name
+prune_C1	TE1: knowledge distillation based on LMA function
+prune_C2	TE9: pruning
+prune_C2	TE10: filter
+prune_C2	TE2: filter pruning based on evolutionary algorithm
+prune_C2	TE3: common fine tuning
+prune_C3	TE9: pruning
+prune_C3	TE12: channel
+prune_C3	TE4: channel pruning based on Scaling Factors in BN Layers
+prune_C3	TE3: common fine tuning
+prune_C4	TE9: pruning
+prune_C4	TE10: filter
+prune_C4	TE5: filter pruning based on back-propagation
+prune_C5	TE9: pruning
+prune_C5	TE10: filter
+prune_C5	TE11: approximation
+prune_C5	TE13: kernel
+prune_C5	TE6: filter pruning based on HOS
+prune_C5	TE7: low-rank kernel approximation based on HOOI
+prune_C5	TE3: common fine tuning
+prune_C7	TE10: filter
+prune_C7	TE11: approximation
+prune_C7	TE8: low-rank filter approximation based on filter basis

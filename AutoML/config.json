@@ -1,0 +1,29 @@
+{
+  "exp_name": "AutoML for Model Compression Scheme",
+  "logging_dir": "../SLOG/",
+
+  "cuda": true,
+  "seed": 0,
+
+  "our_kmodel_epochs": 200,
+  "our_kmodel_batch_size": 64,
+  "our_kmodel_learning_rate": 0.001,
+  "our_pmodel_batch_size": 256,
+  "our_pmodel_avg_ratio": 0.3,
+  "our_pmodel_learning_rate": 0.001,
+  "our_pmodel_update_frequency": 1,
+  "our_pmodel_optimal_num": 10,
+  "our_pmodel_update_batch_num": 5,
+
+  "evolution_population_num": 50,
+
+  "rl_learning_rate": 3.5e-4,
+  "rl_ema_baseline_decay": 0.95,
+
+  "max_calg_num": 10,
+  "task_name": "resnet56+mini_cifar10+0.3",
+  "task_info": "", 
+  "pretrain_epochs": 50,
+
+  "automl_search_time(h)": 120
+}

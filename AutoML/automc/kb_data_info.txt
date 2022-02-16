@@ -1,0 +1,7 @@
+data_name	class_num	data_num	image_size	image_channel	avg_data_num/class
+cifar10	10	60000	32	3	6000
+cifar100	100	60000	32	3	600
+imagenet	1000	1250000	256	3	1250
+birds-200	200	11700	32	3	58
+svhn	10	630420	32	3	6304
+mnist	10	70000	28	2	7000

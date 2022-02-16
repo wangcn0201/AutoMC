@@ -1,0 +1,1875 @@
+2021-08-27 04:58:18,393:INFO: >>>>>> Starting training model
+2021-08-27 04:58:18,523:INFO: Created model 'vgg16'
+2021-08-27 04:58:24,943:INFO: Loaded dateset 'cifar100' from './data'
+2021-08-27 04:58:24,943:INFO: Entering finetune...
+2021-08-27 04:58:24,943:INFO: Training Settings:
+2021-08-27 04:58:24,943:INFO: save_dir : ./snapshots/cifar100/vgg16/train/
+2021-08-27 04:58:24,943:INFO: epochs : 600
+2021-08-27 04:58:24,943:INFO: lr : 0.01
+2021-08-27 04:58:24,943:INFO: kd_params : (0.0, 1)
+2021-08-27 04:58:24,943:INFO: return_file : True
+2021-08-27 04:58:24,943:INFO: kd : False
+2021-08-27 04:58:27,002:INFO: Starting training for 600 epoch(s)
+2021-08-27 04:58:27,002:INFO: Epoch 1/600  [Need: 00:00:00]  lr=0.01
+2021-08-27 04:59:16,978:INFO: - Train metrics (average): acc_top1: 6.227 ; acc_top5: 21.027 ; loss: 4.192
+2021-08-27 04:59:19,526:INFO: - Eval metrics : acc_top1: 17.904 ; acc_top5: 46.576 ; loss: 3.399
+2021-08-27 04:59:19,607:INFO: - Found new best accuracy on validation set
+2021-08-27 04:59:19,608:INFO: Epoch 2/600  [Need: 08:45:10]  lr=0.01
+2021-08-27 05:00:09,085:INFO: - Train metrics (average): acc_top1: 19.472 ; acc_top5: 50.018 ; loss: 3.235
+2021-08-27 05:00:11,646:INFO: - Eval metrics : acc_top1: 27.667 ; acc_top5: 60.908 ; loss: 2.817
+2021-08-27 05:00:13,216:INFO: - Found new best accuracy on validation set
+2021-08-27 05:00:13,216:INFO: Epoch 3/600  [Need: 08:54:17]  lr=0.01
+2021-08-27 05:01:02,697:INFO: - Train metrics (average): acc_top1: 30.020 ; acc_top5: 62.758 ; loss: 2.689
+2021-08-27 05:01:04,990:INFO: - Eval metrics : acc_top1: 34.763 ; acc_top5: 68.670 ; loss: 2.463
+2021-08-27 05:01:06,410:INFO: - Found new best accuracy on validation set
+2021-08-27 05:01:06,411:INFO: Epoch 4/600  [Need: 08:49:17]  lr=0.01
+2021-08-27 05:01:55,879:INFO: - Train metrics (average): acc_top1: 36.875 ; acc_top5: 71.913 ; loss: 2.322
+2021-08-27 05:01:58,119:INFO: - Eval metrics : acc_top1: 37.779 ; acc_top5: 69.596 ; loss: 2.404
+2021-08-27 05:01:59,304:INFO: - Found new best accuracy on validation set
+2021-08-27 05:01:59,304:INFO: Epoch 5/600  [Need: 08:45:24]  lr=0.01
+2021-08-27 05:02:48,785:INFO: - Train metrics (average): acc_top1: 44.455 ; acc_top5: 76.579 ; loss: 2.050
+2021-08-27 05:02:50,923:INFO: - Eval metrics : acc_top1: 43.213 ; acc_top5: 74.682 ; loss: 2.140
+2021-08-27 05:02:52,249:INFO: - Found new best accuracy on validation set
+2021-08-27 05:02:52,249:INFO: Epoch 6/600  [Need: 08:45:02]  lr=0.01
+2021-08-27 05:03:41,762:INFO: - Train metrics (average): acc_top1: 46.816 ; acc_top5: 78.853 ; loss: 1.918
+2021-08-27 05:03:44,064:INFO: - Eval metrics : acc_top1: 47.552 ; acc_top5: 78.045 ; loss: 1.933
+2021-08-27 05:03:45,432:INFO: - Found new best accuracy on validation set
+2021-08-27 05:03:45,432:INFO: Epoch 7/600  [Need: 08:46:30]  lr=0.01
+2021-08-27 05:04:34,970:INFO: - Train metrics (average): acc_top1: 52.160 ; acc_top5: 82.282 ; loss: 1.739
+2021-08-27 05:04:37,344:INFO: - Eval metrics : acc_top1: 50.508 ; acc_top5: 81.758 ; loss: 1.763
+2021-08-27 05:04:38,721:INFO: - Found new best accuracy on validation set
+2021-08-27 05:04:38,721:INFO: Epoch 8/600  [Need: 08:46:40]  lr=0.01
+2021-08-27 05:05:28,304:INFO: - Train metrics (average): acc_top1: 55.022 ; acc_top5: 84.801 ; loss: 1.628
+2021-08-27 05:05:30,745:INFO: - Eval metrics : acc_top1: 52.170 ; acc_top5: 82.086 ; loss: 1.741
+2021-08-27 05:05:32,049:INFO: - Found new best accuracy on validation set
+2021-08-27 05:05:32,104:INFO: Epoch 9/600  [Need: 08:46:42]  lr=0.01
+2021-08-27 05:06:21,968:INFO: - Train metrics (average): acc_top1: 57.918 ; acc_top5: 87.600 ; loss: 1.457
+2021-08-27 05:06:24,513:INFO: - Eval metrics : acc_top1: 53.702 ; acc_top5: 82.564 ; loss: 1.696
+2021-08-27 05:06:25,771:INFO: - Found new best accuracy on validation set
+2021-08-27 05:06:25,771:INFO: Epoch 10/600  [Need: 08:48:37]  lr=0.01
+2021-08-27 05:07:15,315:INFO: - Train metrics (average): acc_top1: 60.699 ; acc_top5: 89.011 ; loss: 1.366
+2021-08-27 05:07:17,362:INFO: - Eval metrics : acc_top1: 55.812 ; acc_top5: 84.445 ; loss: 1.593
+2021-08-27 05:07:17,995:INFO: - Found new best accuracy on validation set
+2021-08-27 05:07:17,995:INFO: Epoch 11/600  [Need: 08:33:32]  lr=0.01
+2021-08-27 05:08:07,637:INFO: - Train metrics (average): acc_top1: 61.606 ; acc_top5: 89.764 ; loss: 1.299
+2021-08-27 05:08:09,425:INFO: - Eval metrics : acc_top1: 57.494 ; acc_top5: 85.161 ; loss: 1.545
+2021-08-27 05:08:10,099:INFO: - Found new best accuracy on validation set
+2021-08-27 05:08:10,099:INFO: Epoch 12/600  [Need: 08:31:29]  lr=0.01
+2021-08-27 05:08:59,653:INFO: - Train metrics (average): acc_top1: 63.895 ; acc_top5: 90.708 ; loss: 1.251
+2021-08-27 05:09:01,575:INFO: - Eval metrics : acc_top1: 57.743 ; acc_top5: 85.758 ; loss: 1.521
+2021-08-27 05:09:02,371:INFO: - Found new best accuracy on validation set
+2021-08-27 05:09:02,371:INFO: Epoch 13/600  [Need: 08:32:15]  lr=0.01
+2021-08-27 05:09:51,910:INFO: - Train metrics (average): acc_top1: 66.183 ; acc_top5: 92.320 ; loss: 1.127
+2021-08-27 05:09:53,977:INFO: - Eval metrics : acc_top1: 57.972 ; acc_top5: 85.709 ; loss: 1.514
+2021-08-27 05:09:54,993:INFO: - Found new best accuracy on validation set
+2021-08-27 05:09:54,994:INFO: Epoch 14/600  [Need: 08:34:49]  lr=0.01
+2021-08-27 05:10:44,405:INFO: - Train metrics (average): acc_top1: 67.261 ; acc_top5: 92.483 ; loss: 1.074
+2021-08-27 05:10:46,128:INFO: - Eval metrics : acc_top1: 58.021 ; acc_top5: 85.271 ; loss: 1.537
+2021-08-27 05:10:46,927:INFO: - Found new best accuracy on validation set
+2021-08-27 05:10:46,927:INFO: Epoch 15/600  [Need: 08:27:13]  lr=0.01
+2021-08-27 05:11:36,378:INFO: - Train metrics (average): acc_top1: 69.218 ; acc_top5: 93.452 ; loss: 1.028
+2021-08-27 05:11:38,058:INFO: - Eval metrics : acc_top1: 57.056 ; acc_top5: 84.275 ; loss: 1.633
+2021-08-27 05:11:38,357:INFO: Epoch 16/600  [Need: 08:21:26]  lr=0.01
+2021-08-27 05:12:27,910:INFO: - Train metrics (average): acc_top1: 70.797 ; acc_top5: 93.551 ; loss: 0.997
+2021-08-27 05:12:30,018:INFO: - Eval metrics : acc_top1: 61.764 ; acc_top5: 87.371 ; loss: 1.405
+2021-08-27 05:12:30,972:INFO: - Found new best accuracy on validation set
+2021-08-27 05:12:30,973:INFO: Epoch 17/600  [Need: 08:32:07]  lr=0.01
+2021-08-27 05:13:20,423:INFO: - Train metrics (average): acc_top1: 72.866 ; acc_top5: 94.001 ; loss: 0.933
+2021-08-27 05:13:22,635:INFO: - Eval metrics : acc_top1: 61.117 ; acc_top5: 86.992 ; loss: 1.432
+2021-08-27 05:13:22,975:INFO: Epoch 18/600  [Need: 08:25:17]  lr=0.01
+2021-08-27 05:14:12,430:INFO: - Train metrics (average): acc_top1: 73.426 ; acc_top5: 94.817 ; loss: 0.884
+2021-08-27 05:14:14,504:INFO: - Eval metrics : acc_top1: 59.883 ; acc_top5: 85.967 ; loss: 1.493
+2021-08-27 05:14:14,824:INFO: Epoch 19/600  [Need: 08:22:56]  lr=0.01
+2021-08-27 05:15:04,319:INFO: - Train metrics (average): acc_top1: 73.569 ; acc_top5: 95.934 ; loss: 0.839
+2021-08-27 05:15:06,087:INFO: - Eval metrics : acc_top1: 60.131 ; acc_top5: 86.803 ; loss: 1.478
+2021-08-27 05:15:06,428:INFO: Epoch 20/600  [Need: 08:19:41]  lr=0.01
+2021-08-27 05:15:56,018:INFO: - Train metrics (average): acc_top1: 73.770 ; acc_top5: 95.401 ; loss: 0.845
+2021-08-27 05:15:58,190:INFO: - Eval metrics : acc_top1: 60.858 ; acc_top5: 86.365 ; loss: 1.495
+2021-08-27 05:15:58,513:INFO: Epoch 21/600  [Need: 08:23:29]  lr=0.01
+2021-08-27 05:16:48,119:INFO: - Train metrics (average): acc_top1: 76.228 ; acc_top5: 95.839 ; loss: 0.783
+2021-08-27 05:16:50,405:INFO: - Eval metrics : acc_top1: 63.107 ; acc_top5: 87.848 ; loss: 1.400
+2021-08-27 05:16:51,184:INFO: - Found new best accuracy on validation set
+2021-08-27 05:16:51,184:INFO: Epoch 22/600  [Need: 08:28:16]  lr=0.01
+2021-08-27 05:17:40,729:INFO: - Train metrics (average): acc_top1: 78.022 ; acc_top5: 96.098 ; loss: 0.740
+2021-08-27 05:17:42,790:INFO: - Eval metrics : acc_top1: 60.410 ; acc_top5: 87.191 ; loss: 1.470
+2021-08-27 05:17:43,127:INFO: Epoch 23/600  [Need: 08:20:22]  lr=0.01
+2021-08-27 05:18:32,700:INFO: - Train metrics (average): acc_top1: 78.605 ; acc_top5: 97.022 ; loss: 0.708
+2021-08-27 05:18:34,841:INFO: - Eval metrics : acc_top1: 61.684 ; acc_top5: 87.331 ; loss: 1.460
+2021-08-27 05:18:35,193:INFO: Epoch 24/600  [Need: 08:20:42]  lr=0.01
+2021-08-27 05:19:24,776:INFO: - Train metrics (average): acc_top1: 77.857 ; acc_top5: 97.360 ; loss: 0.695
+2021-08-27 05:19:26,987:INFO: - Eval metrics : acc_top1: 61.127 ; acc_top5: 86.515 ; loss: 1.496
+2021-08-27 05:19:27,464:INFO: Epoch 25/600  [Need: 08:21:48]  lr=0.01
+2021-08-27 05:20:17,082:INFO: - Train metrics (average): acc_top1: 77.750 ; acc_top5: 97.418 ; loss: 0.683
+2021-08-27 05:20:19,380:INFO: - Eval metrics : acc_top1: 60.669 ; acc_top5: 86.435 ; loss: 1.503
+2021-08-27 05:20:20,120:INFO: Epoch 26/600  [Need: 08:24:36]  lr=0.01
+2021-08-27 05:21:09,693:INFO: - Train metrics (average): acc_top1: 79.557 ; acc_top5: 97.505 ; loss: 0.664
+2021-08-27 05:21:11,905:INFO: - Eval metrics : acc_top1: 62.460 ; acc_top5: 87.749 ; loss: 1.426
+2021-08-27 05:21:12,422:INFO: Epoch 27/600  [Need: 08:20:21]  lr=0.01
+2021-08-27 05:22:01,989:INFO: - Train metrics (average): acc_top1: 80.490 ; acc_top5: 97.128 ; loss: 0.627
+2021-08-27 05:22:04,088:INFO: - Eval metrics : acc_top1: 63.137 ; acc_top5: 88.087 ; loss: 1.414
+2021-08-27 05:22:04,711:INFO: - Found new best accuracy on validation set
+2021-08-27 05:22:04,777:INFO: Epoch 28/600  [Need: 08:19:59]  lr=0.01
+2021-08-27 05:22:54,286:INFO: - Train metrics (average): acc_top1: 82.335 ; acc_top5: 97.970 ; loss: 0.570
+2021-08-27 05:22:56,415:INFO: - Eval metrics : acc_top1: 62.888 ; acc_top5: 87.968 ; loss: 1.459
+2021-08-27 05:22:56,761:INFO: Epoch 29/600  [Need: 08:15:34]  lr=0.01
+2021-08-27 05:23:46,355:INFO: - Train metrics (average): acc_top1: 82.602 ; acc_top5: 98.162 ; loss: 0.554
+2021-08-27 05:23:48,379:INFO: - Eval metrics : acc_top1: 62.510 ; acc_top5: 87.848 ; loss: 1.477
+2021-08-27 05:23:48,692:INFO: Epoch 30/600  [Need: 08:14:12]  lr=0.01
+2021-08-27 05:24:38,240:INFO: - Train metrics (average): acc_top1: 82.516 ; acc_top5: 97.621 ; loss: 0.569
+2021-08-27 05:24:40,288:INFO: - Eval metrics : acc_top1: 61.485 ; acc_top5: 86.495 ; loss: 1.538
+2021-08-27 05:24:40,641:INFO: Epoch 31/600  [Need: 08:13:31]  lr=0.01
+2021-08-27 05:25:30,222:INFO: - Train metrics (average): acc_top1: 82.133 ; acc_top5: 98.347 ; loss: 0.559
+2021-08-27 05:25:32,386:INFO: - Eval metrics : acc_top1: 62.888 ; acc_top5: 87.689 ; loss: 1.487
+2021-08-27 05:25:32,921:INFO: Epoch 32/600  [Need: 08:15:47]  lr=0.01
+2021-08-27 05:26:22,057:INFO: - Train metrics (average): acc_top1: 83.315 ; acc_top5: 98.613 ; loss: 0.522
+2021-08-27 05:26:24,610:INFO: - Eval metrics : acc_top1: 59.942 ; acc_top5: 86.316 ; loss: 1.597
+2021-08-27 05:26:24,953:INFO: Epoch 33/600  [Need: 08:12:34]  lr=0.01
+2021-08-27 05:27:14,094:INFO: - Train metrics (average): acc_top1: 83.621 ; acc_top5: 98.539 ; loss: 0.534
+2021-08-27 05:27:16,640:INFO: - Eval metrics : acc_top1: 62.172 ; acc_top5: 87.082 ; loss: 1.551
+2021-08-27 05:27:16,975:INFO: Epoch 34/600  [Need: 08:11:36]  lr=0.01
+2021-08-27 05:28:06,200:INFO: - Train metrics (average): acc_top1: 82.842 ; acc_top5: 98.597 ; loss: 0.527
+2021-08-27 05:28:08,731:INFO: - Eval metrics : acc_top1: 62.351 ; acc_top5: 87.052 ; loss: 1.565
+2021-08-27 05:28:09,106:INFO: Epoch 35/600  [Need: 08:11:45]  lr=0.01
+2021-08-27 05:28:58,491:INFO: - Train metrics (average): acc_top1: 84.963 ; acc_top5: 98.929 ; loss: 0.474
+2021-08-27 05:29:00,992:INFO: - Eval metrics : acc_top1: 61.395 ; acc_top5: 86.943 ; loss: 1.592
+2021-08-27 05:29:01,386:INFO: Epoch 36/600  [Need: 08:12:18]  lr=0.01
+2021-08-27 05:29:50,809:INFO: - Train metrics (average): acc_top1: 83.565 ; acc_top5: 98.481 ; loss: 0.499
+2021-08-27 05:29:53,306:INFO: - Eval metrics : acc_top1: 63.605 ; acc_top5: 87.898 ; loss: 1.485
+2021-08-27 05:29:53,989:INFO: - Found new best accuracy on validation set
+2021-08-27 05:29:53,991:INFO: Epoch 37/600  [Need: 08:14:28]  lr=0.01
+2021-08-27 05:30:43,734:INFO: - Train metrics (average): acc_top1: 85.037 ; acc_top5: 99.022 ; loss: 0.452
+2021-08-27 05:30:46,248:INFO: - Eval metrics : acc_top1: 60.808 ; acc_top5: 86.823 ; loss: 1.595
+2021-08-27 05:30:46,698:INFO: Epoch 38/600  [Need: 08:14:34]  lr=0.01
+2021-08-27 05:31:36,429:INFO: - Train metrics (average): acc_top1: 85.456 ; acc_top5: 99.067 ; loss: 0.446
+2021-08-27 05:31:38,959:INFO: - Eval metrics : acc_top1: 59.017 ; acc_top5: 84.863 ; loss: 1.726
+2021-08-27 05:31:39,762:INFO: Epoch 39/600  [Need: 08:17:01]  lr=0.01
+2021-08-27 05:32:29,490:INFO: - Train metrics (average): acc_top1: 85.593 ; acc_top5: 98.509 ; loss: 0.469
+2021-08-27 05:32:32,013:INFO: - Eval metrics : acc_top1: 61.843 ; acc_top5: 86.574 ; loss: 1.613
+2021-08-27 05:32:32,582:INFO: Epoch 40/600  [Need: 08:13:51]  lr=0.01
+2021-08-27 05:33:22,333:INFO: - Train metrics (average): acc_top1: 86.807 ; acc_top5: 98.991 ; loss: 0.423
+2021-08-27 05:33:24,894:INFO: - Eval metrics : acc_top1: 62.988 ; acc_top5: 87.410 ; loss: 1.551
+2021-08-27 05:33:25,335:INFO: Epoch 41/600  [Need: 08:12:21]  lr=0.01
+2021-08-27 05:34:14,410:INFO: - Train metrics (average): acc_top1: 87.667 ; acc_top5: 98.974 ; loss: 0.407
+2021-08-27 05:34:16,966:INFO: - Eval metrics : acc_top1: 62.221 ; acc_top5: 86.525 ; loss: 1.620
+2021-08-27 05:34:17,303:INFO: Epoch 42/600  [Need: 08:04:10]  lr=0.01
+2021-08-27 05:35:06,505:INFO: - Train metrics (average): acc_top1: 87.756 ; acc_top5: 99.060 ; loss: 0.396
+2021-08-27 05:35:09,049:INFO: - Eval metrics : acc_top1: 61.992 ; acc_top5: 86.515 ; loss: 1.608
+2021-08-27 05:35:09,376:INFO: Epoch 43/600  [Need: 08:04:16]  lr=0.01
+2021-08-27 05:35:58,589:INFO: - Train metrics (average): acc_top1: 87.828 ; acc_top5: 99.257 ; loss: 0.395
+2021-08-27 05:36:01,119:INFO: - Eval metrics : acc_top1: 62.560 ; acc_top5: 86.704 ; loss: 1.605
+2021-08-27 05:36:01,457:INFO: Epoch 44/600  [Need: 08:03:28]  lr=0.01
+2021-08-27 05:36:50,778:INFO: - Train metrics (average): acc_top1: 88.279 ; acc_top5: 99.308 ; loss: 0.367
+2021-08-27 05:36:53,291:INFO: - Eval metrics : acc_top1: 63.784 ; acc_top5: 87.809 ; loss: 1.516
+2021-08-27 05:36:54,815:INFO: - Found new best accuracy on validation set
+2021-08-27 05:36:54,815:INFO: Epoch 45/600  [Need: 08:14:27]  lr=0.01
+2021-08-27 05:37:44,373:INFO: - Train metrics (average): acc_top1: 88.002 ; acc_top5: 99.177 ; loss: 0.364
+2021-08-27 05:37:46,622:INFO: - Eval metrics : acc_top1: 62.968 ; acc_top5: 86.933 ; loss: 1.595
+2021-08-27 05:37:47,167:INFO: Epoch 46/600  [Need: 08:04:14]  lr=0.01
+2021-08-27 05:38:36,721:INFO: - Train metrics (average): acc_top1: 89.034 ; acc_top5: 99.465 ; loss: 0.348
+2021-08-27 05:38:39,038:INFO: - Eval metrics : acc_top1: 62.062 ; acc_top5: 85.997 ; loss: 1.656
+2021-08-27 05:38:39,601:INFO: Epoch 47/600  [Need: 08:04:08]  lr=0.01
+2021-08-27 05:39:29,172:INFO: - Train metrics (average): acc_top1: 88.757 ; acc_top5: 99.428 ; loss: 0.353
+2021-08-27 05:39:31,429:INFO: - Eval metrics : acc_top1: 62.410 ; acc_top5: 86.146 ; loss: 1.645
+2021-08-27 05:39:31,933:INFO: Epoch 48/600  [Need: 08:02:19]  lr=0.01
+2021-08-27 05:40:21,486:INFO: - Train metrics (average): acc_top1: 88.633 ; acc_top5: 99.380 ; loss: 0.357
+2021-08-27 05:40:23,701:INFO: - Eval metrics : acc_top1: 62.878 ; acc_top5: 86.953 ; loss: 1.630
+2021-08-27 05:40:24,240:INFO: Epoch 49/600  [Need: 08:01:13]  lr=0.01
+2021-08-27 05:41:13,791:INFO: - Train metrics (average): acc_top1: 89.597 ; acc_top5: 99.411 ; loss: 0.341
+2021-08-27 05:41:15,979:INFO: - Eval metrics : acc_top1: 62.828 ; acc_top5: 86.634 ; loss: 1.629
+2021-08-27 05:41:16,365:INFO: Epoch 50/600  [Need: 07:58:40]  lr=0.01
+2021-08-27 05:42:05,898:INFO: - Train metrics (average): acc_top1: 89.325 ; acc_top5: 99.439 ; loss: 0.331
+2021-08-27 05:42:08,100:INFO: - Eval metrics : acc_top1: 62.649 ; acc_top5: 86.714 ; loss: 1.599
+2021-08-27 05:42:08,508:INFO: Epoch 51/600  [Need: 07:57:58]  lr=0.01
+2021-08-27 05:42:58,049:INFO: - Train metrics (average): acc_top1: 88.934 ; acc_top5: 99.462 ; loss: 0.355
+2021-08-27 05:43:00,250:INFO: - Eval metrics : acc_top1: 62.600 ; acc_top5: 86.246 ; loss: 1.614
+2021-08-27 05:43:00,630:INFO: Epoch 52/600  [Need: 07:56:54]  lr=0.01
+2021-08-27 05:43:50,169:INFO: - Train metrics (average): acc_top1: 90.005 ; acc_top5: 99.463 ; loss: 0.323
+2021-08-27 05:43:52,432:INFO: - Eval metrics : acc_top1: 61.873 ; acc_top5: 86.704 ; loss: 1.680
+2021-08-27 05:43:52,963:INFO: Epoch 53/600  [Need: 07:57:58]  lr=0.01
+2021-08-27 05:44:42,504:INFO: - Train metrics (average): acc_top1: 87.765 ; acc_top5: 99.406 ; loss: 0.365
+2021-08-27 05:44:44,721:INFO: - Eval metrics : acc_top1: 59.823 ; acc_top5: 85.052 ; loss: 1.801
+2021-08-27 05:44:45,211:INFO: Epoch 54/600  [Need: 07:56:19]  lr=0.01
+2021-08-27 05:45:34,815:INFO: - Train metrics (average): acc_top1: 89.323 ; acc_top5: 99.522 ; loss: 0.328
+2021-08-27 05:45:37,262:INFO: - Eval metrics : acc_top1: 62.868 ; acc_top5: 87.002 ; loss: 1.622
+2021-08-27 05:45:38,099:INFO: Epoch 55/600  [Need: 08:01:16]  lr=0.01
+2021-08-27 05:46:27,669:INFO: - Train metrics (average): acc_top1: 90.048 ; acc_top5: 99.593 ; loss: 0.310
+2021-08-27 05:46:30,045:INFO: - Eval metrics : acc_top1: 62.182 ; acc_top5: 86.405 ; loss: 1.673
+2021-08-27 05:46:30,961:INFO: Epoch 56/600  [Need: 08:00:09]  lr=0.01
+2021-08-27 05:47:20,490:INFO: - Train metrics (average): acc_top1: 89.238 ; acc_top5: 99.493 ; loss: 0.343
+2021-08-27 05:47:22,692:INFO: - Eval metrics : acc_top1: 62.460 ; acc_top5: 86.982 ; loss: 1.650
+2021-08-27 05:47:23,107:INFO: Epoch 57/600  [Need: 07:52:47]  lr=0.01
+2021-08-27 05:48:12,813:INFO: - Train metrics (average): acc_top1: 89.517 ; acc_top5: 99.352 ; loss: 0.332
+2021-08-27 05:48:15,347:INFO: - Eval metrics : acc_top1: 61.893 ; acc_top5: 85.938 ; loss: 1.702
+2021-08-27 05:48:16,008:INFO: Epoch 58/600  [Need: 07:58:45]  lr=0.01
+2021-08-27 05:49:05,693:INFO: - Train metrics (average): acc_top1: 90.097 ; acc_top5: 99.451 ; loss: 0.325
+2021-08-27 05:49:08,245:INFO: - Eval metrics : acc_top1: 63.117 ; acc_top5: 87.172 ; loss: 1.605
+2021-08-27 05:49:08,688:INFO: Epoch 59/600  [Need: 07:55:52]  lr=0.01
+2021-08-27 05:49:58,433:INFO: - Train metrics (average): acc_top1: 89.386 ; acc_top5: 99.548 ; loss: 0.323
+2021-08-27 05:50:00,968:INFO: - Eval metrics : acc_top1: 63.913 ; acc_top5: 86.973 ; loss: 1.583
+2021-08-27 05:50:02,199:INFO: - Found new best accuracy on validation set
+2021-08-27 05:50:02,199:INFO: Epoch 60/600  [Need: 08:02:29]  lr=0.01
+2021-08-27 05:50:51,690:INFO: - Train metrics (average): acc_top1: 90.306 ; acc_top5: 99.611 ; loss: 0.306
+2021-08-27 05:50:53,714:INFO: - Eval metrics : acc_top1: 62.480 ; acc_top5: 86.744 ; loss: 1.655
+2021-08-27 05:50:54,323:INFO: Epoch 61/600  [Need: 07:49:07]  lr=0.01
+2021-08-27 05:51:43,887:INFO: - Train metrics (average): acc_top1: 90.757 ; acc_top5: 99.616 ; loss: 0.280
+2021-08-27 05:51:46,150:INFO: - Eval metrics : acc_top1: 63.386 ; acc_top5: 86.843 ; loss: 1.591
+2021-08-27 05:51:46,585:INFO: Epoch 62/600  [Need: 07:49:29]  lr=0.01
+2021-08-27 05:52:36,134:INFO: - Train metrics (average): acc_top1: 91.136 ; acc_top5: 99.443 ; loss: 0.284
+2021-08-27 05:52:38,434:INFO: - Eval metrics : acc_top1: 61.276 ; acc_top5: 85.460 ; loss: 1.771
+2021-08-27 05:52:39,043:INFO: Epoch 63/600  [Need: 07:50:22]  lr=0.01
+2021-08-27 05:53:28,373:INFO: - Train metrics (average): acc_top1: 89.745 ; acc_top5: 99.538 ; loss: 0.325
+2021-08-27 05:53:30,880:INFO: - Eval metrics : acc_top1: 62.530 ; acc_top5: 86.485 ; loss: 1.656
+2021-08-27 05:53:31,255:INFO: Epoch 64/600  [Need: 07:47:18]  lr=0.01
+2021-08-27 05:54:20,422:INFO: - Train metrics (average): acc_top1: 91.105 ; acc_top5: 99.411 ; loss: 0.288
+2021-08-27 05:54:22,962:INFO: - Eval metrics : acc_top1: 61.246 ; acc_top5: 85.918 ; loss: 1.730
+2021-08-27 05:54:23,314:INFO: Epoch 65/600  [Need: 07:45:03]  lr=0.01
+2021-08-27 05:55:12,552:INFO: - Train metrics (average): acc_top1: 90.616 ; acc_top5: 99.582 ; loss: 0.288
+2021-08-27 05:55:15,078:INFO: - Eval metrics : acc_top1: 62.420 ; acc_top5: 86.186 ; loss: 1.672
+2021-08-27 05:55:15,446:INFO: Epoch 66/600  [Need: 07:44:50]  lr=0.01
+2021-08-27 05:56:04,750:INFO: - Train metrics (average): acc_top1: 91.795 ; acc_top5: 99.664 ; loss: 0.270
+2021-08-27 05:56:07,258:INFO: - Eval metrics : acc_top1: 63.396 ; acc_top5: 86.226 ; loss: 1.691
+2021-08-27 05:56:08,303:INFO: Epoch 67/600  [Need: 07:50:25]  lr=0.01
+2021-08-27 05:56:57,358:INFO: - Train metrics (average): acc_top1: 90.696 ; acc_top5: 99.607 ; loss: 0.286
+2021-08-27 05:56:59,922:INFO: - Eval metrics : acc_top1: 62.580 ; acc_top5: 85.838 ; loss: 1.715
+2021-08-27 05:57:00,276:INFO: Epoch 68/600  [Need: 07:41:41]  lr=0.01
+2021-08-27 05:57:49,445:INFO: - Train metrics (average): acc_top1: 91.379 ; acc_top5: 99.646 ; loss: 0.288
+2021-08-27 05:57:51,983:INFO: - Eval metrics : acc_top1: 62.420 ; acc_top5: 86.415 ; loss: 1.669
+2021-08-27 05:57:52,336:INFO: Epoch 69/600  [Need: 07:41:35]  lr=0.01
+2021-08-27 05:58:41,627:INFO: - Train metrics (average): acc_top1: 91.439 ; acc_top5: 99.624 ; loss: 0.275
+2021-08-27 05:58:44,137:INFO: - Eval metrics : acc_top1: 62.998 ; acc_top5: 86.495 ; loss: 1.650
+2021-08-27 05:58:44,561:INFO: Epoch 70/600  [Need: 07:42:11]  lr=0.01
+2021-08-27 05:59:33,924:INFO: - Train metrics (average): acc_top1: 91.602 ; acc_top5: 99.670 ; loss: 0.275
+2021-08-27 05:59:36,421:INFO: - Eval metrics : acc_top1: 63.256 ; acc_top5: 86.435 ; loss: 1.657
+2021-08-27 05:59:36,827:INFO: Epoch 71/600  [Need: 07:41:41]  lr=0.01
+2021-08-27 06:00:26,253:INFO: - Train metrics (average): acc_top1: 90.370 ; acc_top5: 99.617 ; loss: 0.292
+2021-08-27 06:00:28,751:INFO: - Eval metrics : acc_top1: 62.729 ; acc_top5: 86.346 ; loss: 1.690
+2021-08-27 06:00:29,175:INFO: Epoch 72/600  [Need: 07:41:31]  lr=0.01
+2021-08-27 06:01:18,476:INFO: - Train metrics (average): acc_top1: 91.898 ; acc_top5: 99.606 ; loss: 0.261
+2021-08-27 06:01:20,979:INFO: - Eval metrics : acc_top1: 62.609 ; acc_top5: 86.296 ; loss: 1.668
+2021-08-27 06:01:21,332:INFO: Epoch 73/600  [Need: 07:38:59]  lr=0.01
+2021-08-27 06:02:10,654:INFO: - Train metrics (average): acc_top1: 91.837 ; acc_top5: 99.655 ; loss: 0.265
+2021-08-27 06:02:13,155:INFO: - Eval metrics : acc_top1: 64.331 ; acc_top5: 87.639 ; loss: 1.578
+2021-08-27 06:02:13,807:INFO: - Found new best accuracy on validation set
+2021-08-27 06:02:13,825:INFO: Epoch 74/600  [Need: 07:41:03]  lr=0.01
+2021-08-27 06:03:03,575:INFO: - Train metrics (average): acc_top1: 92.440 ; acc_top5: 99.715 ; loss: 0.247
+2021-08-27 06:03:06,129:INFO: - Eval metrics : acc_top1: 61.933 ; acc_top5: 85.340 ; loss: 1.773
+2021-08-27 06:03:06,539:INFO: Epoch 75/600  [Need: 07:42:07]  lr=0.01
+2021-08-27 06:03:56,246:INFO: - Train metrics (average): acc_top1: 91.688 ; acc_top5: 99.297 ; loss: 0.283
+2021-08-27 06:03:58,789:INFO: - Eval metrics : acc_top1: 61.316 ; acc_top5: 85.868 ; loss: 1.755
+2021-08-27 06:03:59,142:INFO: Epoch 76/600  [Need: 07:40:16]  lr=0.01
+2021-08-27 06:04:48,895:INFO: - Train metrics (average): acc_top1: 91.256 ; acc_top5: 99.536 ; loss: 0.286
+2021-08-27 06:04:51,453:INFO: - Eval metrics : acc_top1: 63.664 ; acc_top5: 86.823 ; loss: 1.631
+2021-08-27 06:04:52,159:INFO: Epoch 77/600  [Need: 07:43:00]  lr=0.01
+2021-08-27 06:05:41,840:INFO: - Train metrics (average): acc_top1: 91.844 ; acc_top5: 99.616 ; loss: 0.257
+2021-08-27 06:05:44,362:INFO: - Eval metrics : acc_top1: 62.450 ; acc_top5: 86.146 ; loss: 1.741
+2021-08-27 06:05:44,813:INFO: Epoch 78/600  [Need: 07:38:58]  lr=0.01
+2021-08-27 06:06:34,544:INFO: - Train metrics (average): acc_top1: 91.548 ; acc_top5: 99.628 ; loss: 0.266
+2021-08-27 06:06:37,101:INFO: - Eval metrics : acc_top1: 63.057 ; acc_top5: 86.953 ; loss: 1.663
+2021-08-27 06:06:37,626:INFO: Epoch 79/600  [Need: 07:39:28]  lr=0.01
+2021-08-27 06:07:27,333:INFO: - Train metrics (average): acc_top1: 91.305 ; acc_top5: 99.501 ; loss: 0.273
+2021-08-27 06:07:29,882:INFO: - Eval metrics : acc_top1: 61.355 ; acc_top5: 85.738 ; loss: 1.745
+2021-08-27 06:07:30,278:INFO: Epoch 80/600  [Need: 07:37:11]  lr=0.01
+2021-08-27 06:08:20,017:INFO: - Train metrics (average): acc_top1: 91.145 ; acc_top5: 99.409 ; loss: 0.280
+2021-08-27 06:08:22,564:INFO: - Eval metrics : acc_top1: 62.460 ; acc_top5: 86.156 ; loss: 1.696
+2021-08-27 06:08:22,962:INFO: Epoch 81/600  [Need: 07:36:35]  lr=0.01
+2021-08-27 06:09:12,712:INFO: - Train metrics (average): acc_top1: 92.643 ; acc_top5: 99.678 ; loss: 0.245
+2021-08-27 06:09:15,262:INFO: - Eval metrics : acc_top1: 60.679 ; acc_top5: 85.171 ; loss: 1.770
+2021-08-27 06:09:15,665:INFO: Epoch 82/600  [Need: 07:35:53]  lr=0.01
+2021-08-27 06:10:05,384:INFO: - Train metrics (average): acc_top1: 92.008 ; acc_top5: 99.518 ; loss: 0.257
+2021-08-27 06:10:07,934:INFO: - Eval metrics : acc_top1: 61.256 ; acc_top5: 85.131 ; loss: 1.745
+2021-08-27 06:10:08,312:INFO: Epoch 83/600  [Need: 07:34:30]  lr=0.01
+2021-08-27 06:10:58,064:INFO: - Train metrics (average): acc_top1: 91.116 ; acc_top5: 99.373 ; loss: 0.286
+2021-08-27 06:11:00,603:INFO: - Eval metrics : acc_top1: 62.052 ; acc_top5: 85.440 ; loss: 1.754
+2021-08-27 06:11:00,992:INFO: Epoch 84/600  [Need: 07:33:55]  lr=0.01
+2021-08-27 06:11:50,723:INFO: - Train metrics (average): acc_top1: 92.184 ; acc_top5: 99.634 ; loss: 0.252
+2021-08-27 06:11:53,291:INFO: - Eval metrics : acc_top1: 60.778 ; acc_top5: 84.564 ; loss: 1.814
+2021-08-27 06:11:53,937:INFO: Epoch 85/600  [Need: 07:35:19]  lr=0.01
+2021-08-27 06:12:43,555:INFO: - Train metrics (average): acc_top1: 91.773 ; acc_top5: 99.647 ; loss: 0.269
+2021-08-27 06:12:45,971:INFO: - Eval metrics : acc_top1: 63.714 ; acc_top5: 86.505 ; loss: 1.648
+2021-08-27 06:12:46,559:INFO: Epoch 86/600  [Need: 07:31:40]  lr=0.01
+2021-08-27 06:13:36,128:INFO: - Train metrics (average): acc_top1: 91.812 ; acc_top5: 99.693 ; loss: 0.263
+2021-08-27 06:13:38,465:INFO: - Eval metrics : acc_top1: 61.654 ; acc_top5: 85.520 ; loss: 1.770
+2021-08-27 06:13:39,082:INFO: Epoch 87/600  [Need: 07:29:56]  lr=0.01
+2021-08-27 06:14:28,635:INFO: - Train metrics (average): acc_top1: 92.186 ; acc_top5: 99.464 ; loss: 0.262
+2021-08-27 06:14:30,878:INFO: - Eval metrics : acc_top1: 62.371 ; acc_top5: 86.973 ; loss: 1.712
+2021-08-27 06:14:31,226:INFO: Epoch 88/600  [Need: 07:25:50]  lr=0.01
+2021-08-27 06:15:20,796:INFO: - Train metrics (average): acc_top1: 91.156 ; acc_top5: 99.630 ; loss: 0.281
+2021-08-27 06:15:23,094:INFO: - Eval metrics : acc_top1: 61.286 ; acc_top5: 85.042 ; loss: 1.843
+2021-08-27 06:15:23,602:INFO: Epoch 89/600  [Need: 07:26:56]  lr=0.01
+2021-08-27 06:16:13,172:INFO: - Train metrics (average): acc_top1: 92.251 ; acc_top5: 99.551 ; loss: 0.245
+2021-08-27 06:16:15,429:INFO: - Eval metrics : acc_top1: 63.087 ; acc_top5: 86.435 ; loss: 1.723
+2021-08-27 06:16:15,928:INFO: Epoch 90/600  [Need: 07:25:38]  lr=0.01
+2021-08-27 06:17:05,489:INFO: - Train metrics (average): acc_top1: 92.399 ; acc_top5: 99.754 ; loss: 0.238
+2021-08-27 06:17:07,739:INFO: - Eval metrics : acc_top1: 64.202 ; acc_top5: 86.813 ; loss: 1.613
+2021-08-27 06:17:08,176:INFO: Epoch 91/600  [Need: 07:24:06]  lr=0.01
+2021-08-27 06:17:57,756:INFO: - Train metrics (average): acc_top1: 93.077 ; acc_top5: 99.754 ; loss: 0.234
+2021-08-27 06:18:00,035:INFO: - Eval metrics : acc_top1: 62.102 ; acc_top5: 86.346 ; loss: 1.718
+2021-08-27 06:18:00,592:INFO: Epoch 92/600  [Need: 07:24:39]  lr=0.01
+2021-08-27 06:18:50,155:INFO: - Train metrics (average): acc_top1: 92.801 ; acc_top5: 99.741 ; loss: 0.251
+2021-08-27 06:18:52,405:INFO: - Eval metrics : acc_top1: 63.863 ; acc_top5: 86.873 ; loss: 1.652
+2021-08-27 06:18:52,826:INFO: Epoch 93/600  [Need: 07:22:14]  lr=0.01
+2021-08-27 06:19:42,405:INFO: - Train metrics (average): acc_top1: 91.139 ; acc_top5: 99.485 ; loss: 0.291
+2021-08-27 06:19:44,697:INFO: - Eval metrics : acc_top1: 63.844 ; acc_top5: 86.435 ; loss: 1.625
+2021-08-27 06:19:45,214:INFO: Epoch 94/600  [Need: 07:22:40]  lr=0.01
+2021-08-27 06:20:34,745:INFO: - Train metrics (average): acc_top1: 92.308 ; acc_top5: 99.513 ; loss: 0.261
+2021-08-27 06:20:37,008:INFO: - Eval metrics : acc_top1: 63.794 ; acc_top5: 87.182 ; loss: 1.620
+2021-08-27 06:20:37,572:INFO: Epoch 95/600  [Need: 07:21:33]  lr=0.01
+2021-08-27 06:21:27,340:INFO: - Train metrics (average): acc_top1: 92.994 ; acc_top5: 99.745 ; loss: 0.226
+2021-08-27 06:21:29,895:INFO: - Eval metrics : acc_top1: 63.047 ; acc_top5: 86.505 ; loss: 1.654
+2021-08-27 06:21:30,570:INFO: Epoch 96/600  [Need: 07:26:03]  lr=0.01
+2021-08-27 06:22:19,841:INFO: - Train metrics (average): acc_top1: 92.272 ; acc_top5: 99.744 ; loss: 0.251
+2021-08-27 06:22:22,352:INFO: - Eval metrics : acc_top1: 60.619 ; acc_top5: 84.843 ; loss: 1.855
+2021-08-27 06:22:22,887:INFO: Epoch 97/600  [Need: 07:19:27]  lr=0.01
+2021-08-27 06:23:11,860:INFO: - Train metrics (average): acc_top1: 91.460 ; acc_top5: 99.715 ; loss: 0.268
+2021-08-27 06:23:14,446:INFO: - Eval metrics : acc_top1: 62.470 ; acc_top5: 86.137 ; loss: 1.686
+2021-08-27 06:23:14,822:INFO: Epoch 98/600  [Need: 07:15:23]  lr=0.01
+2021-08-27 06:24:04,024:INFO: - Train metrics (average): acc_top1: 92.648 ; acc_top5: 99.704 ; loss: 0.243
+2021-08-27 06:24:06,563:INFO: - Eval metrics : acc_top1: 61.873 ; acc_top5: 85.928 ; loss: 1.738
+2021-08-27 06:24:06,924:INFO: Epoch 99/600  [Need: 07:15:55]  lr=0.01
+2021-08-27 06:24:56,207:INFO: - Train metrics (average): acc_top1: 92.465 ; acc_top5: 99.669 ; loss: 0.259
+2021-08-27 06:24:58,726:INFO: - Eval metrics : acc_top1: 63.246 ; acc_top5: 86.485 ; loss: 1.677
+2021-08-27 06:24:59,080:INFO: Epoch 100/600  [Need: 07:15:30]  lr=0.01
+2021-08-27 06:25:48,435:INFO: - Train metrics (average): acc_top1: 92.450 ; acc_top5: 99.725 ; loss: 0.237
+2021-08-27 06:25:50,942:INFO: - Eval metrics : acc_top1: 63.266 ; acc_top5: 86.057 ; loss: 1.703
+2021-08-27 06:25:51,370:INFO: Epoch 101/600  [Need: 07:15:44]  lr=0.01
+2021-08-27 06:26:40,825:INFO: - Train metrics (average): acc_top1: 92.295 ; acc_top5: 99.710 ; loss: 0.246
+2021-08-27 06:26:43,316:INFO: - Eval metrics : acc_top1: 63.236 ; acc_top5: 86.475 ; loss: 1.622
+2021-08-27 06:26:43,721:INFO: Epoch 102/600  [Need: 07:15:22]  lr=0.01
+2021-08-27 06:27:32,683:INFO: - Train metrics (average): acc_top1: 92.899 ; acc_top5: 99.692 ; loss: 0.237
+2021-08-27 06:27:35,258:INFO: - Eval metrics : acc_top1: 62.928 ; acc_top5: 86.176 ; loss: 1.686
+2021-08-27 06:27:35,611:INFO: Epoch 103/600  [Need: 07:10:41]  lr=0.01
+2021-08-27 06:28:24,766:INFO: - Train metrics (average): acc_top1: 93.100 ; acc_top5: 99.766 ; loss: 0.227
+2021-08-27 06:28:27,328:INFO: - Eval metrics : acc_top1: 62.012 ; acc_top5: 86.137 ; loss: 1.722
+2021-08-27 06:28:27,716:INFO: Epoch 104/600  [Need: 07:11:35]  lr=0.01
+2021-08-27 06:29:16,929:INFO: - Train metrics (average): acc_top1: 93.528 ; acc_top5: 99.797 ; loss: 0.214
+2021-08-27 06:29:19,464:INFO: - Eval metrics : acc_top1: 61.963 ; acc_top5: 86.176 ; loss: 1.725
+2021-08-27 06:29:19,824:INFO: Epoch 105/600  [Need: 07:10:45]  lr=0.01
+2021-08-27 06:30:09,110:INFO: - Train metrics (average): acc_top1: 92.679 ; acc_top5: 99.726 ; loss: 0.236
+2021-08-27 06:30:11,623:INFO: - Eval metrics : acc_top1: 62.729 ; acc_top5: 86.236 ; loss: 1.709
+2021-08-27 06:30:12,003:INFO: Epoch 106/600  [Need: 07:10:28]  lr=0.01
+2021-08-27 06:31:01,348:INFO: - Train metrics (average): acc_top1: 92.226 ; acc_top5: 99.805 ; loss: 0.248
+2021-08-27 06:31:03,844:INFO: - Eval metrics : acc_top1: 62.540 ; acc_top5: 85.569 ; loss: 1.723
+2021-08-27 06:31:04,197:INFO: Epoch 107/600  [Need: 07:09:43]  lr=0.01
+2021-08-27 06:31:53,485:INFO: - Train metrics (average): acc_top1: 93.313 ; acc_top5: 99.703 ; loss: 0.222
+2021-08-27 06:31:55,991:INFO: - Eval metrics : acc_top1: 60.748 ; acc_top5: 84.475 ; loss: 1.843
+2021-08-27 06:31:56,346:INFO: Epoch 108/600  [Need: 07:08:29]  lr=0.01
+2021-08-27 06:32:45,684:INFO: - Train metrics (average): acc_top1: 92.873 ; acc_top5: 99.758 ; loss: 0.227
+2021-08-27 06:32:48,181:INFO: - Eval metrics : acc_top1: 63.893 ; acc_top5: 86.953 ; loss: 1.647
+2021-08-27 06:32:48,828:INFO: Epoch 109/600  [Need: 07:10:21]  lr=0.01
+2021-08-27 06:33:38,014:INFO: - Train metrics (average): acc_top1: 93.035 ; acc_top5: 99.722 ; loss: 0.223
+2021-08-27 06:33:40,551:INFO: - Eval metrics : acc_top1: 60.967 ; acc_top5: 85.251 ; loss: 1.801
+2021-08-27 06:33:40,943:INFO: Epoch 110/600  [Need: 07:06:28]  lr=0.01
+2021-08-27 06:34:30,183:INFO: - Train metrics (average): acc_top1: 92.409 ; acc_top5: 99.712 ; loss: 0.244
+2021-08-27 06:34:32,714:INFO: - Eval metrics : acc_top1: 61.684 ; acc_top5: 84.932 ; loss: 1.765
+2021-08-27 06:34:33,073:INFO: Epoch 111/600  [Need: 07:05:43]  lr=0.01
+2021-08-27 06:35:22,431:INFO: - Train metrics (average): acc_top1: 92.196 ; acc_top5: 99.725 ; loss: 0.242
+2021-08-27 06:35:24,934:INFO: - Eval metrics : acc_top1: 61.087 ; acc_top5: 85.062 ; loss: 1.788
+2021-08-27 06:35:25,362:INFO: Epoch 112/600  [Need: 07:06:09]  lr=0.01
+2021-08-27 06:36:14,752:INFO: - Train metrics (average): acc_top1: 92.767 ; acc_top5: 99.738 ; loss: 0.227
+2021-08-27 06:36:17,244:INFO: - Eval metrics : acc_top1: 62.908 ; acc_top5: 86.435 ; loss: 1.684
+2021-08-27 06:36:17,649:INFO: Epoch 113/600  [Need: 07:05:15]  lr=0.01
+2021-08-27 06:37:07,100:INFO: - Train metrics (average): acc_top1: 92.920 ; acc_top5: 99.700 ; loss: 0.232
+2021-08-27 06:37:09,587:INFO: - Eval metrics : acc_top1: 61.465 ; acc_top5: 85.181 ; loss: 1.740
+2021-08-27 06:37:10,011:INFO: Epoch 114/600  [Need: 07:05:00]  lr=0.01
+2021-08-27 06:37:59,454:INFO: - Train metrics (average): acc_top1: 92.281 ; acc_top5: 99.684 ; loss: 0.258
+2021-08-27 06:38:01,946:INFO: - Eval metrics : acc_top1: 63.515 ; acc_top5: 86.624 ; loss: 1.664
+2021-08-27 06:38:02,343:INFO: Epoch 115/600  [Need: 07:03:53]  lr=0.01
+2021-08-27 06:38:51,731:INFO: - Train metrics (average): acc_top1: 93.781 ; acc_top5: 99.773 ; loss: 0.207
+2021-08-27 06:38:54,238:INFO: - Eval metrics : acc_top1: 63.037 ; acc_top5: 86.146 ; loss: 1.654
+2021-08-27 06:38:54,681:INFO: Epoch 116/600  [Need: 07:03:03]  lr=0.01
+2021-08-27 06:39:43,996:INFO: - Train metrics (average): acc_top1: 92.869 ; acc_top5: 99.753 ; loss: 0.234
+2021-08-27 06:39:46,519:INFO: - Eval metrics : acc_top1: 62.629 ; acc_top5: 86.037 ; loss: 1.746
+2021-08-27 06:39:46,877:INFO: Epoch 117/600  [Need: 07:01:03]  lr=0.01
+2021-08-27 06:40:36,167:INFO: - Train metrics (average): acc_top1: 93.248 ; acc_top5: 99.571 ; loss: 0.228
+2021-08-27 06:40:38,688:INFO: - Eval metrics : acc_top1: 64.500 ; acc_top5: 86.953 ; loss: 1.635
+2021-08-27 06:40:39,404:INFO: - Found new best accuracy on validation set
+2021-08-27 06:40:39,405:INFO: Epoch 118/600  [Need: 07:02:51]  lr=0.01
+2021-08-27 06:41:29,159:INFO: - Train metrics (average): acc_top1: 93.644 ; acc_top5: 99.752 ; loss: 0.218
+2021-08-27 06:41:31,720:INFO: - Eval metrics : acc_top1: 60.828 ; acc_top5: 85.221 ; loss: 1.776
+2021-08-27 06:41:32,115:INFO: Epoch 119/600  [Need: 07:03:26]  lr=0.01
+2021-08-27 06:42:21,837:INFO: - Train metrics (average): acc_top1: 92.684 ; acc_top5: 99.726 ; loss: 0.239
+2021-08-27 06:42:24,367:INFO: - Eval metrics : acc_top1: 60.171 ; acc_top5: 84.315 ; loss: 1.862
+2021-08-27 06:42:24,965:INFO: Epoch 120/600  [Need: 07:03:40]  lr=0.01
+2021-08-27 06:43:14,569:INFO: - Train metrics (average): acc_top1: 93.389 ; acc_top5: 99.721 ; loss: 0.228
+2021-08-27 06:43:17,002:INFO: - Eval metrics : acc_top1: 64.988 ; acc_top5: 87.590 ; loss: 1.588
+2021-08-27 06:43:17,925:INFO: - Found new best accuracy on validation set
+2021-08-27 06:43:17,925:INFO: Epoch 121/600  [Need: 07:03:41]  lr=0.01
+2021-08-27 06:44:07,476:INFO: - Train metrics (average): acc_top1: 93.897 ; acc_top5: 99.802 ; loss: 0.197
+2021-08-27 06:44:09,556:INFO: - Eval metrics : acc_top1: 62.182 ; acc_top5: 85.480 ; loss: 1.731
+2021-08-27 06:44:09,878:INFO: Epoch 122/600  [Need: 06:54:45]  lr=0.01
+2021-08-27 06:44:59,425:INFO: - Train metrics (average): acc_top1: 92.680 ; acc_top5: 99.500 ; loss: 0.245
+2021-08-27 06:45:01,640:INFO: - Eval metrics : acc_top1: 62.331 ; acc_top5: 85.898 ; loss: 1.700
+2021-08-27 06:45:02,040:INFO: Epoch 123/600  [Need: 06:55:33]  lr=0.01
+2021-08-27 06:45:51,595:INFO: - Train metrics (average): acc_top1: 91.345 ; acc_top5: 99.681 ; loss: 0.291
+2021-08-27 06:45:53,810:INFO: - Eval metrics : acc_top1: 63.734 ; acc_top5: 86.614 ; loss: 1.655
+2021-08-27 06:45:54,179:INFO: Epoch 124/600  [Need: 06:54:30]  lr=0.01
+2021-08-27 06:46:43,744:INFO: - Train metrics (average): acc_top1: 93.490 ; acc_top5: 99.777 ; loss: 0.218
+2021-08-27 06:46:45,984:INFO: - Eval metrics : acc_top1: 62.520 ; acc_top5: 86.186 ; loss: 1.701
+2021-08-27 06:46:46,814:INFO: Epoch 125/600  [Need: 06:57:34]  lr=0.01
+2021-08-27 06:47:36,386:INFO: - Train metrics (average): acc_top1: 91.622 ; acc_top5: 99.511 ; loss: 0.255
+2021-08-27 06:47:38,647:INFO: - Eval metrics : acc_top1: 62.858 ; acc_top5: 86.306 ; loss: 1.692
+2021-08-27 06:47:39,223:INFO: Epoch 126/600  [Need: 06:54:53]  lr=0.01
+2021-08-27 06:48:28,778:INFO: - Train metrics (average): acc_top1: 93.250 ; acc_top5: 99.716 ; loss: 0.229
+2021-08-27 06:48:30,987:INFO: - Eval metrics : acc_top1: 63.306 ; acc_top5: 86.415 ; loss: 1.680
+2021-08-27 06:48:31,351:INFO: Epoch 127/600  [Need: 06:51:49]  lr=0.01
+2021-08-27 06:49:20,924:INFO: - Train metrics (average): acc_top1: 92.575 ; acc_top5: 99.668 ; loss: 0.244
+2021-08-27 06:49:23,161:INFO: - Eval metrics : acc_top1: 60.320 ; acc_top5: 84.425 ; loss: 1.882
+2021-08-27 06:49:23,865:INFO: Epoch 128/600  [Need: 06:53:58]  lr=0.01
+2021-08-27 06:50:13,406:INFO: - Train metrics (average): acc_top1: 92.982 ; acc_top5: 99.734 ; loss: 0.235
+2021-08-27 06:50:15,571:INFO: - Eval metrics : acc_top1: 62.301 ; acc_top5: 85.619 ; loss: 1.774
+2021-08-27 06:50:15,920:INFO: Epoch 129/600  [Need: 06:49:30]  lr=0.01
+2021-08-27 06:51:05,483:INFO: - Train metrics (average): acc_top1: 93.544 ; acc_top5: 99.754 ; loss: 0.212
+2021-08-27 06:51:07,708:INFO: - Eval metrics : acc_top1: 63.883 ; acc_top5: 86.525 ; loss: 1.654
+2021-08-27 06:51:08,108:INFO: Epoch 130/600  [Need: 06:49:40]  lr=0.01
+2021-08-27 06:51:57,663:INFO: - Train metrics (average): acc_top1: 94.087 ; acc_top5: 99.745 ; loss: 0.203
+2021-08-27 06:51:59,885:INFO: - Eval metrics : acc_top1: 62.062 ; acc_top5: 85.619 ; loss: 1.758
+2021-08-27 06:52:00,254:INFO: Epoch 131/600  [Need: 06:48:28]  lr=0.01
+2021-08-27 06:52:49,819:INFO: - Train metrics (average): acc_top1: 91.728 ; acc_top5: 99.698 ; loss: 0.243
+2021-08-27 06:52:52,074:INFO: - Eval metrics : acc_top1: 59.853 ; acc_top5: 84.266 ; loss: 1.884
+2021-08-27 06:52:52,578:INFO: Epoch 132/600  [Need: 06:48:59]  lr=0.01
+2021-08-27 06:53:42,136:INFO: - Train metrics (average): acc_top1: 93.282 ; acc_top5: 99.744 ; loss: 0.223
+2021-08-27 06:53:44,363:INFO: - Eval metrics : acc_top1: 62.619 ; acc_top5: 85.092 ; loss: 1.731
+2021-08-27 06:53:44,781:INFO: Epoch 133/600  [Need: 06:47:10]  lr=0.01
+2021-08-27 06:54:34,508:INFO: - Train metrics (average): acc_top1: 92.622 ; acc_top5: 99.773 ; loss: 0.234
+2021-08-27 06:54:37,047:INFO: - Eval metrics : acc_top1: 62.221 ; acc_top5: 86.395 ; loss: 1.713
+2021-08-27 06:54:37,549:INFO: Epoch 134/600  [Need: 06:50:42]  lr=0.01
+2021-08-27 06:55:27,160:INFO: - Train metrics (average): acc_top1: 92.273 ; acc_top5: 99.763 ; loss: 0.240
+2021-08-27 06:55:29,614:INFO: - Eval metrics : acc_top1: 63.306 ; acc_top5: 86.246 ; loss: 1.692
+2021-08-27 06:55:30,039:INFO: Epoch 135/600  [Need: 06:47:40]  lr=0.01
+2021-08-27 06:56:18,976:INFO: - Train metrics (average): acc_top1: 93.730 ; acc_top5: 99.746 ; loss: 0.220
+2021-08-27 06:56:21,572:INFO: - Eval metrics : acc_top1: 63.744 ; acc_top5: 86.694 ; loss: 1.671
+2021-08-27 06:56:21,900:INFO: Epoch 136/600  [Need: 06:41:55]  lr=0.01
+2021-08-27 06:57:11,057:INFO: - Train metrics (average): acc_top1: 93.283 ; acc_top5: 99.732 ; loss: 0.226
+2021-08-27 06:57:13,630:INFO: - Eval metrics : acc_top1: 61.146 ; acc_top5: 84.773 ; loss: 1.812
+2021-08-27 06:57:13,983:INFO: Epoch 137/600  [Need: 06:42:46]  lr=0.01
+2021-08-27 06:58:03,194:INFO: - Train metrics (average): acc_top1: 92.798 ; acc_top5: 99.734 ; loss: 0.244
+2021-08-27 06:58:05,733:INFO: - Eval metrics : acc_top1: 63.565 ; acc_top5: 86.535 ; loss: 1.667
+2021-08-27 06:58:06,095:INFO: Epoch 138/600  [Need: 06:42:07]  lr=0.01
+2021-08-27 06:58:55,354:INFO: - Train metrics (average): acc_top1: 93.729 ; acc_top5: 99.553 ; loss: 0.209
+2021-08-27 06:58:57,865:INFO: - Eval metrics : acc_top1: 63.386 ; acc_top5: 85.858 ; loss: 1.687
+2021-08-27 06:58:58,221:INFO: Epoch 139/600  [Need: 06:41:22]  lr=0.01
+2021-08-27 06:59:47,591:INFO: - Train metrics (average): acc_top1: 94.046 ; acc_top5: 99.813 ; loss: 0.194
+2021-08-27 06:59:50,089:INFO: - Eval metrics : acc_top1: 62.002 ; acc_top5: 85.798 ; loss: 1.770
+2021-08-27 06:59:50,598:INFO: Epoch 140/600  [Need: 06:42:26]  lr=0.01
+2021-08-27 07:00:40,008:INFO: - Train metrics (average): acc_top1: 93.167 ; acc_top5: 99.559 ; loss: 0.227
+2021-08-27 07:00:42,505:INFO: - Eval metrics : acc_top1: 62.988 ; acc_top5: 86.286 ; loss: 1.688
+2021-08-27 07:00:42,895:INFO: Epoch 141/600  [Need: 06:40:56]  lr=0.01
+2021-08-27 07:01:32,255:INFO: - Train metrics (average): acc_top1: 94.289 ; acc_top5: 99.843 ; loss: 0.186
+2021-08-27 07:01:34,774:INFO: - Eval metrics : acc_top1: 63.326 ; acc_top5: 86.803 ; loss: 1.686
+2021-08-27 07:01:35,339:INFO: Epoch 142/600  [Need: 06:41:11]  lr=0.01
+2021-08-27 07:02:24,694:INFO: - Train metrics (average): acc_top1: 91.807 ; acc_top5: 99.724 ; loss: 0.258
+2021-08-27 07:02:27,194:INFO: - Eval metrics : acc_top1: 62.361 ; acc_top5: 85.858 ; loss: 1.724
+2021-08-27 07:02:27,622:INFO: Epoch 143/600  [Need: 06:39:05]  lr=0.01
+2021-08-27 07:03:16,954:INFO: - Train metrics (average): acc_top1: 92.828 ; acc_top5: 99.546 ; loss: 0.226
+2021-08-27 07:03:19,474:INFO: - Eval metrics : acc_top1: 62.122 ; acc_top5: 85.738 ; loss: 1.744
+2021-08-27 07:03:19,827:INFO: Epoch 144/600  [Need: 06:37:37]  lr=0.01
+2021-08-27 07:04:09,169:INFO: - Train metrics (average): acc_top1: 93.261 ; acc_top5: 99.524 ; loss: 0.224
+2021-08-27 07:04:11,678:INFO: - Eval metrics : acc_top1: 62.639 ; acc_top5: 86.346 ; loss: 1.728
+2021-08-27 07:04:12,124:INFO: Epoch 145/600  [Need: 06:37:27]  lr=0.01
+2021-08-27 07:05:01,372:INFO: - Train metrics (average): acc_top1: 93.555 ; acc_top5: 99.797 ; loss: 0.222
+2021-08-27 07:05:03,903:INFO: - Eval metrics : acc_top1: 62.152 ; acc_top5: 85.569 ; loss: 1.727
+2021-08-27 07:05:04,255:INFO: Epoch 146/600  [Need: 06:35:19]  lr=0.01
+2021-08-27 07:05:53,537:INFO: - Train metrics (average): acc_top1: 93.286 ; acc_top5: 99.749 ; loss: 0.220
+2021-08-27 07:05:56,041:INFO: - Eval metrics : acc_top1: 61.564 ; acc_top5: 86.047 ; loss: 1.714
+2021-08-27 07:05:56,398:INFO: Epoch 147/600  [Need: 06:34:32]  lr=0.01
+2021-08-27 07:06:45,722:INFO: - Train metrics (average): acc_top1: 93.422 ; acc_top5: 99.562 ; loss: 0.224
+2021-08-27 07:06:48,229:INFO: - Eval metrics : acc_top1: 61.823 ; acc_top5: 85.131 ; loss: 1.763
+2021-08-27 07:06:48,770:INFO: Epoch 148/600  [Need: 06:35:24]  lr=0.01
+2021-08-27 07:07:38,020:INFO: - Train metrics (average): acc_top1: 93.083 ; acc_top5: 99.775 ; loss: 0.244
+2021-08-27 07:07:40,536:INFO: - Eval metrics : acc_top1: 62.570 ; acc_top5: 85.947 ; loss: 1.733
+2021-08-27 07:07:40,890:INFO: Epoch 149/600  [Need: 06:32:37]  lr=0.01
+2021-08-27 07:08:29,821:INFO: - Train metrics (average): acc_top1: 93.215 ; acc_top5: 99.719 ; loss: 0.234
+2021-08-27 07:08:32,403:INFO: - Eval metrics : acc_top1: 62.719 ; acc_top5: 86.515 ; loss: 1.681
+2021-08-27 07:08:32,751:INFO: Epoch 150/600  [Need: 06:29:49]  lr=0.01
+2021-08-27 07:09:21,883:INFO: - Train metrics (average): acc_top1: 93.577 ; acc_top5: 99.595 ; loss: 0.222
+2021-08-27 07:09:24,441:INFO: - Eval metrics : acc_top1: 62.928 ; acc_top5: 86.226 ; loss: 1.693
+2021-08-27 07:09:24,794:INFO: Epoch 151/600  [Need: 06:30:19]  lr=0.001
+2021-08-27 07:10:13,970:INFO: - Train metrics (average): acc_top1: 96.784 ; acc_top5: 99.957 ; loss: 0.113
+2021-08-27 07:10:16,526:INFO: - Eval metrics : acc_top1: 69.039 ; acc_top5: 89.660 ; loss: 1.361
+2021-08-27 07:10:17,268:INFO: - Found new best accuracy on validation set
+2021-08-27 07:10:17,287:INFO: Epoch 152/600  [Need: 06:32:49]  lr=0.001
+2021-08-27 07:11:06,233:INFO: - Train metrics (average): acc_top1: 99.075 ; acc_top5: 99.988 ; loss: 0.042
+2021-08-27 07:11:08,827:INFO: - Eval metrics : acc_top1: 69.516 ; acc_top5: 89.928 ; loss: 1.337
+2021-08-27 07:11:09,496:INFO: - Found new best accuracy on validation set
+2021-08-27 07:11:09,496:INFO: Epoch 153/600  [Need: 06:29:49]  lr=0.001
+2021-08-27 07:11:58,391:INFO: - Train metrics (average): acc_top1: 99.480 ; acc_top5: 100.000 ; loss: 0.032
+2021-08-27 07:12:00,972:INFO: - Eval metrics : acc_top1: 69.805 ; acc_top5: 90.207 ; loss: 1.324
+2021-08-27 07:12:01,679:INFO: - Found new best accuracy on validation set
+2021-08-27 07:12:01,735:INFO: Epoch 154/600  [Need: 06:29:10]  lr=0.001
+2021-08-27 07:12:50,788:INFO: - Train metrics (average): acc_top1: 99.637 ; acc_top5: 100.000 ; loss: 0.024
+2021-08-27 07:12:53,347:INFO: - Eval metrics : acc_top1: 69.885 ; acc_top5: 90.088 ; loss: 1.325
+2021-08-27 07:12:54,077:INFO: - Found new best accuracy on validation set
+2021-08-27 07:12:54,093:INFO: Epoch 155/600  [Need: 06:29:11]  lr=0.001
+2021-08-27 07:13:43,471:INFO: - Train metrics (average): acc_top1: 99.664 ; acc_top5: 100.000 ; loss: 0.022
+2021-08-27 07:13:45,968:INFO: - Eval metrics : acc_top1: 70.352 ; acc_top5: 90.237 ; loss: 1.312
+2021-08-27 07:13:46,706:INFO: - Found new best accuracy on validation set
+2021-08-27 07:13:46,707:INFO: Epoch 156/600  [Need: 06:30:13]  lr=0.001
+2021-08-27 07:14:35,631:INFO: - Train metrics (average): acc_top1: 99.747 ; acc_top5: 99.995 ; loss: 0.017
+2021-08-27 07:14:38,214:INFO: - Eval metrics : acc_top1: 70.253 ; acc_top5: 90.326 ; loss: 1.312
+2021-08-27 07:14:38,566:INFO: Epoch 157/600  [Need: 06:23:45]  lr=0.001
+2021-08-27 07:15:27,715:INFO: - Train metrics (average): acc_top1: 99.591 ; acc_top5: 100.000 ; loss: 0.019
+2021-08-27 07:15:30,279:INFO: - Eval metrics : acc_top1: 70.273 ; acc_top5: 90.267 ; loss: 1.311
+2021-08-27 07:15:30,632:INFO: Epoch 158/600  [Need: 06:24:24]  lr=0.001
+2021-08-27 07:16:19,786:INFO: - Train metrics (average): acc_top1: 99.813 ; acc_top5: 99.997 ; loss: 0.016
+2021-08-27 07:16:22,330:INFO: - Eval metrics : acc_top1: 70.631 ; acc_top5: 90.376 ; loss: 1.301
+2021-08-27 07:16:23,118:INFO: - Found new best accuracy on validation set
+2021-08-27 07:16:23,136:INFO: Epoch 159/600  [Need: 06:26:46]  lr=0.001
+2021-08-27 07:17:12,501:INFO: - Train metrics (average): acc_top1: 99.572 ; acc_top5: 99.993 ; loss: 0.019
+2021-08-27 07:17:15,009:INFO: - Eval metrics : acc_top1: 70.472 ; acc_top5: 90.316 ; loss: 1.303
+2021-08-27 07:17:15,361:INFO: Epoch 160/600  [Need: 06:23:51]  lr=0.001
+2021-08-27 07:18:04,662:INFO: - Train metrics (average): acc_top1: 99.842 ; acc_top5: 100.000 ; loss: 0.013
+2021-08-27 07:18:07,165:INFO: - Eval metrics : acc_top1: 70.900 ; acc_top5: 90.466 ; loss: 1.295
+2021-08-27 07:18:08,314:INFO: - Found new best accuracy on validation set
+2021-08-27 07:18:08,314:INFO: Epoch 161/600  [Need: 06:28:19]  lr=0.001
+2021-08-27 07:18:57,400:INFO: - Train metrics (average): acc_top1: 99.865 ; acc_top5: 100.000 ; loss: 0.012
+2021-08-27 07:18:59,949:INFO: - Eval metrics : acc_top1: 70.701 ; acc_top5: 90.456 ; loss: 1.288
+2021-08-27 07:19:00,334:INFO: Epoch 162/600  [Need: 06:20:36]  lr=0.001
+2021-08-27 07:19:49,610:INFO: - Train metrics (average): acc_top1: 99.882 ; acc_top5: 100.000 ; loss: 0.011
+2021-08-27 07:19:52,127:INFO: - Eval metrics : acc_top1: 70.641 ; acc_top5: 90.356 ; loss: 1.289
+2021-08-27 07:19:52,477:INFO: Epoch 163/600  [Need: 06:20:38]  lr=0.001
+2021-08-27 07:20:41,374:INFO: - Train metrics (average): acc_top1: 99.877 ; acc_top5: 100.000 ; loss: 0.012
+2021-08-27 07:20:43,974:INFO: - Eval metrics : acc_top1: 70.949 ; acc_top5: 90.595 ; loss: 1.284
+2021-08-27 07:20:44,688:INFO: - Found new best accuracy on validation set
+2021-08-27 07:20:44,777:INFO: Epoch 164/600  [Need: 06:20:55]  lr=0.001
+2021-08-27 07:21:33,818:INFO: - Train metrics (average): acc_top1: 99.680 ; acc_top5: 100.000 ; loss: 0.012
+2021-08-27 07:21:36,383:INFO: - Eval metrics : acc_top1: 70.930 ; acc_top5: 90.565 ; loss: 1.280
+2021-08-27 07:21:36,735:INFO: Epoch 165/600  [Need: 06:17:34]  lr=0.001
+2021-08-27 07:22:25,876:INFO: - Train metrics (average): acc_top1: 99.881 ; acc_top5: 100.000 ; loss: 0.012
+2021-08-27 07:22:28,417:INFO: - Eval metrics : acc_top1: 70.910 ; acc_top5: 90.545 ; loss: 1.280
+2021-08-27 07:22:28,772:INFO: Epoch 166/600  [Need: 06:17:15]  lr=0.001
+2021-08-27 07:23:17,642:INFO: - Train metrics (average): acc_top1: 99.501 ; acc_top5: 100.000 ; loss: 0.017
+2021-08-27 07:23:20,248:INFO: - Eval metrics : acc_top1: 70.959 ; acc_top5: 90.665 ; loss: 1.271
+2021-08-27 07:23:20,938:INFO: - Found new best accuracy on validation set
+2021-08-27 07:23:20,993:INFO: Epoch 167/600  [Need: 06:17:44]  lr=0.001
+2021-08-27 07:24:10,013:INFO: - Train metrics (average): acc_top1: 99.926 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:24:12,582:INFO: - Eval metrics : acc_top1: 70.989 ; acc_top5: 90.456 ; loss: 1.279
+2021-08-27 07:24:13,375:INFO: - Found new best accuracy on validation set
+2021-08-27 07:24:13,376:INFO: Epoch 168/600  [Need: 06:18:01]  lr=0.001
+2021-08-27 07:25:02,650:INFO: - Train metrics (average): acc_top1: 99.887 ; acc_top5: 100.000 ; loss: 0.010
+2021-08-27 07:25:05,162:INFO: - Eval metrics : acc_top1: 70.890 ; acc_top5: 90.794 ; loss: 1.266
+2021-08-27 07:25:05,525:INFO: Epoch 169/600  [Need: 06:15:28]  lr=0.001
+2021-08-27 07:25:54,699:INFO: - Train metrics (average): acc_top1: 99.705 ; acc_top5: 100.000 ; loss: 0.014
+2021-08-27 07:25:57,232:INFO: - Eval metrics : acc_top1: 70.890 ; acc_top5: 90.675 ; loss: 1.271
+2021-08-27 07:25:57,595:INFO: Epoch 170/600  [Need: 06:14:02]  lr=0.001
+2021-08-27 07:26:46,936:INFO: - Train metrics (average): acc_top1: 99.907 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:26:49,438:INFO: - Eval metrics : acc_top1: 71.119 ; acc_top5: 90.585 ; loss: 1.260
+2021-08-27 07:26:50,713:INFO: - Found new best accuracy on validation set
+2021-08-27 07:26:50,744:INFO: Epoch 171/600  [Need: 06:20:53]  lr=0.001
+2021-08-27 07:27:40,272:INFO: - Train metrics (average): acc_top1: 99.901 ; acc_top5: 100.000 ; loss: 0.010
+2021-08-27 07:27:42,413:INFO: - Eval metrics : acc_top1: 71.079 ; acc_top5: 90.585 ; loss: 1.265
+2021-08-27 07:27:42,748:INFO: Epoch 172/600  [Need: 06:11:49]  lr=0.001
+2021-08-27 07:28:32,296:INFO: - Train metrics (average): acc_top1: 99.919 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:28:34,525:INFO: - Eval metrics : acc_top1: 71.397 ; acc_top5: 90.555 ; loss: 1.258
+2021-08-27 07:28:35,292:INFO: - Found new best accuracy on validation set
+2021-08-27 07:28:35,292:INFO: Epoch 173/600  [Need: 06:14:48]  lr=0.001
+2021-08-27 07:29:24,771:INFO: - Train metrics (average): acc_top1: 99.924 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:29:26,787:INFO: - Eval metrics : acc_top1: 71.517 ; acc_top5: 90.685 ; loss: 1.254
+2021-08-27 07:29:27,491:INFO: - Found new best accuracy on validation set
+2021-08-27 07:29:27,491:INFO: Epoch 174/600  [Need: 06:11:28]  lr=0.001
+2021-08-27 07:30:16,925:INFO: - Train metrics (average): acc_top1: 99.942 ; acc_top5: 100.000 ; loss: 0.010
+2021-08-27 07:30:19,011:INFO: - Eval metrics : acc_top1: 71.218 ; acc_top5: 90.625 ; loss: 1.258
+2021-08-27 07:30:19,371:INFO: Epoch 175/600  [Need: 06:08:20]  lr=0.001
+2021-08-27 07:31:08,836:INFO: - Train metrics (average): acc_top1: 99.930 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:31:10,767:INFO: - Eval metrics : acc_top1: 71.188 ; acc_top5: 90.535 ; loss: 1.246
+2021-08-27 07:31:11,126:INFO: Epoch 176/600  [Need: 06:06:35]  lr=0.001
+2021-08-27 07:32:00,634:INFO: - Train metrics (average): acc_top1: 99.928 ; acc_top5: 100.000 ; loss: 0.010
+2021-08-27 07:32:02,685:INFO: - Eval metrics : acc_top1: 71.367 ; acc_top5: 90.744 ; loss: 1.243
+2021-08-27 07:32:03,042:INFO: Epoch 177/600  [Need: 06:06:52]  lr=0.001
+2021-08-27 07:32:52,566:INFO: - Train metrics (average): acc_top1: 99.914 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:32:54,699:INFO: - Eval metrics : acc_top1: 71.218 ; acc_top5: 90.665 ; loss: 1.246
+2021-08-27 07:32:55,168:INFO: Epoch 178/600  [Need: 06:07:29]  lr=0.001
+2021-08-27 07:33:44,698:INFO: - Train metrics (average): acc_top1: 99.913 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:33:46,928:INFO: - Eval metrics : acc_top1: 71.477 ; acc_top5: 90.715 ; loss: 1.248
+2021-08-27 07:33:47,348:INFO: Epoch 179/600  [Need: 06:06:59]  lr=0.001
+2021-08-27 07:34:36,903:INFO: - Train metrics (average): acc_top1: 99.943 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:34:39,127:INFO: - Eval metrics : acc_top1: 71.129 ; acc_top5: 90.675 ; loss: 1.244
+2021-08-27 07:34:39,574:INFO: Epoch 180/600  [Need: 06:06:27]  lr=0.001
+2021-08-27 07:35:29,122:INFO: - Train metrics (average): acc_top1: 99.939 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:35:31,369:INFO: - Eval metrics : acc_top1: 71.268 ; acc_top5: 90.754 ; loss: 1.244
+2021-08-27 07:35:31,811:INFO: Epoch 181/600  [Need: 06:05:39]  lr=0.001
+2021-08-27 07:36:21,374:INFO: - Train metrics (average): acc_top1: 99.961 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:36:23,668:INFO: - Eval metrics : acc_top1: 71.228 ; acc_top5: 90.725 ; loss: 1.237
+2021-08-27 07:36:24,186:INFO: Epoch 182/600  [Need: 06:05:45]  lr=0.001
+2021-08-27 07:37:13,729:INFO: - Train metrics (average): acc_top1: 99.716 ; acc_top5: 100.000 ; loss: 0.013
+2021-08-27 07:37:16,017:INFO: - Eval metrics : acc_top1: 71.298 ; acc_top5: 90.655 ; loss: 1.242
+2021-08-27 07:37:17,081:INFO: Epoch 183/600  [Need: 06:08:30]  lr=0.001
+2021-08-27 07:38:06,594:INFO: - Train metrics (average): acc_top1: 99.932 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:38:08,772:INFO: - Eval metrics : acc_top1: 71.467 ; acc_top5: 90.665 ; loss: 1.232
+2021-08-27 07:38:09,157:INFO: Epoch 184/600  [Need: 06:01:55]  lr=0.001
+2021-08-27 07:38:58,700:INFO: - Train metrics (average): acc_top1: 99.951 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:39:00,919:INFO: - Eval metrics : acc_top1: 71.437 ; acc_top5: 90.844 ; loss: 1.231
+2021-08-27 07:39:01,366:INFO: Epoch 185/600  [Need: 06:01:58]  lr=0.001
+2021-08-27 07:39:50,921:INFO: - Train metrics (average): acc_top1: 99.948 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:39:53,169:INFO: - Eval metrics : acc_top1: 71.507 ; acc_top5: 90.734 ; loss: 1.233
+2021-08-27 07:39:54,128:INFO: Epoch 186/600  [Need: 06:04:56]  lr=0.001
+2021-08-27 07:40:43,615:INFO: - Train metrics (average): acc_top1: 99.942 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:40:45,600:INFO: - Eval metrics : acc_top1: 71.507 ; acc_top5: 90.685 ; loss: 1.225
+2021-08-27 07:40:46,062:INFO: Epoch 187/600  [Need: 05:58:20]  lr=0.001
+2021-08-27 07:41:35,591:INFO: - Train metrics (average): acc_top1: 99.946 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:41:37,689:INFO: - Eval metrics : acc_top1: 71.258 ; acc_top5: 90.764 ; loss: 1.223
+2021-08-27 07:41:38,041:INFO: Epoch 188/600  [Need: 05:57:47]  lr=0.001
+2021-08-27 07:42:27,556:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:42:29,576:INFO: - Eval metrics : acc_top1: 71.437 ; acc_top5: 90.685 ; loss: 1.222
+2021-08-27 07:42:29,936:INFO: Epoch 189/600  [Need: 05:56:20]  lr=0.001
+2021-08-27 07:43:19,450:INFO: - Train metrics (average): acc_top1: 99.939 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:43:21,568:INFO: - Eval metrics : acc_top1: 71.208 ; acc_top5: 90.804 ; loss: 1.225
+2021-08-27 07:43:21,951:INFO: Epoch 190/600  [Need: 05:56:18]  lr=0.001
+2021-08-27 07:44:11,498:INFO: - Train metrics (average): acc_top1: 99.954 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:44:13,721:INFO: - Eval metrics : acc_top1: 71.557 ; acc_top5: 90.734 ; loss: 1.211
+2021-08-27 07:44:14,470:INFO: - Found new best accuracy on validation set
+2021-08-27 07:44:14,471:INFO: Epoch 191/600  [Need: 05:58:52]  lr=0.001
+2021-08-27 07:45:03,944:INFO: - Train metrics (average): acc_top1: 99.947 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:45:06,006:INFO: - Eval metrics : acc_top1: 71.387 ; acc_top5: 90.545 ; loss: 1.220
+2021-08-27 07:45:06,363:INFO: Epoch 192/600  [Need: 05:53:44]  lr=0.001
+2021-08-27 07:45:55,853:INFO: - Train metrics (average): acc_top1: 99.951 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:45:57,894:INFO: - Eval metrics : acc_top1: 71.417 ; acc_top5: 90.864 ; loss: 1.214
+2021-08-27 07:45:58,269:INFO: Epoch 193/600  [Need: 05:52:57]  lr=0.001
+2021-08-27 07:46:47,779:INFO: - Train metrics (average): acc_top1: 99.958 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:46:49,832:INFO: - Eval metrics : acc_top1: 71.557 ; acc_top5: 90.705 ; loss: 1.211
+2021-08-27 07:46:50,543:INFO: - Found new best accuracy on validation set
+2021-08-27 07:46:50,543:INFO: Epoch 194/600  [Need: 05:54:35]  lr=0.001
+2021-08-27 07:47:39,987:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:47:42,043:INFO: - Eval metrics : acc_top1: 71.566 ; acc_top5: 90.734 ; loss: 1.210
+2021-08-27 07:47:42,766:INFO: - Found new best accuracy on validation set
+2021-08-27 07:47:42,767:INFO: Epoch 195/600  [Need: 05:53:22]  lr=0.001
+2021-08-27 07:48:32,178:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:48:34,196:INFO: - Eval metrics : acc_top1: 71.537 ; acc_top5: 90.904 ; loss: 1.213
+2021-08-27 07:48:34,554:INFO: Epoch 196/600  [Need: 05:49:33]  lr=0.001
+2021-08-27 07:49:24,006:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:49:25,931:INFO: - Eval metrics : acc_top1: 71.746 ; acc_top5: 90.904 ; loss: 1.201
+2021-08-27 07:49:26,609:INFO: - Found new best accuracy on validation set
+2021-08-27 07:49:26,609:INFO: Epoch 197/600  [Need: 05:50:30]  lr=0.001
+2021-08-27 07:50:16,016:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:50:18,078:INFO: - Eval metrics : acc_top1: 71.497 ; acc_top5: 90.854 ; loss: 1.207
+2021-08-27 07:50:18,435:INFO: Epoch 198/600  [Need: 05:48:05]  lr=0.001
+2021-08-27 07:51:07,908:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:51:09,793:INFO: - Eval metrics : acc_top1: 71.507 ; acc_top5: 90.754 ; loss: 1.205
+2021-08-27 07:51:10,138:INFO: Epoch 199/600  [Need: 05:46:24]  lr=0.001
+2021-08-27 07:51:59,641:INFO: - Train metrics (average): acc_top1: 99.944 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:52:01,805:INFO: - Eval metrics : acc_top1: 71.666 ; acc_top5: 90.884 ; loss: 1.199
+2021-08-27 07:52:02,186:INFO: Epoch 200/600  [Need: 05:47:51]  lr=0.001
+2021-08-27 07:52:51,737:INFO: - Train metrics (average): acc_top1: 99.950 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 07:52:53,988:INFO: - Eval metrics : acc_top1: 71.606 ; acc_top5: 90.695 ; loss: 1.198
+2021-08-27 07:52:54,433:INFO: Epoch 201/600  [Need: 05:48:18]  lr=0.001
+2021-08-27 07:53:43,972:INFO: - Train metrics (average): acc_top1: 99.748 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 07:53:46,179:INFO: - Eval metrics : acc_top1: 71.676 ; acc_top5: 90.864 ; loss: 1.196
+2021-08-27 07:53:46,623:INFO: Epoch 202/600  [Need: 05:47:03]  lr=0.001
+2021-08-27 07:54:36,172:INFO: - Train metrics (average): acc_top1: 99.967 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:54:38,427:INFO: - Eval metrics : acc_top1: 71.766 ; acc_top5: 90.734 ; loss: 1.188
+2021-08-27 07:54:39,245:INFO: - Found new best accuracy on validation set
+2021-08-27 07:54:39,246:INFO: Epoch 203/600  [Need: 05:49:03]  lr=0.001
+2021-08-27 07:55:28,742:INFO: - Train metrics (average): acc_top1: 99.956 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:55:30,693:INFO: - Eval metrics : acc_top1: 71.756 ; acc_top5: 90.924 ; loss: 1.190
+2021-08-27 07:55:31,196:INFO: Epoch 204/600  [Need: 05:43:44]  lr=0.001
+2021-08-27 07:56:20,796:INFO: - Train metrics (average): acc_top1: 99.951 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:56:23,062:INFO: - Eval metrics : acc_top1: 71.756 ; acc_top5: 90.924 ; loss: 1.193
+2021-08-27 07:56:23,562:INFO: Epoch 205/600  [Need: 05:45:36]  lr=0.001
+2021-08-27 07:57:13,104:INFO: - Train metrics (average): acc_top1: 99.960 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:57:15,359:INFO: - Eval metrics : acc_top1: 71.795 ; acc_top5: 90.943 ; loss: 1.188
+2021-08-27 07:57:16,162:INFO: - Found new best accuracy on validation set
+2021-08-27 07:57:16,162:INFO: Epoch 206/600  [Need: 05:46:16]  lr=0.001
+2021-08-27 07:58:05,647:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:58:07,647:INFO: - Eval metrics : acc_top1: 71.775 ; acc_top5: 90.774 ; loss: 1.189
+2021-08-27 07:58:08,001:INFO: Epoch 207/600  [Need: 05:40:24]  lr=0.001
+2021-08-27 07:58:57,509:INFO: - Train metrics (average): acc_top1: 99.960 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:58:59,581:INFO: - Eval metrics : acc_top1: 71.686 ; acc_top5: 90.983 ; loss: 1.186
+2021-08-27 07:58:59,932:INFO: Epoch 208/600  [Need: 05:40:08]  lr=0.001
+2021-08-27 07:59:49,492:INFO: - Train metrics (average): acc_top1: 99.955 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 07:59:51,725:INFO: - Eval metrics : acc_top1: 71.885 ; acc_top5: 90.934 ; loss: 1.193
+2021-08-27 07:59:52,485:INFO: - Found new best accuracy on validation set
+2021-08-27 07:59:52,485:INFO: Epoch 209/600  [Need: 05:43:21]  lr=0.001
+2021-08-27 08:00:41,982:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:00:44,052:INFO: - Eval metrics : acc_top1: 72.213 ; acc_top5: 90.953 ; loss: 1.183
+2021-08-27 08:00:44,722:INFO: - Found new best accuracy on validation set
+2021-08-27 08:00:44,722:INFO: Epoch 210/600  [Need: 05:40:24]  lr=0.001
+2021-08-27 08:01:34,150:INFO: - Train metrics (average): acc_top1: 99.958 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:01:36,237:INFO: - Eval metrics : acc_top1: 72.064 ; acc_top5: 90.953 ; loss: 1.184
+2021-08-27 08:01:36,556:INFO: Epoch 211/600  [Need: 05:36:55]  lr=0.001
+2021-08-27 08:02:26,039:INFO: - Train metrics (average): acc_top1: 99.956 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:02:28,114:INFO: - Eval metrics : acc_top1: 71.895 ; acc_top5: 90.914 ; loss: 1.186
+2021-08-27 08:02:28,468:INFO: Epoch 212/600  [Need: 05:36:33]  lr=0.001
+2021-08-27 08:03:17,946:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:03:20,031:INFO: - Eval metrics : acc_top1: 71.895 ; acc_top5: 90.973 ; loss: 1.187
+2021-08-27 08:03:20,371:INFO: Epoch 213/600  [Need: 05:35:38]  lr=0.001
+2021-08-27 08:04:09,878:INFO: - Train metrics (average): acc_top1: 99.959 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:04:11,930:INFO: - Eval metrics : acc_top1: 72.084 ; acc_top5: 90.963 ; loss: 1.181
+2021-08-27 08:04:12,271:INFO: Epoch 214/600  [Need: 05:34:45]  lr=0.001
+2021-08-27 08:05:01,781:INFO: - Train metrics (average): acc_top1: 99.965 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:05:03,874:INFO: - Eval metrics : acc_top1: 71.975 ; acc_top5: 90.854 ; loss: 1.179
+2021-08-27 08:05:04,209:INFO: Epoch 215/600  [Need: 05:34:08]  lr=0.001
+2021-08-27 08:05:53,759:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:05:55,943:INFO: - Eval metrics : acc_top1: 72.054 ; acc_top5: 90.854 ; loss: 1.177
+2021-08-27 08:05:56,816:INFO: Epoch 216/600  [Need: 05:37:33]  lr=0.001
+2021-08-27 08:06:46,333:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:06:48,361:INFO: - Eval metrics : acc_top1: 71.785 ; acc_top5: 90.914 ; loss: 1.173
+2021-08-27 08:06:48,703:INFO: Epoch 217/600  [Need: 05:32:04]  lr=0.001
+2021-08-27 08:07:38,245:INFO: - Train metrics (average): acc_top1: 99.958 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:07:40,360:INFO: - Eval metrics : acc_top1: 71.845 ; acc_top5: 90.824 ; loss: 1.173
+2021-08-27 08:07:40,667:INFO: Epoch 218/600  [Need: 05:31:42]  lr=0.001
+2021-08-27 08:08:30,226:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:08:32,460:INFO: - Eval metrics : acc_top1: 72.283 ; acc_top5: 90.963 ; loss: 1.170
+2021-08-27 08:08:33,660:INFO: - Found new best accuracy on validation set
+2021-08-27 08:08:33,660:INFO: Epoch 219/600  [Need: 05:37:23]  lr=0.001
+2021-08-27 08:09:23,117:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:09:25,189:INFO: - Eval metrics : acc_top1: 72.004 ; acc_top5: 90.784 ; loss: 1.173
+2021-08-27 08:09:25,647:INFO: Epoch 220/600  [Need: 05:30:06]  lr=0.001
+2021-08-27 08:10:15,112:INFO: - Train metrics (average): acc_top1: 99.958 ; acc_top5: 99.999 ; loss: 0.007
+2021-08-27 08:10:17,173:INFO: - Eval metrics : acc_top1: 72.084 ; acc_top5: 90.834 ; loss: 1.171
+2021-08-27 08:10:17,519:INFO: Epoch 221/600  [Need: 05:28:31]  lr=0.001
+2021-08-27 08:11:07,007:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 08:11:09,058:INFO: - Eval metrics : acc_top1: 71.915 ; acc_top5: 91.013 ; loss: 1.177
+2021-08-27 08:11:09,418:INFO: Epoch 222/600  [Need: 05:27:49]  lr=0.001
+2021-08-27 08:11:58,953:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:12:01,018:INFO: - Eval metrics : acc_top1: 71.945 ; acc_top5: 90.814 ; loss: 1.169
+2021-08-27 08:12:01,369:INFO: Epoch 223/600  [Need: 05:27:17]  lr=0.001
+2021-08-27 08:12:50,897:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:12:53,019:INFO: - Eval metrics : acc_top1: 72.114 ; acc_top5: 90.734 ; loss: 1.177
+2021-08-27 08:12:53,362:INFO: Epoch 224/600  [Need: 05:26:41]  lr=0.001
+2021-08-27 08:13:42,903:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:13:45,092:INFO: - Eval metrics : acc_top1: 72.174 ; acc_top5: 90.764 ; loss: 1.169
+2021-08-27 08:13:45,462:INFO: Epoch 225/600  [Need: 05:26:29]  lr=0.001
+2021-08-27 08:14:35,019:INFO: - Train metrics (average): acc_top1: 99.957 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:14:37,256:INFO: - Eval metrics : acc_top1: 72.223 ; acc_top5: 90.884 ; loss: 1.173
+2021-08-27 08:14:37,700:INFO: Epoch 226/600  [Need: 05:26:29]  lr=0.001
+2021-08-27 08:15:27,241:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:15:29,486:INFO: - Eval metrics : acc_top1: 72.114 ; acc_top5: 90.914 ; loss: 1.165
+2021-08-27 08:15:29,907:INFO: Epoch 227/600  [Need: 05:25:25]  lr=0.001
+2021-08-27 08:16:19,458:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:16:21,736:INFO: - Eval metrics : acc_top1: 72.094 ; acc_top5: 90.854 ; loss: 1.160
+2021-08-27 08:16:22,083:INFO: Epoch 228/600  [Need: 05:24:21]  lr=0.001
+2021-08-27 08:17:11,770:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:17:14,286:INFO: - Eval metrics : acc_top1: 72.223 ; acc_top5: 90.963 ; loss: 1.164
+2021-08-27 08:17:14,698:INFO: Epoch 229/600  [Need: 05:26:12]  lr=0.001
+2021-08-27 08:18:04,427:INFO: - Train metrics (average): acc_top1: 99.965 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:18:06,984:INFO: - Eval metrics : acc_top1: 72.193 ; acc_top5: 90.904 ; loss: 1.164
+2021-08-27 08:18:07,492:INFO: Epoch 230/600  [Need: 05:26:26]  lr=0.001
+2021-08-27 08:18:57,216:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:18:59,755:INFO: - Eval metrics : acc_top1: 72.064 ; acc_top5: 90.934 ; loss: 1.163
+2021-08-27 08:19:00,291:INFO: Epoch 231/600  [Need: 05:25:35]  lr=0.001
+2021-08-27 08:19:50,011:INFO: - Train metrics (average): acc_top1: 99.956 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:19:52,560:INFO: - Eval metrics : acc_top1: 72.134 ; acc_top5: 91.043 ; loss: 1.159
+2021-08-27 08:19:52,959:INFO: Epoch 232/600  [Need: 05:23:54]  lr=0.001
+2021-08-27 08:20:42,690:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:20:45,244:INFO: - Eval metrics : acc_top1: 72.174 ; acc_top5: 90.943 ; loss: 1.163
+2021-08-27 08:20:45,668:INFO: Epoch 233/600  [Need: 05:23:17]  lr=0.001
+2021-08-27 08:21:35,382:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:21:37,926:INFO: - Eval metrics : acc_top1: 72.273 ; acc_top5: 90.983 ; loss: 1.160
+2021-08-27 08:21:38,409:INFO: Epoch 234/600  [Need: 05:22:35]  lr=0.001
+2021-08-27 08:22:28,096:INFO: - Train metrics (average): acc_top1: 99.964 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:22:30,638:INFO: - Eval metrics : acc_top1: 72.582 ; acc_top5: 91.013 ; loss: 1.160
+2021-08-27 08:22:31,835:INFO: - Found new best accuracy on validation set
+2021-08-27 08:22:31,835:INFO: Epoch 235/600  [Need: 05:25:53]  lr=0.001
+2021-08-27 08:23:21,301:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:23:23,369:INFO: - Eval metrics : acc_top1: 72.273 ; acc_top5: 90.943 ; loss: 1.156
+2021-08-27 08:23:23,725:INFO: Epoch 236/600  [Need: 05:15:39]  lr=0.001
+2021-08-27 08:24:13,191:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 08:24:15,248:INFO: - Eval metrics : acc_top1: 72.472 ; acc_top5: 90.993 ; loss: 1.156
+2021-08-27 08:24:15,591:INFO: Epoch 237/600  [Need: 05:14:39]  lr=0.001
+2021-08-27 08:25:05,145:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:25:07,218:INFO: - Eval metrics : acc_top1: 72.154 ; acc_top5: 91.003 ; loss: 1.155
+2021-08-27 08:25:07,563:INFO: Epoch 238/600  [Need: 05:14:25]  lr=0.001
+2021-08-27 08:25:57,058:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:25:59,213:INFO: - Eval metrics : acc_top1: 72.164 ; acc_top5: 91.093 ; loss: 1.155
+2021-08-27 08:25:59,513:INFO: Epoch 239/600  [Need: 05:13:26]  lr=0.001
+2021-08-27 08:26:49,049:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:26:51,303:INFO: - Eval metrics : acc_top1: 72.422 ; acc_top5: 90.983 ; loss: 1.154
+2021-08-27 08:26:51,761:INFO: Epoch 240/600  [Need: 05:14:21]  lr=0.001
+2021-08-27 08:27:41,473:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:27:44,031:INFO: - Eval metrics : acc_top1: 72.363 ; acc_top5: 91.103 ; loss: 1.148
+2021-08-27 08:27:44,601:INFO: Epoch 241/600  [Need: 05:17:02]  lr=0.001
+2021-08-27 08:28:34,324:INFO: - Train metrics (average): acc_top1: 99.946 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:28:36,865:INFO: - Eval metrics : acc_top1: 72.442 ; acc_top5: 91.063 ; loss: 1.153
+2021-08-27 08:28:37,274:INFO: Epoch 242/600  [Need: 05:15:09]  lr=0.001
+2021-08-27 08:29:26,974:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:29:29,527:INFO: - Eval metrics : acc_top1: 72.313 ; acc_top5: 91.083 ; loss: 1.149
+2021-08-27 08:29:30,348:INFO: Epoch 243/600  [Need: 05:16:40]  lr=0.001
+2021-08-27 08:30:20,036:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:30:22,590:INFO: - Eval metrics : acc_top1: 72.343 ; acc_top5: 91.053 ; loss: 1.154
+2021-08-27 08:30:23,362:INFO: Epoch 244/600  [Need: 05:15:26]  lr=0.001
+2021-08-27 08:31:13,052:INFO: - Train metrics (average): acc_top1: 99.958 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:31:15,611:INFO: - Eval metrics : acc_top1: 72.164 ; acc_top5: 90.943 ; loss: 1.152
+2021-08-27 08:31:16,085:INFO: Epoch 245/600  [Need: 05:12:49]  lr=0.001
+2021-08-27 08:32:05,770:INFO: - Train metrics (average): acc_top1: 99.957 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:32:08,321:INFO: - Eval metrics : acc_top1: 72.363 ; acc_top5: 91.013 ; loss: 1.150
+2021-08-27 08:32:08,781:INFO: Epoch 246/600  [Need: 05:11:47]  lr=0.001
+2021-08-27 08:32:58,469:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:33:01,013:INFO: - Eval metrics : acc_top1: 72.243 ; acc_top5: 91.172 ; loss: 1.147
+2021-08-27 08:33:01,817:INFO: Epoch 247/600  [Need: 05:12:54]  lr=0.001
+2021-08-27 08:33:51,516:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:33:54,071:INFO: - Eval metrics : acc_top1: 72.402 ; acc_top5: 91.023 ; loss: 1.146
+2021-08-27 08:33:54,526:INFO: Epoch 248/600  [Need: 05:10:06]  lr=0.001
+2021-08-27 08:34:44,241:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:34:46,793:INFO: - Eval metrics : acc_top1: 72.363 ; acc_top5: 91.182 ; loss: 1.149
+2021-08-27 08:34:47,156:INFO: Epoch 249/600  [Need: 05:08:45]  lr=0.001
+2021-08-27 08:35:36,865:INFO: - Train metrics (average): acc_top1: 99.770 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 08:35:39,411:INFO: - Eval metrics : acc_top1: 72.343 ; acc_top5: 91.113 ; loss: 1.144
+2021-08-27 08:35:39,797:INFO: Epoch 250/600  [Need: 05:07:57]  lr=0.001
+2021-08-27 08:36:29,511:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:36:32,066:INFO: - Eval metrics : acc_top1: 72.293 ; acc_top5: 91.103 ; loss: 1.145
+2021-08-27 08:36:32,466:INFO: Epoch 251/600  [Need: 05:07:13]  lr=0.001
+2021-08-27 08:37:22,122:INFO: - Train metrics (average): acc_top1: 99.953 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:37:24,637:INFO: - Eval metrics : acc_top1: 72.582 ; acc_top5: 90.924 ; loss: 1.149
+2021-08-27 08:37:25,737:INFO: - Found new best accuracy on validation set
+2021-08-27 08:37:25,737:INFO: Epoch 252/600  [Need: 05:09:51]  lr=0.001
+2021-08-27 08:38:15,200:INFO: - Train metrics (average): acc_top1: 99.960 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:38:17,219:INFO: - Eval metrics : acc_top1: 72.452 ; acc_top5: 90.943 ; loss: 1.153
+2021-08-27 08:38:18,128:INFO: Epoch 253/600  [Need: 05:03:51]  lr=0.001
+2021-08-27 08:39:07,640:INFO: - Train metrics (average): acc_top1: 99.965 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:39:09,882:INFO: - Eval metrics : acc_top1: 72.393 ; acc_top5: 91.083 ; loss: 1.149
+2021-08-27 08:39:10,441:INFO: Epoch 254/600  [Need: 05:02:32]  lr=0.001
+2021-08-27 08:39:59,960:INFO: - Train metrics (average): acc_top1: 99.964 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:40:02,170:INFO: - Eval metrics : acc_top1: 72.393 ; acc_top5: 91.093 ; loss: 1.140
+2021-08-27 08:40:02,544:INFO: Epoch 255/600  [Need: 05:00:27]  lr=0.001
+2021-08-27 08:40:52,061:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:40:54,307:INFO: - Eval metrics : acc_top1: 72.283 ; acc_top5: 91.053 ; loss: 1.142
+2021-08-27 08:40:55,027:INFO: Epoch 256/600  [Need: 05:01:46]  lr=0.001
+2021-08-27 08:41:44,533:INFO: - Train metrics (average): acc_top1: 99.748 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 08:41:46,762:INFO: - Eval metrics : acc_top1: 72.402 ; acc_top5: 91.093 ; loss: 1.137
+2021-08-27 08:41:47,137:INFO: Epoch 257/600  [Need: 04:58:45]  lr=0.001
+2021-08-27 08:42:36,661:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:42:38,909:INFO: - Eval metrics : acc_top1: 72.562 ; acc_top5: 91.123 ; loss: 1.145
+2021-08-27 08:42:39,327:INFO: Epoch 258/600  [Need: 04:58:20]  lr=0.001
+2021-08-27 08:43:28,840:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:43:31,124:INFO: - Eval metrics : acc_top1: 72.492 ; acc_top5: 91.113 ; loss: 1.138
+2021-08-27 08:43:31,632:INFO: Epoch 259/600  [Need: 04:58:08]  lr=0.001
+2021-08-27 08:44:21,168:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:44:23,440:INFO: - Eval metrics : acc_top1: 72.482 ; acc_top5: 91.242 ; loss: 1.138
+2021-08-27 08:44:23,938:INFO: Epoch 260/600  [Need: 04:57:16]  lr=0.001
+2021-08-27 08:45:13,482:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:45:15,742:INFO: - Eval metrics : acc_top1: 72.512 ; acc_top5: 91.282 ; loss: 1.138
+2021-08-27 08:45:16,199:INFO: Epoch 261/600  [Need: 04:56:08]  lr=0.001
+2021-08-27 08:46:05,735:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:46:08,038:INFO: - Eval metrics : acc_top1: 72.442 ; acc_top5: 91.143 ; loss: 1.139
+2021-08-27 08:46:08,740:INFO: Epoch 262/600  [Need: 04:56:51]  lr=0.001
+2021-08-27 08:46:58,217:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:47:00,338:INFO: - Eval metrics : acc_top1: 72.482 ; acc_top5: 91.192 ; loss: 1.140
+2021-08-27 08:47:00,658:INFO: Epoch 263/600  [Need: 04:52:28]  lr=0.001
+2021-08-27 08:47:50,170:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:47:52,407:INFO: - Eval metrics : acc_top1: 72.442 ; acc_top5: 91.143 ; loss: 1.142
+2021-08-27 08:47:52,826:INFO: Epoch 264/600  [Need: 04:53:00]  lr=0.001
+2021-08-27 08:48:42,366:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 08:48:44,633:INFO: - Eval metrics : acc_top1: 72.552 ; acc_top5: 91.232 ; loss: 1.136
+2021-08-27 08:48:45,456:INFO: Epoch 265/600  [Need: 04:54:43]  lr=0.001
+2021-08-27 08:49:34,935:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 08:49:37,047:INFO: - Eval metrics : acc_top1: 72.442 ; acc_top5: 91.242 ; loss: 1.137
+2021-08-27 08:49:37,431:INFO: Epoch 266/600  [Need: 04:50:11]  lr=0.001
+2021-08-27 08:50:26,952:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:50:29,171:INFO: - Eval metrics : acc_top1: 72.492 ; acc_top5: 91.053 ; loss: 1.143
+2021-08-27 08:50:29,536:INFO: Epoch 267/600  [Need: 04:50:02]  lr=0.001
+2021-08-27 08:51:19,048:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:51:21,272:INFO: - Eval metrics : acc_top1: 72.512 ; acc_top5: 91.342 ; loss: 1.137
+2021-08-27 08:51:21,684:INFO: Epoch 268/600  [Need: 04:49:25]  lr=0.001
+2021-08-27 08:52:11,209:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:52:13,425:INFO: - Eval metrics : acc_top1: 72.562 ; acc_top5: 91.202 ; loss: 1.135
+2021-08-27 08:52:13,831:INFO: Epoch 269/600  [Need: 04:48:32]  lr=0.001
+2021-08-27 08:53:03,506:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:53:05,722:INFO: - Eval metrics : acc_top1: 72.721 ; acc_top5: 91.192 ; loss: 1.137
+2021-08-27 08:53:06,513:INFO: - Found new best accuracy on validation set
+2021-08-27 08:53:06,514:INFO: Epoch 270/600  [Need: 04:50:38]  lr=0.001
+2021-08-27 08:53:55,939:INFO: - Train metrics (average): acc_top1: 99.955 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:53:58,002:INFO: - Eval metrics : acc_top1: 72.691 ; acc_top5: 91.182 ; loss: 1.135
+2021-08-27 08:53:58,362:INFO: Epoch 271/600  [Need: 04:45:09]  lr=0.001
+2021-08-27 08:54:47,812:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:54:49,838:INFO: - Eval metrics : acc_top1: 72.621 ; acc_top5: 91.242 ; loss: 1.138
+2021-08-27 08:54:50,195:INFO: Epoch 272/600  [Need: 04:44:12]  lr=0.001
+2021-08-27 08:55:39,673:INFO: - Train metrics (average): acc_top1: 99.955 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:55:41,736:INFO: - Eval metrics : acc_top1: 72.422 ; acc_top5: 91.361 ; loss: 1.135
+2021-08-27 08:55:42,106:INFO: Epoch 273/600  [Need: 04:43:46]  lr=0.001
+2021-08-27 08:56:31,596:INFO: - Train metrics (average): acc_top1: 99.967 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:56:33,738:INFO: - Eval metrics : acc_top1: 72.452 ; acc_top5: 91.152 ; loss: 1.135
+2021-08-27 08:56:34,064:INFO: Epoch 274/600  [Need: 04:43:10]  lr=0.001
+2021-08-27 08:57:23,579:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:57:25,815:INFO: - Eval metrics : acc_top1: 72.502 ; acc_top5: 91.232 ; loss: 1.135
+2021-08-27 08:57:26,345:INFO: Epoch 275/600  [Need: 04:44:03]  lr=0.001
+2021-08-27 08:58:15,871:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:58:18,082:INFO: - Eval metrics : acc_top1: 72.741 ; acc_top5: 91.232 ; loss: 1.133
+2021-08-27 08:58:19,397:INFO: - Found new best accuracy on validation set
+2021-08-27 08:58:19,466:INFO: Epoch 276/600  [Need: 04:47:44]  lr=0.001
+2021-08-27 08:59:08,901:INFO: - Train metrics (average): acc_top1: 99.967 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 08:59:10,948:INFO: - Eval metrics : acc_top1: 72.850 ; acc_top5: 91.272 ; loss: 1.128
+2021-08-27 08:59:11,711:INFO: - Found new best accuracy on validation set
+2021-08-27 08:59:11,711:INFO: Epoch 277/600  [Need: 04:42:07]  lr=0.001
+2021-08-27 09:00:01,079:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:00:03,207:INFO: - Eval metrics : acc_top1: 72.522 ; acc_top5: 91.292 ; loss: 1.139
+2021-08-27 09:00:03,566:INFO: Epoch 278/600  [Need: 04:39:08]  lr=0.001
+2021-08-27 09:00:52,951:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:00:55,022:INFO: - Eval metrics : acc_top1: 72.781 ; acc_top5: 91.352 ; loss: 1.134
+2021-08-27 09:00:55,382:INFO: Epoch 279/600  [Need: 04:38:04]  lr=0.001
+2021-08-27 09:01:44,800:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:01:46,854:INFO: - Eval metrics : acc_top1: 72.572 ; acc_top5: 91.222 ; loss: 1.132
+2021-08-27 09:01:47,183:INFO: Epoch 280/600  [Need: 04:37:08]  lr=0.001
+2021-08-27 09:02:36,621:INFO: - Train metrics (average): acc_top1: 99.961 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:02:38,699:INFO: - Eval metrics : acc_top1: 72.512 ; acc_top5: 91.143 ; loss: 1.135
+2021-08-27 09:02:39,053:INFO: Epoch 281/600  [Need: 04:36:38]  lr=0.001
+2021-08-27 09:03:28,529:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:03:30,559:INFO: - Eval metrics : acc_top1: 72.631 ; acc_top5: 91.302 ; loss: 1.131
+2021-08-27 09:03:30,913:INFO: Epoch 282/600  [Need: 04:35:43]  lr=0.001
+2021-08-27 09:04:20,396:INFO: - Train metrics (average): acc_top1: 99.953 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:04:22,507:INFO: - Eval metrics : acc_top1: 72.373 ; acc_top5: 91.143 ; loss: 1.131
+2021-08-27 09:04:22,830:INFO: Epoch 283/600  [Need: 04:35:09]  lr=0.001
+2021-08-27 09:05:12,343:INFO: - Train metrics (average): acc_top1: 99.956 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:05:14,565:INFO: - Eval metrics : acc_top1: 72.592 ; acc_top5: 91.401 ; loss: 1.130
+2021-08-27 09:05:14,960:INFO: Epoch 284/600  [Need: 04:35:25]  lr=0.001
+2021-08-27 09:06:04,472:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:06:06,698:INFO: - Eval metrics : acc_top1: 72.502 ; acc_top5: 91.312 ; loss: 1.132
+2021-08-27 09:06:07,962:INFO: Epoch 285/600  [Need: 04:39:08]  lr=0.001
+2021-08-27 09:06:57,435:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:06:59,564:INFO: - Eval metrics : acc_top1: 72.621 ; acc_top5: 91.292 ; loss: 1.138
+2021-08-27 09:07:00,020:INFO: Epoch 286/600  [Need: 04:33:18]  lr=0.001
+2021-08-27 09:07:49,512:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:07:51,680:INFO: - Eval metrics : acc_top1: 72.721 ; acc_top5: 91.371 ; loss: 1.128
+2021-08-27 09:07:52,043:INFO: Epoch 287/600  [Need: 04:32:15]  lr=0.001
+2021-08-27 09:08:41,553:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:08:43,781:INFO: - Eval metrics : acc_top1: 72.611 ; acc_top5: 91.332 ; loss: 1.134
+2021-08-27 09:08:45,142:INFO: Epoch 288/600  [Need: 04:37:00]  lr=0.001
+2021-08-27 09:09:34,639:INFO: - Train metrics (average): acc_top1: 99.961 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:09:36,806:INFO: - Eval metrics : acc_top1: 72.552 ; acc_top5: 91.342 ; loss: 1.135
+2021-08-27 09:09:37,261:INFO: Epoch 289/600  [Need: 04:31:01]  lr=0.001
+2021-08-27 09:10:26,767:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:10:28,919:INFO: - Eval metrics : acc_top1: 72.661 ; acc_top5: 91.421 ; loss: 1.135
+2021-08-27 09:10:29,276:INFO: Epoch 290/600  [Need: 04:29:36]  lr=0.001
+2021-08-27 09:11:18,776:INFO: - Train metrics (average): acc_top1: 99.960 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 09:11:21,003:INFO: - Eval metrics : acc_top1: 72.771 ; acc_top5: 91.262 ; loss: 1.134
+2021-08-27 09:11:21,505:INFO: Epoch 291/600  [Need: 04:29:51]  lr=0.001
+2021-08-27 09:12:11,036:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:12:13,307:INFO: - Eval metrics : acc_top1: 72.482 ; acc_top5: 91.232 ; loss: 1.135
+2021-08-27 09:12:13,833:INFO: Epoch 292/600  [Need: 04:29:29]  lr=0.001
+2021-08-27 09:13:03,342:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:13:05,561:INFO: - Eval metrics : acc_top1: 72.691 ; acc_top5: 91.371 ; loss: 1.130
+2021-08-27 09:13:05,954:INFO: Epoch 293/600  [Need: 04:27:33]  lr=0.001
+2021-08-27 09:13:55,445:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:13:57,672:INFO: - Eval metrics : acc_top1: 72.621 ; acc_top5: 91.252 ; loss: 1.130
+2021-08-27 09:13:58,114:INFO: Epoch 294/600  [Need: 04:26:52]  lr=0.001
+2021-08-27 09:14:47,621:INFO: - Train metrics (average): acc_top1: 99.781 ; acc_top5: 100.000 ; loss: 0.009
+2021-08-27 09:14:49,867:INFO: - Eval metrics : acc_top1: 72.751 ; acc_top5: 91.232 ; loss: 1.136
+2021-08-27 09:14:50,327:INFO: Epoch 295/600  [Need: 04:26:17]  lr=0.001
+2021-08-27 09:15:39,849:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:15:42,110:INFO: - Eval metrics : acc_top1: 72.542 ; acc_top5: 91.212 ; loss: 1.134
+2021-08-27 09:15:42,601:INFO: Epoch 296/600  [Need: 04:25:43]  lr=0.001
+2021-08-27 09:16:32,133:INFO: - Train metrics (average): acc_top1: 99.967 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:16:34,378:INFO: - Eval metrics : acc_top1: 72.661 ; acc_top5: 91.322 ; loss: 1.130
+2021-08-27 09:16:34,905:INFO: Epoch 297/600  [Need: 04:25:00]  lr=0.001
+2021-08-27 09:17:24,407:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:17:26,662:INFO: - Eval metrics : acc_top1: 72.552 ; acc_top5: 91.252 ; loss: 1.132
+2021-08-27 09:17:27,102:INFO: Epoch 298/600  [Need: 04:23:35]  lr=0.001
+2021-08-27 09:18:16,601:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:18:18,889:INFO: - Eval metrics : acc_top1: 72.512 ; acc_top5: 91.222 ; loss: 1.136
+2021-08-27 09:18:19,376:INFO: Epoch 299/600  [Need: 04:23:06]  lr=0.001
+2021-08-27 09:19:08,927:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:19:11,227:INFO: - Eval metrics : acc_top1: 72.681 ; acc_top5: 91.381 ; loss: 1.128
+2021-08-27 09:19:11,715:INFO: Epoch 300/600  [Need: 04:22:34]  lr=0.001
+2021-08-27 09:20:01,262:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:20:03,556:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.302 ; loss: 1.127
+2021-08-27 09:20:04,374:INFO: - Found new best accuracy on validation set
+2021-08-27 09:20:04,439:INFO: Epoch 301/600  [Need: 04:23:36]  lr=0.0001
+2021-08-27 09:20:53,915:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:20:55,983:INFO: - Eval metrics : acc_top1: 72.811 ; acc_top5: 91.391 ; loss: 1.130
+2021-08-27 09:20:56,354:INFO: Epoch 302/600  [Need: 04:18:42]  lr=0.0001
+2021-08-27 09:21:45,818:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:21:47,874:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.302 ; loss: 1.128
+2021-08-27 09:21:48,531:INFO: - Found new best accuracy on validation set
+2021-08-27 09:21:48,531:INFO: Epoch 303/600  [Need: 04:19:08]  lr=0.0001
+2021-08-27 09:22:37,917:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:22:39,977:INFO: - Eval metrics : acc_top1: 72.582 ; acc_top5: 91.272 ; loss: 1.130
+2021-08-27 09:22:40,330:INFO: Epoch 304/600  [Need: 04:16:24]  lr=0.0001
+2021-08-27 09:23:29,773:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:23:31,849:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.451 ; loss: 1.127
+2021-08-27 09:23:32,196:INFO: Epoch 305/600  [Need: 04:15:52]  lr=0.0001
+2021-08-27 09:24:21,651:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:24:23,673:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.451 ; loss: 1.127
+2021-08-27 09:24:24,327:INFO: - Found new best accuracy on validation set
+2021-08-27 09:24:24,368:INFO: Epoch 306/600  [Need: 04:16:30]  lr=0.0001
+2021-08-27 09:25:13,783:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:25:15,866:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.352 ; loss: 1.127
+2021-08-27 09:25:16,222:INFO: Epoch 307/600  [Need: 04:14:05]  lr=0.0001
+2021-08-27 09:26:05,652:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:26:07,704:INFO: - Eval metrics : acc_top1: 72.870 ; acc_top5: 91.391 ; loss: 1.127
+2021-08-27 09:26:08,033:INFO: Epoch 308/600  [Need: 04:13:00]  lr=0.0001
+2021-08-27 09:26:57,499:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:26:59,566:INFO: - Eval metrics : acc_top1: 72.860 ; acc_top5: 91.411 ; loss: 1.125
+2021-08-27 09:26:59,897:INFO: Epoch 309/600  [Need: 04:12:24]  lr=0.0001
+2021-08-27 09:27:49,388:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:27:51,544:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.481 ; loss: 1.125
+2021-08-27 09:27:51,894:INFO: Epoch 310/600  [Need: 04:12:11]  lr=0.0001
+2021-08-27 09:28:41,386:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:28:43,610:INFO: - Eval metrics : acc_top1: 72.811 ; acc_top5: 91.312 ; loss: 1.126
+2021-08-27 09:28:43,990:INFO: Epoch 311/600  [Need: 04:11:47]  lr=0.0001
+2021-08-27 09:29:33,499:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:29:35,731:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.511 ; loss: 1.126
+2021-08-27 09:29:36,441:INFO: - Found new best accuracy on validation set
+2021-08-27 09:29:36,486:INFO: Epoch 312/600  [Need: 04:12:51]  lr=0.0001
+2021-08-27 09:30:25,911:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:30:27,834:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.471 ; loss: 1.126
+2021-08-27 09:30:28,164:INFO: Epoch 313/600  [Need: 04:08:03]  lr=0.0001
+2021-08-27 09:31:17,666:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:31:19,796:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.411 ; loss: 1.126
+2021-08-27 09:31:20,162:INFO: Epoch 314/600  [Need: 04:08:43]  lr=0.0001
+2021-08-27 09:32:09,682:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:32:11,866:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.322 ; loss: 1.122
+2021-08-27 09:32:12,554:INFO: - Found new best accuracy on validation set
+2021-08-27 09:32:12,554:INFO: Epoch 315/600  [Need: 04:09:44]  lr=0.0001
+2021-08-27 09:33:02,016:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:33:04,082:INFO: - Eval metrics : acc_top1: 73.119 ; acc_top5: 91.431 ; loss: 1.123
+2021-08-27 09:33:04,718:INFO: - Found new best accuracy on validation set
+2021-08-27 09:33:04,759:INFO: Epoch 316/600  [Need: 04:07:58]  lr=0.0001
+2021-08-27 09:33:54,157:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:33:56,271:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.431 ; loss: 1.125
+2021-08-27 09:33:56,623:INFO: Epoch 317/600  [Need: 04:05:29]  lr=0.0001
+2021-08-27 09:34:46,051:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:34:48,029:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.332 ; loss: 1.125
+2021-08-27 09:34:48,506:INFO: Epoch 318/600  [Need: 04:04:42]  lr=0.0001
+2021-08-27 09:35:37,926:INFO: - Train metrics (average): acc_top1: 99.995 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:35:39,991:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.401 ; loss: 1.122
+2021-08-27 09:35:40,343:INFO: Epoch 319/600  [Need: 04:03:38]  lr=0.0001
+2021-08-27 09:36:29,808:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:36:31,846:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.441 ; loss: 1.125
+2021-08-27 09:36:32,185:INFO: Epoch 320/600  [Need: 04:02:47]  lr=0.0001
+2021-08-27 09:37:21,669:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:37:23,760:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.302 ; loss: 1.123
+2021-08-27 09:37:24,094:INFO: Epoch 321/600  [Need: 04:02:14]  lr=0.0001
+2021-08-27 09:38:13,582:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:38:15,765:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.322 ; loss: 1.122
+2021-08-27 09:38:16,113:INFO: Epoch 322/600  [Need: 04:01:53]  lr=0.0001
+2021-08-27 09:39:05,637:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:39:07,874:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.381 ; loss: 1.127
+2021-08-27 09:39:08,301:INFO: Epoch 323/600  [Need: 04:01:48]  lr=0.0001
+2021-08-27 09:39:58,008:INFO: - Train metrics (average): acc_top1: 99.965 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:40:00,556:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.481 ; loss: 1.126
+2021-08-27 09:40:00,977:INFO: Epoch 324/600  [Need: 04:03:11]  lr=0.0001
+2021-08-27 09:40:50,664:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:40:53,191:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.441 ; loss: 1.124
+2021-08-27 09:40:53,588:INFO: Epoch 325/600  [Need: 04:02:00]  lr=0.0001
+2021-08-27 09:41:43,290:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:41:45,829:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.451 ; loss: 1.124
+2021-08-27 09:41:46,225:INFO: Epoch 326/600  [Need: 04:01:15]  lr=0.0001
+2021-08-27 09:42:35,941:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:42:38,498:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 09:42:38,919:INFO: Epoch 327/600  [Need: 04:00:37]  lr=0.0001
+2021-08-27 09:43:28,627:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:43:31,182:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.511 ; loss: 1.123
+2021-08-27 09:43:31,614:INFO: Epoch 328/600  [Need: 03:59:45]  lr=0.0001
+2021-08-27 09:44:21,322:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:44:23,890:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.421 ; loss: 1.122
+2021-08-27 09:44:24,303:INFO: Epoch 329/600  [Need: 03:58:51]  lr=0.0001
+2021-08-27 09:45:14,023:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:45:16,575:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.451 ; loss: 1.121
+2021-08-27 09:45:16,928:INFO: Epoch 330/600  [Need: 03:57:41]  lr=0.0001
+2021-08-27 09:46:06,580:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:46:09,120:INFO: - Eval metrics : acc_top1: 72.880 ; acc_top5: 91.471 ; loss: 1.123
+2021-08-27 09:46:09,584:INFO: Epoch 331/600  [Need: 03:56:57]  lr=0.0001
+2021-08-27 09:46:58,942:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:47:01,433:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.342 ; loss: 1.122
+2021-08-27 09:47:02,843:INFO: - Found new best accuracy on validation set
+2021-08-27 09:47:02,843:INFO: Epoch 332/600  [Need: 03:58:46]  lr=0.0001
+2021-08-27 09:47:52,365:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:47:54,540:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.391 ; loss: 1.124
+2021-08-27 09:47:54,973:INFO: Epoch 333/600  [Need: 03:52:50]  lr=0.0001
+2021-08-27 09:48:44,517:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:48:46,674:INFO: - Eval metrics : acc_top1: 72.781 ; acc_top5: 91.361 ; loss: 1.125
+2021-08-27 09:48:47,004:INFO: Epoch 334/600  [Need: 03:51:32]  lr=0.0001
+2021-08-27 09:49:36,522:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:49:38,745:INFO: - Eval metrics : acc_top1: 72.761 ; acc_top5: 91.501 ; loss: 1.127
+2021-08-27 09:49:39,179:INFO: Epoch 335/600  [Need: 03:51:18]  lr=0.0001
+2021-08-27 09:50:28,729:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:50:30,990:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.302 ; loss: 1.123
+2021-08-27 09:50:31,456:INFO: Epoch 336/600  [Need: 03:50:53]  lr=0.0001
+2021-08-27 09:51:20,998:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:51:23,262:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.401 ; loss: 1.125
+2021-08-27 09:51:23,744:INFO: Epoch 337/600  [Need: 03:50:04]  lr=0.0001
+2021-08-27 09:52:13,271:INFO: - Train metrics (average): acc_top1: 99.786 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 09:52:15,556:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.570 ; loss: 1.124
+2021-08-27 09:52:16,061:INFO: Epoch 338/600  [Need: 03:49:19]  lr=0.0001
+2021-08-27 09:53:05,591:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:53:07,853:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.471 ; loss: 1.126
+2021-08-27 09:53:08,353:INFO: Epoch 339/600  [Need: 03:48:20]  lr=0.0001
+2021-08-27 09:53:57,889:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:54:00,158:INFO: - Eval metrics : acc_top1: 72.791 ; acc_top5: 91.411 ; loss: 1.123
+2021-08-27 09:54:00,634:INFO: Epoch 340/600  [Need: 03:47:25]  lr=0.0001
+2021-08-27 09:54:50,178:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 09:54:52,468:INFO: - Eval metrics : acc_top1: 72.880 ; acc_top5: 91.431 ; loss: 1.122
+2021-08-27 09:54:52,974:INFO: Epoch 341/600  [Need: 03:46:48]  lr=0.0001
+2021-08-27 09:55:42,524:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:55:44,790:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.431 ; loss: 1.124
+2021-08-27 09:55:45,351:INFO: Epoch 342/600  [Need: 03:46:05]  lr=0.0001
+2021-08-27 09:56:34,884:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:56:37,060:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.481 ; loss: 1.126
+2021-08-27 09:56:37,432:INFO: Epoch 343/600  [Need: 03:43:56]  lr=0.0001
+2021-08-27 09:57:26,966:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 09:57:29,205:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.451 ; loss: 1.122
+2021-08-27 09:57:29,700:INFO: Epoch 344/600  [Need: 03:43:53]  lr=0.0001
+2021-08-27 09:58:19,246:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:58:21,476:INFO: - Eval metrics : acc_top1: 72.811 ; acc_top5: 91.471 ; loss: 1.126
+2021-08-27 09:58:21,888:INFO: Epoch 345/600  [Need: 03:42:40]  lr=0.0001
+2021-08-27 09:59:11,435:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 09:59:13,705:INFO: - Eval metrics : acc_top1: 72.830 ; acc_top5: 91.352 ; loss: 1.126
+2021-08-27 09:59:14,208:INFO: Epoch 346/600  [Need: 03:42:21]  lr=0.0001
+2021-08-27 10:00:03,749:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:00:06,015:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.421 ; loss: 1.126
+2021-08-27 10:00:06,733:INFO: Epoch 347/600  [Need: 03:42:21]  lr=0.0001
+2021-08-27 10:00:56,260:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:00:58,472:INFO: - Eval metrics : acc_top1: 73.179 ; acc_top5: 91.461 ; loss: 1.123
+2021-08-27 10:00:59,274:INFO: - Found new best accuracy on validation set
+2021-08-27 10:00:59,275:INFO: Epoch 348/600  [Need: 03:41:32]  lr=0.0001
+2021-08-27 10:01:48,675:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:01:50,746:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.371 ; loss: 1.124
+2021-08-27 10:01:51,091:INFO: Epoch 349/600  [Need: 03:37:37]  lr=0.0001
+2021-08-27 10:02:40,539:INFO: - Train metrics (average): acc_top1: 99.992 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:02:42,492:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.342 ; loss: 1.124
+2021-08-27 10:02:43,056:INFO: Epoch 350/600  [Need: 03:37:23]  lr=0.0001
+2021-08-27 10:03:32,563:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:03:34,803:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.541 ; loss: 1.119
+2021-08-27 10:03:35,236:INFO: Epoch 351/600  [Need: 03:37:25]  lr=0.0001
+2021-08-27 10:04:24,751:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:04:27,033:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.302 ; loss: 1.126
+2021-08-27 10:04:27,497:INFO: Epoch 352/600  [Need: 03:36:53]  lr=0.0001
+2021-08-27 10:05:17,037:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:05:19,357:INFO: - Eval metrics : acc_top1: 73.119 ; acc_top5: 91.421 ; loss: 1.123
+2021-08-27 10:05:19,866:INFO: Epoch 353/600  [Need: 03:36:27]  lr=0.0001
+2021-08-27 10:06:09,406:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:06:11,691:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.411 ; loss: 1.126
+2021-08-27 10:06:12,183:INFO: Epoch 354/600  [Need: 03:35:22]  lr=0.0001
+2021-08-27 10:07:01,723:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:07:04,022:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.441 ; loss: 1.126
+2021-08-27 10:07:04,510:INFO: Epoch 355/600  [Need: 03:34:32]  lr=0.0001
+2021-08-27 10:07:54,030:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:07:56,306:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.411 ; loss: 1.123
+2021-08-27 10:07:57,194:INFO: Epoch 356/600  [Need: 03:35:07]  lr=0.0001
+2021-08-27 10:08:46,709:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:08:48,923:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.501 ; loss: 1.126
+2021-08-27 10:08:49,410:INFO: Epoch 357/600  [Need: 03:32:20]  lr=0.0001
+2021-08-27 10:09:38,927:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:09:41,119:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.481 ; loss: 1.122
+2021-08-27 10:09:41,530:INFO: Epoch 358/600  [Need: 03:31:05]  lr=0.0001
+2021-08-27 10:10:31,232:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:10:33,788:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.501 ; loss: 1.125
+2021-08-27 10:10:34,187:INFO: Epoch 359/600  [Need: 03:32:22]  lr=0.0001
+2021-08-27 10:11:23,899:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:11:26,449:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.511 ; loss: 1.120
+2021-08-27 10:11:26,827:INFO: Epoch 360/600  [Need: 03:31:26]  lr=0.0001
+2021-08-27 10:12:16,506:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:12:19,067:INFO: - Eval metrics : acc_top1: 72.880 ; acc_top5: 91.411 ; loss: 1.124
+2021-08-27 10:12:19,731:INFO: Epoch 361/600  [Need: 03:31:37]  lr=0.0001
+2021-08-27 10:13:09,264:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:13:11,551:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.342 ; loss: 1.127
+2021-08-27 10:13:12,166:INFO: Epoch 362/600  [Need: 03:28:51]  lr=0.0001
+2021-08-27 10:14:01,400:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:14:03,910:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.511 ; loss: 1.122
+2021-08-27 10:14:04,262:INFO: Epoch 363/600  [Need: 03:26:38]  lr=0.0001
+2021-08-27 10:14:53,521:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:14:56,035:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.391 ; loss: 1.128
+2021-08-27 10:14:56,446:INFO: Epoch 364/600  [Need: 03:26:07]  lr=0.0001
+2021-08-27 10:15:45,823:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:15:48,319:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.401 ; loss: 1.121
+2021-08-27 10:15:48,737:INFO: Epoch 365/600  [Need: 03:25:40]  lr=0.0001
+2021-08-27 10:16:38,155:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:16:40,643:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.531 ; loss: 1.118
+2021-08-27 10:16:41,117:INFO: Epoch 366/600  [Need: 03:25:09]  lr=0.0001
+2021-08-27 10:17:30,247:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:17:32,781:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.421 ; loss: 1.123
+2021-08-27 10:17:33,148:INFO: Epoch 367/600  [Need: 03:22:55]  lr=0.0001
+2021-08-27 10:18:22,400:INFO: - Train metrics (average): acc_top1: 99.964 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:18:24,911:INFO: - Eval metrics : acc_top1: 72.870 ; acc_top5: 91.521 ; loss: 1.126
+2021-08-27 10:18:25,282:INFO: Epoch 368/600  [Need: 03:22:27]  lr=0.0001
+2021-08-27 10:19:14,559:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:19:17,071:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.282 ; loss: 1.123
+2021-08-27 10:19:17,431:INFO: Epoch 369/600  [Need: 03:21:38]  lr=0.0001
+2021-08-27 10:20:06,722:INFO: - Train metrics (average): acc_top1: 99.780 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 10:20:09,228:INFO: - Eval metrics : acc_top1: 72.741 ; acc_top5: 91.451 ; loss: 1.122
+2021-08-27 10:20:09,640:INFO: Epoch 370/600  [Need: 03:21:00]  lr=0.0001
+2021-08-27 10:20:59,026:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:21:01,517:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.541 ; loss: 1.128
+2021-08-27 10:21:01,951:INFO: Epoch 371/600  [Need: 03:20:31]  lr=0.0001
+2021-08-27 10:21:51,277:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:21:53,786:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.561 ; loss: 1.121
+2021-08-27 10:21:54,207:INFO: Epoch 372/600  [Need: 03:19:26]  lr=0.0001
+2021-08-27 10:22:43,571:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:22:46,065:INFO: - Eval metrics : acc_top1: 72.781 ; acc_top5: 91.401 ; loss: 1.125
+2021-08-27 10:22:46,480:INFO: Epoch 373/600  [Need: 03:18:38]  lr=0.0001
+2021-08-27 10:23:35,345:INFO: - Train metrics (average): acc_top1: 99.963 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:23:37,944:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.302 ; loss: 1.125
+2021-08-27 10:23:38,315:INFO: Epoch 374/600  [Need: 03:16:06]  lr=0.0001
+2021-08-27 10:24:27,411:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:24:29,984:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.511 ; loss: 1.126
+2021-08-27 10:24:30,375:INFO: Epoch 375/600  [Need: 03:16:05]  lr=0.0001
+2021-08-27 10:25:19,481:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:25:22,028:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.481 ; loss: 1.119
+2021-08-27 10:25:22,390:INFO: Epoch 376/600  [Need: 03:15:03]  lr=0.0001
+2021-08-27 10:26:11,616:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:26:14,141:INFO: - Eval metrics : acc_top1: 72.850 ; acc_top5: 91.610 ; loss: 1.124
+2021-08-27 10:26:14,504:INFO: Epoch 377/600  [Need: 03:14:33]  lr=0.0001
+2021-08-27 10:27:03,751:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:27:06,261:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.501 ; loss: 1.125
+2021-08-27 10:27:06,624:INFO: Epoch 378/600  [Need: 03:13:42]  lr=0.0001
+2021-08-27 10:27:55,870:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:27:58,378:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.471 ; loss: 1.123
+2021-08-27 10:27:58,745:INFO: Epoch 379/600  [Need: 03:12:50]  lr=0.0001
+2021-08-27 10:28:48,011:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:28:50,519:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.471 ; loss: 1.126
+2021-08-27 10:28:50,884:INFO: Epoch 380/600  [Need: 03:12:02]  lr=0.0001
+2021-08-27 10:29:40,124:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:29:42,645:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.481 ; loss: 1.127
+2021-08-27 10:29:43,021:INFO: Epoch 381/600  [Need: 03:11:10]  lr=0.0001
+2021-08-27 10:30:32,304:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:30:34,813:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.531 ; loss: 1.128
+2021-08-27 10:30:35,228:INFO: Epoch 382/600  [Need: 03:10:33]  lr=0.0001
+2021-08-27 10:31:24,582:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:31:27,087:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.511 ; loss: 1.121
+2021-08-27 10:31:27,516:INFO: Epoch 383/600  [Need: 03:09:58]  lr=0.0001
+2021-08-27 10:32:16,853:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:32:19,360:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.481 ; loss: 1.123
+2021-08-27 10:32:19,790:INFO: Epoch 384/600  [Need: 03:09:03]  lr=0.0001
+2021-08-27 10:33:09,127:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:33:11,622:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.411 ; loss: 1.123
+2021-08-27 10:33:12,088:INFO: Epoch 385/600  [Need: 03:08:16]  lr=0.0001
+2021-08-27 10:34:01,422:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:34:03,938:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.451 ; loss: 1.118
+2021-08-27 10:34:04,354:INFO: Epoch 386/600  [Need: 03:07:17]  lr=0.0001
+2021-08-27 10:34:53,760:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:34:56,253:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.441 ; loss: 1.123
+2021-08-27 10:34:56,690:INFO: Epoch 387/600  [Need: 03:06:39]  lr=0.0001
+2021-08-27 10:35:46,129:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:35:48,610:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.451 ; loss: 1.120
+2021-08-27 10:35:49,093:INFO: Epoch 388/600  [Need: 03:06:01]  lr=0.0001
+2021-08-27 10:36:38,759:INFO: - Train metrics (average): acc_top1: 99.990 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:36:41,287:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.570 ; loss: 1.127
+2021-08-27 10:36:41,706:INFO: Epoch 389/600  [Need: 03:05:53]  lr=0.0001
+2021-08-27 10:37:31,225:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:37:33,686:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.451 ; loss: 1.122
+2021-08-27 10:37:34,153:INFO: Epoch 390/600  [Need: 03:04:26]  lr=0.0001
+2021-08-27 10:38:23,467:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:38:25,979:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.471 ; loss: 1.124
+2021-08-27 10:38:26,376:INFO: Epoch 391/600  [Need: 03:02:46]  lr=0.0001
+2021-08-27 10:39:15,754:INFO: - Train metrics (average): acc_top1: 99.967 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:39:18,250:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.352 ; loss: 1.123
+2021-08-27 10:39:18,675:INFO: Epoch 392/600  [Need: 03:02:10]  lr=0.0001
+2021-08-27 10:40:08,095:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:40:10,589:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.451 ; loss: 1.125
+2021-08-27 10:40:11,013:INFO: Epoch 393/600  [Need: 03:01:26]  lr=0.0001
+2021-08-27 10:41:00,345:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:41:02,841:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.441 ; loss: 1.124
+2021-08-27 10:41:03,195:INFO: Epoch 394/600  [Need: 03:00:01]  lr=0.0001
+2021-08-27 10:41:52,450:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:41:54,967:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.431 ; loss: 1.119
+2021-08-27 10:41:55,388:INFO: Epoch 395/600  [Need: 02:59:11]  lr=0.0001
+2021-08-27 10:42:44,764:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:42:47,244:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.461 ; loss: 1.121
+2021-08-27 10:42:47,640:INFO: Epoch 396/600  [Need: 02:58:31]  lr=0.0001
+2021-08-27 10:43:37,053:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:43:39,536:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.531 ; loss: 1.122
+2021-08-27 10:43:39,958:INFO: Epoch 397/600  [Need: 02:57:52]  lr=0.0001
+2021-08-27 10:44:29,338:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:44:31,840:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.411 ; loss: 1.118
+2021-08-27 10:44:32,299:INFO: Epoch 398/600  [Need: 02:57:05]  lr=0.0001
+2021-08-27 10:45:21,668:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:45:24,169:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.481 ; loss: 1.123
+2021-08-27 10:45:24,605:INFO: Epoch 399/600  [Need: 02:56:05]  lr=0.0001
+2021-08-27 10:46:13,941:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:46:16,442:INFO: - Eval metrics : acc_top1: 72.850 ; acc_top5: 91.481 ; loss: 1.128
+2021-08-27 10:46:16,827:INFO: Epoch 400/600  [Need: 02:54:56]  lr=0.0001
+2021-08-27 10:47:06,155:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:47:08,652:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.322 ; loss: 1.125
+2021-08-27 10:47:09,013:INFO: Epoch 401/600  [Need: 02:53:57]  lr=0.0001
+2021-08-27 10:47:58,279:INFO: - Train metrics (average): acc_top1: 99.991 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:48:00,782:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.441 ; loss: 1.120
+2021-08-27 10:48:01,140:INFO: Epoch 402/600  [Need: 02:52:53]  lr=0.0001
+2021-08-27 10:48:50,305:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:48:52,836:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.471 ; loss: 1.124
+2021-08-27 10:48:53,194:INFO: Epoch 403/600  [Need: 02:51:46]  lr=0.0001
+2021-08-27 10:49:42,443:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:49:44,960:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.491 ; loss: 1.121
+2021-08-27 10:49:45,311:INFO: Epoch 404/600  [Need: 02:51:07]  lr=0.0001
+2021-08-27 10:50:34,637:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:50:37,144:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.381 ; loss: 1.120
+2021-08-27 10:50:37,526:INFO: Epoch 405/600  [Need: 02:50:34]  lr=0.0001
+2021-08-27 10:51:26,825:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:51:29,330:INFO: - Eval metrics : acc_top1: 73.179 ; acc_top5: 91.580 ; loss: 1.123
+2021-08-27 10:51:30,039:INFO: - Found new best accuracy on validation set
+2021-08-27 10:51:30,040:INFO: Epoch 406/600  [Need: 02:50:40]  lr=0.0001
+2021-08-27 10:52:19,741:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:52:22,299:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 10:52:22,716:INFO: Epoch 407/600  [Need: 02:50:18]  lr=0.0001
+2021-08-27 10:53:12,422:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:53:14,984:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.421 ; loss: 1.124
+2021-08-27 10:53:15,477:INFO: Epoch 408/600  [Need: 02:49:42]  lr=0.0001
+2021-08-27 10:54:05,092:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:54:07,582:INFO: - Eval metrics : acc_top1: 72.880 ; acc_top5: 91.342 ; loss: 1.123
+2021-08-27 10:54:08,227:INFO: Epoch 409/600  [Need: 02:48:48]  lr=0.0001
+2021-08-27 10:54:57,755:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:55:00,063:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.361 ; loss: 1.121
+2021-08-27 10:55:00,602:INFO: Epoch 410/600  [Need: 02:46:43]  lr=0.0001
+2021-08-27 10:55:50,161:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:55:52,430:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.421 ; loss: 1.122
+2021-08-27 10:55:52,921:INFO: Epoch 411/600  [Need: 02:45:40]  lr=0.0001
+2021-08-27 10:56:42,501:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 10:56:44,743:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.451 ; loss: 1.117
+2021-08-27 10:56:45,156:INFO: Epoch 412/600  [Need: 02:44:32]  lr=0.0001
+2021-08-27 10:57:34,879:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:57:37,418:INFO: - Eval metrics : acc_top1: 72.811 ; acc_top5: 91.521 ; loss: 1.123
+2021-08-27 10:57:38,303:INFO: Epoch 413/600  [Need: 02:46:31]  lr=0.0001
+2021-08-27 10:58:27,772:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 10:58:30,251:INFO: - Eval metrics : acc_top1: 72.830 ; acc_top5: 91.352 ; loss: 1.121
+2021-08-27 10:58:30,629:INFO: Epoch 414/600  [Need: 02:43:04]  lr=0.0001
+2021-08-27 10:59:19,932:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 10:59:22,439:INFO: - Eval metrics : acc_top1: 73.209 ; acc_top5: 91.521 ; loss: 1.119
+2021-08-27 10:59:23,852:INFO: - Found new best accuracy on validation set
+2021-08-27 10:59:23,852:INFO: Epoch 415/600  [Need: 02:44:59]  lr=0.0001
+2021-08-27 11:00:13,306:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:00:15,345:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.471 ; loss: 1.119
+2021-08-27 11:00:15,699:INFO: Epoch 416/600  [Need: 02:39:51]  lr=0.0001
+2021-08-27 11:01:05,197:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:01:07,330:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.491 ; loss: 1.125
+2021-08-27 11:01:07,669:INFO: Epoch 417/600  [Need: 02:39:22]  lr=0.0001
+2021-08-27 11:01:57,187:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 11:01:59,402:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.570 ; loss: 1.124
+2021-08-27 11:01:59,775:INFO: Epoch 418/600  [Need: 02:38:55]  lr=0.0001
+2021-08-27 11:02:49,305:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:02:51,563:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.401 ; loss: 1.123
+2021-08-27 11:02:52,096:INFO: Epoch 419/600  [Need: 02:38:42]  lr=0.0001
+2021-08-27 11:03:41,406:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:03:43,927:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.441 ; loss: 1.120
+2021-08-27 11:03:44,286:INFO: Epoch 420/600  [Need: 02:37:26]  lr=0.0001
+2021-08-27 11:04:33,548:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:04:36,067:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.491 ; loss: 1.122
+2021-08-27 11:04:36,420:INFO: Epoch 421/600  [Need: 02:36:24]  lr=0.0001
+2021-08-27 11:05:25,543:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:05:28,125:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.411 ; loss: 1.121
+2021-08-27 11:05:28,465:INFO: Epoch 422/600  [Need: 02:35:16]  lr=0.0001
+2021-08-27 11:06:17,606:INFO: - Train metrics (average): acc_top1: 99.990 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:06:20,163:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 11:06:20,534:INFO: Epoch 423/600  [Need: 02:34:28]  lr=0.0001
+2021-08-27 11:07:09,727:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:07:12,247:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.401 ; loss: 1.121
+2021-08-27 11:07:12,597:INFO: Epoch 424/600  [Need: 02:33:35]  lr=0.0001
+2021-08-27 11:08:01,835:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:08:04,351:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.361 ; loss: 1.125
+2021-08-27 11:08:04,702:INFO: Epoch 425/600  [Need: 02:32:50]  lr=0.0001
+2021-08-27 11:08:53,915:INFO: - Train metrics (average): acc_top1: 99.995 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:08:56,433:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 11:08:56,790:INFO: Epoch 426/600  [Need: 02:31:55]  lr=0.0001
+2021-08-27 11:09:46,083:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:09:48,584:INFO: - Eval metrics : acc_top1: 72.761 ; acc_top5: 91.451 ; loss: 1.122
+2021-08-27 11:09:48,940:INFO: Epoch 427/600  [Need: 02:31:14]  lr=0.0001
+2021-08-27 11:10:38,214:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:10:40,728:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.561 ; loss: 1.122
+2021-08-27 11:10:41,065:INFO: Epoch 428/600  [Need: 02:30:17]  lr=0.0001
+2021-08-27 11:11:30,377:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:11:32,879:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.441 ; loss: 1.123
+2021-08-27 11:11:33,235:INFO: Epoch 429/600  [Need: 02:29:33]  lr=0.0001
+2021-08-27 11:12:22,536:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:12:25,043:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.610 ; loss: 1.122
+2021-08-27 11:12:25,901:INFO: Epoch 430/600  [Need: 02:30:05]  lr=0.0001
+2021-08-27 11:13:15,114:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:13:17,640:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.570 ; loss: 1.124
+2021-08-27 11:13:17,994:INFO: Epoch 431/600  [Need: 02:27:35]  lr=0.0001
+2021-08-27 11:14:07,390:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:14:09,891:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.521 ; loss: 1.119
+2021-08-27 11:14:10,327:INFO: Epoch 432/600  [Need: 02:27:24]  lr=0.0001
+2021-08-27 11:14:59,702:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:15:02,200:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.570 ; loss: 1.117
+2021-08-27 11:15:03,088:INFO: Epoch 433/600  [Need: 02:27:43]  lr=0.0001
+2021-08-27 11:15:52,161:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:15:54,689:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.431 ; loss: 1.122
+2021-08-27 11:15:55,041:INFO: Epoch 434/600  [Need: 02:24:36]  lr=0.0001
+2021-08-27 11:16:44,087:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:16:46,647:INFO: - Eval metrics : acc_top1: 73.219 ; acc_top5: 91.421 ; loss: 1.120
+2021-08-27 11:16:47,373:INFO: - Found new best accuracy on validation set
+2021-08-27 11:16:47,374:INFO: Epoch 435/600  [Need: 02:24:47]  lr=0.0001
+2021-08-27 11:17:36,654:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:17:39,160:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.491 ; loss: 1.121
+2021-08-27 11:17:40,015:INFO: Epoch 436/600  [Need: 02:24:45]  lr=0.0001
+2021-08-27 11:18:29,311:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:18:31,834:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.570 ; loss: 1.116
+2021-08-27 11:18:32,385:INFO: Epoch 437/600  [Need: 02:23:08]  lr=0.0001
+2021-08-27 11:19:21,844:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:19:24,335:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.640 ; loss: 1.122
+2021-08-27 11:19:24,688:INFO: Epoch 438/600  [Need: 02:22:05]  lr=0.0001
+2021-08-27 11:20:14,051:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:20:16,559:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.511 ; loss: 1.120
+2021-08-27 11:20:16,911:INFO: Epoch 439/600  [Need: 02:21:00]  lr=0.0001
+2021-08-27 11:21:06,320:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:21:08,824:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.491 ; loss: 1.121
+2021-08-27 11:21:09,180:INFO: Epoch 440/600  [Need: 02:20:15]  lr=0.0001
+2021-08-27 11:21:58,522:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 11:22:01,023:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.511 ; loss: 1.121
+2021-08-27 11:22:01,405:INFO: Epoch 441/600  [Need: 02:19:15]  lr=0.0001
+2021-08-27 11:22:50,803:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:22:53,304:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.421 ; loss: 1.122
+2021-08-27 11:22:53,655:INFO: Epoch 442/600  [Need: 02:18:27]  lr=0.0001
+2021-08-27 11:23:43,066:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:23:45,577:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.680 ; loss: 1.119
+2021-08-27 11:23:45,977:INFO: Epoch 443/600  [Need: 02:17:46]  lr=0.0001
+2021-08-27 11:24:35,444:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:24:37,925:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 11:24:38,456:INFO: Epoch 444/600  [Need: 02:17:19]  lr=0.0001
+2021-08-27 11:25:27,326:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:25:29,932:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.481 ; loss: 1.124
+2021-08-27 11:25:30,283:INFO: Epoch 445/600  [Need: 02:14:44]  lr=0.0001
+2021-08-27 11:26:19,439:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:26:22,033:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.521 ; loss: 1.120
+2021-08-27 11:26:22,394:INFO: Epoch 446/600  [Need: 02:14:37]  lr=0.0001
+2021-08-27 11:27:11,579:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:27:14,156:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.451 ; loss: 1.122
+2021-08-27 11:27:14,506:INFO: Epoch 447/600  [Need: 02:13:45]  lr=0.0001
+2021-08-27 11:28:03,714:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:28:06,264:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.282 ; loss: 1.124
+2021-08-27 11:28:06,618:INFO: Epoch 448/600  [Need: 02:12:53]  lr=0.0001
+2021-08-27 11:28:55,842:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:28:58,386:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.401 ; loss: 1.122
+2021-08-27 11:28:58,741:INFO: Epoch 449/600  [Need: 02:12:02]  lr=0.0001
+2021-08-27 11:29:48,067:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:29:50,582:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.411 ; loss: 1.120
+2021-08-27 11:29:50,934:INFO: Epoch 450/600  [Need: 02:11:21]  lr=0.0001
+2021-08-27 11:30:40,316:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:30:42,818:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.551 ; loss: 1.126
+2021-08-27 11:30:43,221:INFO: Epoch 451/600  [Need: 02:10:43]  lr=1e-05
+2021-08-27 11:31:32,595:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:31:35,102:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.352 ; loss: 1.124
+2021-08-27 11:31:35,510:INFO: Epoch 452/600  [Need: 02:09:51]  lr=1e-05
+2021-08-27 11:32:24,993:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:32:27,478:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.371 ; loss: 1.119
+2021-08-27 11:32:28,183:INFO: Epoch 453/600  [Need: 02:09:55]  lr=1e-05
+2021-08-27 11:33:17,967:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 11:33:20,482:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.481 ; loss: 1.118
+2021-08-27 11:33:21,240:INFO: Epoch 454/600  [Need: 02:09:59]  lr=1e-05
+2021-08-27 11:34:10,690:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:34:13,178:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.501 ; loss: 1.123
+2021-08-27 11:34:13,634:INFO: Epoch 455/600  [Need: 02:07:29]  lr=1e-05
+2021-08-27 11:35:02,691:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:35:05,260:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.551 ; loss: 1.122
+2021-08-27 11:35:05,609:INFO: Epoch 456/600  [Need: 02:05:36]  lr=1e-05
+2021-08-27 11:35:54,834:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:35:57,402:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.361 ; loss: 1.122
+2021-08-27 11:35:57,762:INFO: Epoch 457/600  [Need: 02:05:10]  lr=1e-05
+2021-08-27 11:36:47,030:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:36:49,556:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.531 ; loss: 1.125
+2021-08-27 11:36:50,241:INFO: Epoch 458/600  [Need: 02:05:04]  lr=1e-05
+2021-08-27 11:37:39,595:INFO: - Train metrics (average): acc_top1: 99.990 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:37:42,110:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.451 ; loss: 1.121
+2021-08-27 11:37:42,479:INFO: Epoch 459/600  [Need: 02:03:37]  lr=1e-05
+2021-08-27 11:38:31,827:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:38:34,331:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.381 ; loss: 1.123
+2021-08-27 11:38:34,687:INFO: Epoch 460/600  [Need: 02:02:41]  lr=1e-05
+2021-08-27 11:39:24,083:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 11:39:26,577:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.580 ; loss: 1.120
+2021-08-27 11:39:27,392:INFO: Epoch 461/600  [Need: 02:02:58]  lr=1e-05
+2021-08-27 11:40:16,509:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:40:19,056:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.511 ; loss: 1.124
+2021-08-27 11:40:19,455:INFO: Epoch 462/600  [Need: 02:00:36]  lr=1e-05
+2021-08-27 11:41:08,734:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:41:11,243:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.521 ; loss: 1.120
+2021-08-27 11:41:11,595:INFO: Epoch 463/600  [Need: 01:59:55]  lr=1e-05
+2021-08-27 11:42:00,962:INFO: - Train metrics (average): acc_top1: 99.783 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 11:42:03,468:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.461 ; loss: 1.119
+2021-08-27 11:42:04,179:INFO: Epoch 464/600  [Need: 02:00:04]  lr=1e-05
+2021-08-27 11:42:53,854:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:42:56,343:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.381 ; loss: 1.120
+2021-08-27 11:42:57,150:INFO: Epoch 465/600  [Need: 02:00:03]  lr=1e-05
+2021-08-27 11:43:46,857:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:43:49,405:INFO: - Eval metrics : acc_top1: 73.199 ; acc_top5: 91.561 ; loss: 1.119
+2021-08-27 11:43:49,803:INFO: Epoch 466/600  [Need: 01:58:28]  lr=1e-05
+2021-08-27 11:44:39,538:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:44:42,067:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.580 ; loss: 1.123
+2021-08-27 11:44:42,779:INFO: Epoch 467/600  [Need: 01:58:18]  lr=1e-05
+2021-08-27 11:45:32,030:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:45:34,556:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.481 ; loss: 1.122
+2021-08-27 11:45:35,076:INFO: Epoch 468/600  [Need: 01:55:55]  lr=1e-05
+2021-08-27 11:46:24,811:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:46:27,311:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.471 ; loss: 1.121
+2021-08-27 11:46:27,932:INFO: Epoch 469/600  [Need: 01:56:17]  lr=1e-05
+2021-08-27 11:47:17,307:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:47:19,821:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.481 ; loss: 1.121
+2021-08-27 11:47:20,252:INFO: Epoch 470/600  [Need: 01:54:13]  lr=1e-05
+2021-08-27 11:48:09,640:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:48:12,139:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.361 ; loss: 1.120
+2021-08-27 11:48:12,542:INFO: Epoch 471/600  [Need: 01:53:17]  lr=1e-05
+2021-08-27 11:49:01,927:INFO: - Train metrics (average): acc_top1: 99.959 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:49:04,423:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.551 ; loss: 1.124
+2021-08-27 11:49:04,816:INFO: Epoch 472/600  [Need: 01:52:23]  lr=1e-05
+2021-08-27 11:49:54,235:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:49:56,726:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.501 ; loss: 1.122
+2021-08-27 11:49:57,116:INFO: Epoch 473/600  [Need: 01:51:34]  lr=1e-05
+2021-08-27 11:50:46,468:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:50:48,972:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.401 ; loss: 1.120
+2021-08-27 11:50:49,547:INFO: Epoch 474/600  [Need: 01:50:58]  lr=1e-05
+2021-08-27 11:51:38,448:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:51:41,041:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.531 ; loss: 1.122
+2021-08-27 11:51:41,394:INFO: Epoch 475/600  [Need: 01:48:52]  lr=1e-05
+2021-08-27 11:52:30,475:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:52:33,079:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.461 ; loss: 1.121
+2021-08-27 11:52:33,437:INFO: Epoch 476/600  [Need: 01:48:25]  lr=1e-05
+2021-08-27 11:53:22,652:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:53:25,217:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.441 ; loss: 1.122
+2021-08-27 11:53:25,602:INFO: Epoch 477/600  [Need: 01:47:48]  lr=1e-05
+2021-08-27 11:54:14,808:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:54:17,338:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.561 ; loss: 1.122
+2021-08-27 11:54:17,690:INFO: Epoch 478/600  [Need: 01:46:46]  lr=1e-05
+2021-08-27 11:55:07,005:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:55:09,516:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.541 ; loss: 1.124
+2021-08-27 11:55:09,872:INFO: Epoch 479/600  [Need: 01:46:06]  lr=1e-05
+2021-08-27 11:55:59,210:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:56:01,726:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.431 ; loss: 1.121
+2021-08-27 11:56:02,079:INFO: Epoch 480/600  [Need: 01:45:17]  lr=1e-05
+2021-08-27 11:56:51,447:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:56:53,944:INFO: - Eval metrics : acc_top1: 73.189 ; acc_top5: 91.411 ; loss: 1.120
+2021-08-27 11:56:54,300:INFO: Epoch 481/600  [Need: 01:44:26]  lr=1e-05
+2021-08-27 11:57:43,610:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:57:46,126:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.580 ; loss: 1.120
+2021-08-27 11:57:46,479:INFO: Epoch 482/600  [Need: 01:43:29]  lr=1e-05
+2021-08-27 11:58:35,839:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 11:58:38,342:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.511 ; loss: 1.122
+2021-08-27 11:58:38,930:INFO: Epoch 483/600  [Need: 01:43:09]  lr=1e-05
+2021-08-27 11:59:27,889:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 11:59:30,491:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.531 ; loss: 1.118
+2021-08-27 11:59:30,859:INFO: Epoch 484/600  [Need: 01:41:15]  lr=1e-05
+2021-08-27 12:00:20,082:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:00:22,649:INFO: - Eval metrics : acc_top1: 73.288 ; acc_top5: 91.451 ; loss: 1.120
+2021-08-27 12:00:23,686:INFO: - Found new best accuracy on validation set
+2021-08-27 12:00:23,687:INFO: Epoch 485/600  [Need: 01:42:08]  lr=1e-05
+2021-08-27 12:01:13,246:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:01:15,723:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.471 ; loss: 1.120
+2021-08-27 12:01:16,131:INFO: Epoch 486/600  [Need: 01:40:30]  lr=1e-05
+2021-08-27 12:02:05,471:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:02:07,987:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.451 ; loss: 1.119
+2021-08-27 12:02:08,662:INFO: Epoch 487/600  [Need: 01:39:48]  lr=1e-05
+2021-08-27 12:02:58,131:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:03:00,617:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.431 ; loss: 1.122
+2021-08-27 12:03:01,232:INFO: Epoch 488/600  [Need: 01:39:00]  lr=1e-05
+2021-08-27 12:03:50,849:INFO: - Train metrics (average): acc_top1: 99.991 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:03:53,308:INFO: - Eval metrics : acc_top1: 72.880 ; acc_top5: 91.521 ; loss: 1.121
+2021-08-27 12:03:53,703:INFO: Epoch 489/600  [Need: 01:37:56]  lr=1e-05
+2021-08-27 12:04:43,470:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:04:45,940:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.381 ; loss: 1.122
+2021-08-27 12:04:46,351:INFO: Epoch 490/600  [Need: 01:37:23]  lr=1e-05
+2021-08-27 12:05:35,719:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:05:38,225:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.551 ; loss: 1.121
+2021-08-27 12:05:38,578:INFO: Epoch 491/600  [Need: 01:35:44]  lr=1e-05
+2021-08-27 12:06:27,958:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:06:30,462:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.431 ; loss: 1.122
+2021-08-27 12:06:30,867:INFO: Epoch 492/600  [Need: 01:34:59]  lr=1e-05
+2021-08-27 12:07:20,337:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:07:22,823:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.441 ; loss: 1.120
+2021-08-27 12:07:23,226:INFO: Epoch 493/600  [Need: 01:34:14]  lr=1e-05
+2021-08-27 12:08:12,700:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:08:15,191:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.570 ; loss: 1.119
+2021-08-27 12:08:15,904:INFO: Epoch 494/600  [Need: 01:33:56]  lr=1e-05
+2021-08-27 12:09:05,547:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:09:07,991:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.451 ; loss: 1.120
+2021-08-27 12:09:08,424:INFO: Epoch 495/600  [Need: 01:32:47]  lr=1e-05
+2021-08-27 12:09:57,819:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:10:00,320:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.481 ; loss: 1.120
+2021-08-27 12:10:00,754:INFO: Epoch 496/600  [Need: 01:31:34]  lr=1e-05
+2021-08-27 12:10:50,166:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:10:52,660:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.451 ; loss: 1.121
+2021-08-27 12:10:53,373:INFO: Epoch 497/600  [Need: 01:31:12]  lr=1e-05
+2021-08-27 12:11:42,510:INFO: - Train metrics (average): acc_top1: 99.992 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:11:45,065:INFO: - Eval metrics : acc_top1: 72.820 ; acc_top5: 91.471 ; loss: 1.120
+2021-08-27 12:11:45,419:INFO: Epoch 498/600  [Need: 01:29:20]  lr=1e-05
+2021-08-27 12:12:34,656:INFO: - Train metrics (average): acc_top1: 99.962 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:12:37,186:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 12:12:37,536:INFO: Epoch 499/600  [Need: 01:28:35]  lr=1e-05
+2021-08-27 12:13:26,867:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:13:29,373:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.431 ; loss: 1.123
+2021-08-27 12:13:29,727:INFO: Epoch 500/600  [Need: 01:27:51]  lr=1e-05
+2021-08-27 12:14:19,099:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:14:21,604:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.640 ; loss: 1.116
+2021-08-27 12:14:21,963:INFO: Epoch 501/600  [Need: 01:27:03]  lr=1e-05
+2021-08-27 12:15:11,284:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:15:13,787:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.630 ; loss: 1.124
+2021-08-27 12:15:14,139:INFO: Epoch 502/600  [Need: 01:26:05]  lr=1e-05
+2021-08-27 12:16:03,495:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:16:05,985:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.640 ; loss: 1.122
+2021-08-27 12:16:06,401:INFO: Epoch 503/600  [Need: 01:25:21]  lr=1e-05
+2021-08-27 12:16:55,814:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:16:58,308:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.461 ; loss: 1.124
+2021-08-27 12:16:58,723:INFO: Epoch 504/600  [Need: 01:24:35]  lr=1e-05
+2021-08-27 12:17:48,161:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:17:50,657:INFO: - Eval metrics : acc_top1: 72.980 ; acc_top5: 91.590 ; loss: 1.120
+2021-08-27 12:17:51,085:INFO: Epoch 505/600  [Need: 01:23:46]  lr=1e-05
+2021-08-27 12:18:40,587:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:18:43,074:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.471 ; loss: 1.126
+2021-08-27 12:18:43,777:INFO: Epoch 506/600  [Need: 01:23:25]  lr=1e-05
+2021-08-27 12:19:32,981:INFO: - Train metrics (average): acc_top1: 99.987 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:19:35,508:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.640 ; loss: 1.123
+2021-08-27 12:19:35,863:INFO: Epoch 507/600  [Need: 01:21:36]  lr=1e-05
+2021-08-27 12:20:25,026:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 12:20:27,573:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.541 ; loss: 1.122
+2021-08-27 12:20:27,932:INFO: Epoch 508/600  [Need: 01:20:42]  lr=1e-05
+2021-08-27 12:21:17,255:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:21:19,771:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.421 ; loss: 1.122
+2021-08-27 12:21:20,124:INFO: Epoch 509/600  [Need: 01:20:01]  lr=1e-05
+2021-08-27 12:22:09,489:INFO: - Train metrics (average): acc_top1: 99.991 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:22:11,984:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.461 ; loss: 1.122
+2021-08-27 12:22:12,396:INFO: Epoch 510/600  [Need: 01:19:16]  lr=1e-05
+2021-08-27 12:23:01,813:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 12:23:04,303:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.551 ; loss: 1.119
+2021-08-27 12:23:04,682:INFO: Epoch 511/600  [Need: 01:18:25]  lr=1e-05
+2021-08-27 12:23:54,154:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:23:56,646:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.600 ; loss: 1.121
+2021-08-27 12:23:57,135:INFO: Epoch 512/600  [Need: 01:17:48]  lr=1e-05
+2021-08-27 12:24:46,408:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:24:48,938:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.461 ; loss: 1.119
+2021-08-27 12:24:49,320:INFO: Epoch 513/600  [Need: 01:16:32]  lr=1e-05
+2021-08-27 12:25:38,662:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:25:41,169:INFO: - Eval metrics : acc_top1: 73.268 ; acc_top5: 91.491 ; loss: 1.121
+2021-08-27 12:25:41,514:INFO: Epoch 514/600  [Need: 01:15:40]  lr=1e-05
+2021-08-27 12:26:30,875:INFO: - Train metrics (average): acc_top1: 99.993 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 12:26:33,380:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.541 ; loss: 1.121
+2021-08-27 12:26:33,969:INFO: Epoch 515/600  [Need: 01:15:11]  lr=1e-05
+2021-08-27 12:27:23,222:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:27:25,757:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.451 ; loss: 1.125
+2021-08-27 12:27:26,112:INFO: Epoch 516/600  [Need: 01:13:52]  lr=1e-05
+2021-08-27 12:28:15,433:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:28:17,945:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.441 ; loss: 1.122
+2021-08-27 12:28:18,301:INFO: Epoch 517/600  [Need: 01:13:03]  lr=1e-05
+2021-08-27 12:29:07,665:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:29:10,152:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.561 ; loss: 1.121
+2021-08-27 12:29:10,877:INFO: Epoch 518/600  [Need: 01:12:43]  lr=1e-05
+2021-08-27 12:30:00,152:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 12:30:02,678:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 12:30:03,036:INFO: Epoch 519/600  [Need: 01:11:17]  lr=1e-05
+2021-08-27 12:30:52,354:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:30:54,869:INFO: - Eval metrics : acc_top1: 73.000 ; acc_top5: 91.670 ; loss: 1.120
+2021-08-27 12:30:55,232:INFO: Epoch 520/600  [Need: 01:10:27]  lr=1e-05
+2021-08-27 12:31:44,618:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:31:47,120:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.441 ; loss: 1.121
+2021-08-27 12:31:47,686:INFO: Epoch 521/600  [Need: 01:09:56]  lr=1e-05
+2021-08-27 12:32:36,647:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:32:39,232:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.411 ; loss: 1.123
+2021-08-27 12:32:39,586:INFO: Epoch 522/600  [Need: 01:08:20]  lr=1e-05
+2021-08-27 12:33:28,779:INFO: - Train metrics (average): acc_top1: 99.992 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:33:31,339:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.570 ; loss: 1.119
+2021-08-27 12:33:31,686:INFO: Epoch 523/600  [Need: 01:07:43]  lr=1e-05
+2021-08-27 12:34:20,936:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:34:23,514:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.600 ; loss: 1.121
+2021-08-27 12:34:23,865:INFO: Epoch 524/600  [Need: 01:06:57]  lr=1e-05
+2021-08-27 12:35:13,223:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:35:15,730:INFO: - Eval metrics : acc_top1: 72.840 ; acc_top5: 91.521 ; loss: 1.122
+2021-08-27 12:35:16,085:INFO: Epoch 525/600  [Need: 01:06:08]  lr=1e-05
+2021-08-27 12:36:05,465:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 12:36:07,965:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.511 ; loss: 1.125
+2021-08-27 12:36:08,364:INFO: Epoch 526/600  [Need: 01:05:20]  lr=1e-05
+2021-08-27 12:36:57,793:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:37:00,288:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.481 ; loss: 1.123
+2021-08-27 12:37:00,816:INFO: Epoch 527/600  [Need: 01:04:41]  lr=1e-05
+2021-08-27 12:37:49,975:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:37:52,523:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 12:37:52,876:INFO: Epoch 528/600  [Need: 01:03:20]  lr=1e-05
+2021-08-27 12:38:42,119:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:38:44,653:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.441 ; loss: 1.125
+2021-08-27 12:38:45,012:INFO: Epoch 529/600  [Need: 01:02:33]  lr=1e-05
+2021-08-27 12:39:34,349:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:39:36,865:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.561 ; loss: 1.119
+2021-08-27 12:39:37,228:INFO: Epoch 530/600  [Need: 01:01:47]  lr=1e-05
+2021-08-27 12:40:26,565:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:40:29,073:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.461 ; loss: 1.120
+2021-08-27 12:40:29,425:INFO: Epoch 531/600  [Need: 01:00:53]  lr=1e-05
+2021-08-27 12:41:18,809:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:41:21,306:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.570 ; loss: 1.120
+2021-08-27 12:41:21,703:INFO: Epoch 532/600  [Need: 01:00:07]  lr=1e-05
+2021-08-27 12:42:11,099:INFO: - Train metrics (average): acc_top1: 99.973 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:42:13,595:INFO: - Eval metrics : acc_top1: 73.010 ; acc_top5: 91.600 ; loss: 1.121
+2021-08-27 12:42:14,122:INFO: Epoch 533/600  [Need: 00:59:24]  lr=1e-05
+2021-08-27 12:43:03,286:INFO: - Train metrics (average): acc_top1: 99.969 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:43:05,825:INFO: - Eval metrics : acc_top1: 73.179 ; acc_top5: 91.600 ; loss: 1.120
+2021-08-27 12:43:06,149:INFO: Epoch 534/600  [Need: 00:58:05]  lr=1e-05
+2021-08-27 12:43:55,377:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:43:57,898:INFO: - Eval metrics : acc_top1: 73.119 ; acc_top5: 91.600 ; loss: 1.121
+2021-08-27 12:43:58,249:INFO: Epoch 535/600  [Need: 00:57:18]  lr=1e-05
+2021-08-27 12:44:47,525:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:44:49,988:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.421 ; loss: 1.120
+2021-08-27 12:44:50,339:INFO: Epoch 536/600  [Need: 00:56:25]  lr=1e-05
+2021-08-27 12:45:39,633:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:45:42,145:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.570 ; loss: 1.123
+2021-08-27 12:45:42,507:INFO: Epoch 537/600  [Need: 00:55:38]  lr=1e-05
+2021-08-27 12:46:31,882:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:46:34,378:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.531 ; loss: 1.121
+2021-08-27 12:46:34,785:INFO: Epoch 538/600  [Need: 00:54:53]  lr=1e-05
+2021-08-27 12:47:24,213:INFO: - Train metrics (average): acc_top1: 99.990 ; acc_top5: 100.000 ; loss: 0.007
+2021-08-27 12:47:26,691:INFO: - Eval metrics : acc_top1: 73.209 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 12:47:27,116:INFO: Epoch 539/600  [Need: 00:54:04]  lr=1e-05
+2021-08-27 12:48:16,535:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:48:19,026:INFO: - Eval metrics : acc_top1: 73.169 ; acc_top5: 91.401 ; loss: 1.122
+2021-08-27 12:48:19,440:INFO: Epoch 540/600  [Need: 00:53:11]  lr=1e-05
+2021-08-27 12:49:08,919:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:49:11,414:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.431 ; loss: 1.126
+2021-08-27 12:49:11,834:INFO: Epoch 541/600  [Need: 00:52:23]  lr=1e-05
+2021-08-27 12:50:01,370:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:50:03,833:INFO: - Eval metrics : acc_top1: 73.159 ; acc_top5: 91.481 ; loss: 1.119
+2021-08-27 12:50:04,364:INFO: Epoch 542/600  [Need: 00:51:39]  lr=1e-05
+2021-08-27 12:50:53,974:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:50:56,427:INFO: - Eval metrics : acc_top1: 73.089 ; acc_top5: 91.431 ; loss: 1.124
+2021-08-27 12:50:56,904:INFO: Epoch 543/600  [Need: 00:50:47]  lr=1e-05
+2021-08-27 12:51:46,245:INFO: - Train metrics (average): acc_top1: 99.966 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:51:48,760:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.521 ; loss: 1.121
+2021-08-27 12:51:49,956:INFO: Epoch 544/600  [Need: 00:50:23]  lr=1e-05
+2021-08-27 12:52:39,023:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:52:41,555:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.441 ; loss: 1.119
+2021-08-27 12:52:41,969:INFO: Epoch 545/600  [Need: 00:48:32]  lr=1e-05
+2021-08-27 12:53:31,190:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:53:33,719:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.441 ; loss: 1.122
+2021-08-27 12:53:34,075:INFO: Epoch 546/600  [Need: 00:47:45]  lr=1e-05
+2021-08-27 12:54:23,423:INFO: - Train metrics (average): acc_top1: 99.959 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:54:25,932:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.600 ; loss: 1.118
+2021-08-27 12:54:26,316:INFO: Epoch 547/600  [Need: 00:47:01]  lr=1e-05
+2021-08-27 12:55:15,663:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:55:18,176:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.461 ; loss: 1.121
+2021-08-27 12:55:18,680:INFO: Epoch 548/600  [Need: 00:46:15]  lr=1e-05
+2021-08-27 12:56:08,033:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:56:10,558:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.551 ; loss: 1.120
+2021-08-27 12:56:10,911:INFO: Epoch 549/600  [Need: 00:45:16]  lr=1e-05
+2021-08-27 12:57:00,270:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:57:02,777:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.561 ; loss: 1.121
+2021-08-27 12:57:03,181:INFO: Epoch 550/600  [Need: 00:44:25]  lr=1e-05
+2021-08-27 12:57:52,535:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:57:55,037:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.441 ; loss: 1.120
+2021-08-27 12:57:55,637:INFO: Epoch 551/600  [Need: 00:43:42]  lr=1e-05
+2021-08-27 12:58:45,140:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:58:47,627:INFO: - Eval metrics : acc_top1: 73.149 ; acc_top5: 91.511 ; loss: 1.123
+2021-08-27 12:58:48,055:INFO: Epoch 552/600  [Need: 00:42:48]  lr=1e-05
+2021-08-27 12:59:37,528:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 12:59:40,031:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.431 ; loss: 1.120
+2021-08-27 12:59:40,452:INFO: Epoch 553/600  [Need: 00:41:55]  lr=1e-05
+2021-08-27 13:00:29,786:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:00:32,294:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.491 ; loss: 1.126
+2021-08-27 13:00:32,699:INFO: Epoch 554/600  [Need: 00:40:55]  lr=1e-05
+2021-08-27 13:01:22,084:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:01:24,572:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.551 ; loss: 1.119
+2021-08-27 13:01:24,927:INFO: Epoch 555/600  [Need: 00:40:02]  lr=1e-05
+2021-08-27 13:02:14,252:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:02:16,775:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.580 ; loss: 1.121
+2021-08-27 13:02:17,134:INFO: Epoch 556/600  [Need: 00:39:09]  lr=1e-05
+2021-08-27 13:03:06,434:INFO: - Train metrics (average): acc_top1: 99.983 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:03:08,951:INFO: - Eval metrics : acc_top1: 73.079 ; acc_top5: 91.461 ; loss: 1.124
+2021-08-27 13:03:09,301:INFO: Epoch 557/600  [Need: 00:38:15]  lr=1e-05
+2021-08-27 13:03:58,665:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:04:01,163:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.511 ; loss: 1.122
+2021-08-27 13:04:01,570:INFO: Epoch 558/600  [Need: 00:37:27]  lr=1e-05
+2021-08-27 13:04:50,972:INFO: - Train metrics (average): acc_top1: 99.970 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:04:53,475:INFO: - Eval metrics : acc_top1: 72.990 ; acc_top5: 91.511 ; loss: 1.118
+2021-08-27 13:04:53,898:INFO: Epoch 559/600  [Need: 00:36:37]  lr=1e-05
+2021-08-27 13:05:43,388:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:05:45,880:INFO: - Eval metrics : acc_top1: 73.318 ; acc_top5: 91.590 ; loss: 1.120
+2021-08-27 13:05:47,179:INFO: - Found new best accuracy on validation set
+2021-08-27 13:05:47,179:INFO: Epoch 560/600  [Need: 00:36:24]  lr=1e-05
+2021-08-27 13:06:36,753:INFO: - Train metrics (average): acc_top1: 99.991 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:06:38,968:INFO: - Eval metrics : acc_top1: 72.960 ; acc_top5: 91.491 ; loss: 1.122
+2021-08-27 13:06:39,457:INFO: Epoch 561/600  [Need: 00:34:51]  lr=1e-05
+2021-08-27 13:07:29,025:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:07:31,159:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.620 ; loss: 1.119
+2021-08-27 13:07:31,471:INFO: Epoch 562/600  [Need: 00:33:48]  lr=1e-05
+2021-08-27 13:08:21,047:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 13:08:23,280:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.491 ; loss: 1.122
+2021-08-27 13:08:23,706:INFO: Epoch 563/600  [Need: 00:33:04]  lr=1e-05
+2021-08-27 13:09:13,278:INFO: - Train metrics (average): acc_top1: 99.985 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:09:15,486:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.431 ; loss: 1.121
+2021-08-27 13:09:15,865:INFO: Epoch 564/600  [Need: 00:32:09]  lr=1e-05
+2021-08-27 13:10:05,449:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:10:07,689:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.461 ; loss: 1.122
+2021-08-27 13:10:08,101:INFO: Epoch 565/600  [Need: 00:31:20]  lr=1e-05
+2021-08-27 13:10:57,704:INFO: - Train metrics (average): acc_top1: 99.993 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:10:59,976:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.381 ; loss: 1.125
+2021-08-27 13:11:00,503:INFO: Epoch 566/600  [Need: 00:30:34]  lr=1e-05
+2021-08-27 13:11:50,091:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:11:52,335:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.531 ; loss: 1.122
+2021-08-27 13:11:52,817:INFO: Epoch 567/600  [Need: 00:29:38]  lr=1e-05
+2021-08-27 13:12:42,397:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.008
+2021-08-27 13:12:44,665:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.471 ; loss: 1.121
+2021-08-27 13:12:45,144:INFO: Epoch 568/600  [Need: 00:28:46]  lr=1e-05
+2021-08-27 13:13:34,759:INFO: - Train metrics (average): acc_top1: 99.984 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:13:37,028:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 13:13:37,648:INFO: Epoch 569/600  [Need: 00:28:00]  lr=1e-05
+2021-08-27 13:14:27,216:INFO: - Train metrics (average): acc_top1: 99.972 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:14:29,381:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.570 ; loss: 1.125
+2021-08-27 13:14:29,769:INFO: Epoch 570/600  [Need: 00:26:55]  lr=1e-05
+2021-08-27 13:15:19,335:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 13:15:21,532:INFO: - Eval metrics : acc_top1: 72.950 ; acc_top5: 91.531 ; loss: 1.121
+2021-08-27 13:15:21,917:INFO: Epoch 571/600  [Need: 00:26:04]  lr=1e-05
+2021-08-27 13:16:11,506:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:16:13,722:INFO: - Eval metrics : acc_top1: 73.020 ; acc_top5: 91.531 ; loss: 1.119
+2021-08-27 13:16:14,737:INFO: Epoch 572/600  [Need: 00:25:31]  lr=1e-05
+2021-08-27 13:17:04,291:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:17:06,422:INFO: - Eval metrics : acc_top1: 72.900 ; acc_top5: 91.501 ; loss: 1.121
+2021-08-27 13:17:06,790:INFO: Epoch 573/600  [Need: 00:24:17]  lr=1e-05
+2021-08-27 13:17:56,383:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:17:58,626:INFO: - Eval metrics : acc_top1: 73.109 ; acc_top5: 91.441 ; loss: 1.124
+2021-08-27 13:17:59,086:INFO: Epoch 574/600  [Need: 00:23:31]  lr=1e-05
+2021-08-27 13:18:48,666:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:18:50,920:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.541 ; loss: 1.120
+2021-08-27 13:18:51,442:INFO: Epoch 575/600  [Need: 00:22:41]  lr=1e-05
+2021-08-27 13:19:41,031:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:19:43,287:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.660 ; loss: 1.124
+2021-08-27 13:19:43,770:INFO: Epoch 576/600  [Need: 00:21:48]  lr=1e-05
+2021-08-27 13:20:33,346:INFO: - Train metrics (average): acc_top1: 99.977 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:20:35,581:INFO: - Eval metrics : acc_top1: 73.238 ; acc_top5: 91.551 ; loss: 1.122
+2021-08-27 13:20:36,084:INFO: Epoch 577/600  [Need: 00:20:55]  lr=1e-05
+2021-08-27 13:21:25,674:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:21:27,901:INFO: - Eval metrics : acc_top1: 73.029 ; acc_top5: 91.521 ; loss: 1.123
+2021-08-27 13:21:29,070:INFO: Epoch 578/600  [Need: 00:20:18]  lr=1e-05
+2021-08-27 13:22:18,650:INFO: - Train metrics (average): acc_top1: 99.988 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:22:20,857:INFO: - Eval metrics : acc_top1: 73.189 ; acc_top5: 91.590 ; loss: 1.119
+2021-08-27 13:22:21,383:INFO: Epoch 579/600  [Need: 00:19:10]  lr=1e-05
+2021-08-27 13:23:10,965:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.005
+2021-08-27 13:23:13,218:INFO: - Eval metrics : acc_top1: 72.920 ; acc_top5: 91.600 ; loss: 1.123
+2021-08-27 13:23:13,728:INFO: Epoch 580/600  [Need: 00:18:19]  lr=1e-05
+2021-08-27 13:24:03,307:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:24:05,552:INFO: - Eval metrics : acc_top1: 72.890 ; acc_top5: 91.491 ; loss: 1.120
+2021-08-27 13:24:05,994:INFO: Epoch 581/600  [Need: 00:17:25]  lr=1e-05
+2021-08-27 13:24:55,595:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:24:57,884:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.521 ; loss: 1.121
+2021-08-27 13:24:58,425:INFO: Epoch 582/600  [Need: 00:16:36]  lr=1e-05
+2021-08-27 13:25:48,017:INFO: - Train metrics (average): acc_top1: 99.990 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:25:50,278:INFO: - Eval metrics : acc_top1: 73.238 ; acc_top5: 91.531 ; loss: 1.124
+2021-08-27 13:25:50,966:INFO: Epoch 583/600  [Need: 00:15:45]  lr=1e-05
+2021-08-27 13:26:40,571:INFO: - Train metrics (average): acc_top1: 99.968 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:26:42,781:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.411 ; loss: 1.118
+2021-08-27 13:26:43,231:INFO: Epoch 584/600  [Need: 00:14:48]  lr=1e-05
+2021-08-27 13:27:32,831:INFO: - Train metrics (average): acc_top1: 99.982 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:27:34,987:INFO: - Eval metrics : acc_top1: 72.970 ; acc_top5: 91.511 ; loss: 1.124
+2021-08-27 13:27:35,342:INFO: Epoch 585/600  [Need: 00:13:53]  lr=1e-05
+2021-08-27 13:28:24,924:INFO: - Train metrics (average): acc_top1: 99.981 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:28:27,149:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.690 ; loss: 1.124
+2021-08-27 13:28:27,525:INFO: Epoch 586/600  [Need: 00:13:02]  lr=1e-05
+2021-08-27 13:29:17,099:INFO: - Train metrics (average): acc_top1: 99.996 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:29:19,316:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.580 ; loss: 1.124
+2021-08-27 13:29:19,692:INFO: Epoch 587/600  [Need: 00:12:10]  lr=1e-05
+2021-08-27 13:30:09,285:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:30:11,524:INFO: - Eval metrics : acc_top1: 72.930 ; acc_top5: 91.531 ; loss: 1.121
+2021-08-27 13:30:11,958:INFO: Epoch 588/600  [Need: 00:11:19]  lr=1e-05
+2021-08-27 13:31:01,555:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:31:03,843:INFO: - Eval metrics : acc_top1: 73.059 ; acc_top5: 91.471 ; loss: 1.120
+2021-08-27 13:31:04,376:INFO: Epoch 589/600  [Need: 00:10:29]  lr=1e-05
+2021-08-27 13:31:53,997:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:31:56,227:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.381 ; loss: 1.121
+2021-08-27 13:31:56,690:INFO: Epoch 590/600  [Need: 00:09:35]  lr=1e-05
+2021-08-27 13:32:46,286:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:32:48,530:INFO: - Eval metrics : acc_top1: 72.940 ; acc_top5: 91.570 ; loss: 1.122
+2021-08-27 13:32:48,988:INFO: Epoch 591/600  [Need: 00:08:42]  lr=1e-05
+2021-08-27 13:33:38,594:INFO: - Train metrics (average): acc_top1: 99.980 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:33:40,862:INFO: - Eval metrics : acc_top1: 73.049 ; acc_top5: 91.580 ; loss: 1.121
+2021-08-27 13:33:41,533:INFO: Epoch 592/600  [Need: 00:07:52]  lr=1e-05
+2021-08-27 13:34:31,172:INFO: - Train metrics (average): acc_top1: 99.971 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:34:33,408:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.441 ; loss: 1.121
+2021-08-27 13:34:34,008:INFO: Epoch 593/600  [Need: 00:06:59]  lr=1e-05
+2021-08-27 13:35:23,605:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:35:25,783:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.551 ; loss: 1.118
+2021-08-27 13:35:26,127:INFO: Epoch 594/600  [Need: 00:06:04]  lr=1e-05
+2021-08-27 13:36:15,735:INFO: - Train metrics (average): acc_top1: 99.989 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:36:17,967:INFO: - Eval metrics : acc_top1: 73.238 ; acc_top5: 91.421 ; loss: 1.121
+2021-08-27 13:36:18,687:INFO: Epoch 595/600  [Need: 00:05:15]  lr=1e-05
+2021-08-27 13:37:08,283:INFO: - Train metrics (average): acc_top1: 99.976 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:37:10,503:INFO: - Eval metrics : acc_top1: 73.129 ; acc_top5: 91.521 ; loss: 1.127
+2021-08-27 13:37:10,929:INFO: Epoch 596/600  [Need: 00:04:21]  lr=1e-05
+2021-08-27 13:38:00,530:INFO: - Train metrics (average): acc_top1: 99.974 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:38:02,739:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.511 ; loss: 1.121
+2021-08-27 13:38:03,114:INFO: Epoch 597/600  [Need: 00:03:28]  lr=1e-05
+2021-08-27 13:38:52,718:INFO: - Train metrics (average): acc_top1: 99.975 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:38:54,954:INFO: - Eval metrics : acc_top1: 73.099 ; acc_top5: 91.451 ; loss: 1.123
+2021-08-27 13:38:55,403:INFO: Epoch 598/600  [Need: 00:02:36]  lr=1e-05
+2021-08-27 13:39:45,009:INFO: - Train metrics (average): acc_top1: 99.978 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:39:47,276:INFO: - Eval metrics : acc_top1: 73.069 ; acc_top5: 91.561 ; loss: 1.123
+2021-08-27 13:39:47,818:INFO: Epoch 599/600  [Need: 00:01:44]  lr=1e-05
+2021-08-27 13:40:37,409:INFO: - Train metrics (average): acc_top1: 99.986 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:40:39,645:INFO: - Eval metrics : acc_top1: 73.139 ; acc_top5: 91.630 ; loss: 1.119
+2021-08-27 13:40:40,077:INFO: Epoch 600/600  [Need: 00:00:52]  lr=1e-05
+2021-08-27 13:41:29,677:INFO: - Train metrics (average): acc_top1: 99.979 ; acc_top5: 100.000 ; loss: 0.006
+2021-08-27 13:41:31,947:INFO: - Eval metrics : acc_top1: 73.039 ; acc_top5: 91.640 ; loss: 1.120

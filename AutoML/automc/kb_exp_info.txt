@@ -1,0 +1,103 @@
+source_name	model_name	data_name	cstartegy_details	flops_decrease_ratio	score_increase_ratio
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.81, HP3: 8, HP4: 2, HP5: 0.7}]	None	-0.024
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.81, HP3: 4, HP4: 2, HP5: 0.7}]	None	-0.027
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.81, HP3: 6, HP4: 2, HP5: 0.7}]	None	-0.026
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.81, HP3: 10, HP4: 2, HP5: 0.7}]	None	-0.026
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.81, HP3: 12, HP4: 2, HP5: 0.7}]	None	-0.027
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.94, HP3: 8, HP4: 2, HP5: 0.7}]	None	-0.077
+C1	WRN-16	cifar10	[prune_C1, {HP1: 0.33, HP2: 0.98, HP3: 8, HP4: 2, HP5: 0.7}]	None	-0.163
+C1	WRN-16	cifar100	[prune_C1, {HP1: 0.33, HP2: 0.93, HP3: 8, HP4: 2, HP5: 0.7}]	None	-0.086
+C1	WRN-16	cifar100	[prune_C1, {HP1: 0.33, HP2: 0.98, HP3: 8, HP4: 2, HP5: 0.7}]	None	-0.145
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.8, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.8	-0.068
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.6, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.6	-0.030
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.4, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.4	-0.017
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.2, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.2	-0.008
+C2	MobileNet-V2	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.9, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.9	-0.045
+C2	MobileNet-V2	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.87, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.87	-0.018
+C2	MobileNet-V2	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.84, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.84	-0.013
+C2	Resnet-56	cifar10	[prune_C2, {HP1: 0.1, HP2: 0.3, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.3	0.002
+C2	Resnet-56	cifar10	[prune_C2, {HP1: 0.1, HP2: 0.53, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.53	-0.002
+C2	VGG-13	cifar10	[prune_C2, {HP1: 0.1, HP2: 0.78, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.78	0.005
+C2	MobileNet-V2	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.49, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.49	-0.032
+C2	MobileNet-V2	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.4, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.4	-0.011
+C2	MobileNet-V2	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.3, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.3	-0.003
+C2	Resnet-50	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.53, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.53	-0.013
+C2	Resnet-50	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.42, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.42	-0.008
+C2	Resnet-50	imagenet	[prune_C2, {HP1: 0.1, HP2: 0.27, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.27	0.001
+C2	Resnet-50	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.8, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.8	-0.156
+C2	Resnet-50	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.45, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.45	-0.044
+C2	Resnet-50	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.3, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.3	-0.019
+C2	MobileNet-V2	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.8, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.8	-0.168
+C2	MobileNet-V2	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.45, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.45	-0.050
+C2	MobileNet-V2	birds-200	[prune_C2, {HP1: 0.1, HP2: 0.3, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.3	-0.031
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.8, HP6: 0.8, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.8	-0.066
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.8, HP6: 0.2, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.8	-0.080
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.2, HP6: 0.8, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.2	-0.007
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.2, HP6: 0.2, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.2	-0.001
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.5, HP6: 0.9, HP7: 0.66, HP8: 0, HP9: l2_weight}]	0.5	-0.030
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.5, HP6: 0.9, HP7: 0.66, HP8: 0.08, HP9: l2_weight}]	0.5	-0.032
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.5, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.5	-0.032
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.5, HP6: 0.9, HP7: 0.66, HP8: 0.83, HP9: l2_weight}]	0.5	-0.028
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.7, HP6: 0.9, HP7: 0.66, HP8: 0, HP9: l2_weight}]	0.7	-0.073
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.7, HP6: 0.9, HP7: 0.66, HP8: 0.08, HP9: l2_weight}]	0.7	-0.046
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.7, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.7	-0.053
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.7, HP6: 0.9, HP7: 0.66, HP8: 0.83, HP9: l2_weight}]	0.7	-0.046
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.9, HP6: 0.9, HP7: 0.66, HP8: 0, HP9: l2_weight}]	0.9	-0.364
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.9, HP6: 0.9, HP7: 0.66, HP8: 0.08, HP9: l2_weight}]	0.9	-0.295
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.9, HP6: 0.9, HP7: 0.66, HP8: 0.33, HP9: l2_weight}]	0.9	-0.308
+C2	Resnet-56	cifar100	[prune_C2, {HP1: 0.1, HP2: 0.9, HP6: 0.9, HP7: 0.66, HP8: 0.83, HP9: l2_weight}]	0.9	-0.267
+C3	VGG-Net	cifar10	[prune_C3, {HP1: 0.26, HP2: 0.88, HP6: 0.9}]	0.51	0.001
+C3	Densenet-40	cifar10	[prune_C3, {HP1: 0.26, HP2: 0.35, HP6: 0.9}]	0.28	0.010
+C3	Densenet-40	cifar10	[prune_C3, {HP1: 0.26, HP2: 0.66, HP6: 0.9}]	0.55	0.005
+C3	Resnet-164	cifar10	[prune_C3, {HP1: 0.26, HP2: 0.15, HP6: 0.9}]	0.24	0.004
+C3	Resnet-164	cifar10	[prune_C3, {HP1: 0.26, HP2: 0.35, HP6: 0.9}]	0.45	0.002
+C3	VGG-Net	cifar100	[prune_C3, {HP1: 0.26, HP2: 0.75, HP6: 0.9}]	0.37	0.003
+C3	Densenet-40	cifar100	[prune_C3, {HP1: 0.26, HP2: 0.38, HP6: 0.9}]	0.30	0.001
+C3	Densenet-40	cifar100	[prune_C3, {HP1: 0.26, HP2: 0.55, HP6: 0.9}]	0.47	-0.005
+C3	Resnet-164	cifar100	[prune_C3, {HP1: 0.26, HP2: 0.15, HP6: 0.9}]	0.33	0.007
+C3	Resnet-164	cifar100	[prune_C3, {HP1: 0.26, HP2: 0.30, HP6: 0.9}]	0.51	-0.007
+C3	VGG-Net	svhn	[prune_C3, {HP1: 0.26, HP2: 0.85, HP6: 0.9}]	0.50	0.001
+C3	Densenet-40	svhn	[prune_C3, {HP1: 0.26, HP2: 0.36, HP6: 0.9}]	0.31	0.001
+C3	Densenet-40	svhn	[prune_C3, {HP1: 0.26, HP2: 0.57, HP6: 0.9}]	0.50	0.001
+C3	Resnet-164	svhn	[prune_C3, {HP1: 0.26, HP2: 0.14, HP6: 0.9}]	0.31	-0.001
+C3	Resnet-164	svhn	[prune_C3, {HP1: 0.26, HP2: 0.34, HP6: 0.9}]	0.55	0.000
+C3	VGG-Net	imagenet	[prune_C3, {HP1: 0.26, HP2: 0.83, HP6: 0.9}]	0.30	0.000
+C4	Resnet-20	cifar10	[prune_C4, {HP2: 0.1, HP10: 0.5, HP11: 1}]	0.15	0.001
+C4	Resnet-20	cifar10	[prune_C4, {HP2: 0.2, HP10: 0.5, HP11: 1}]	0.29	-0.010
+C4	Resnet-20	cifar10	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.15	-0.014
+C4	Resnet-32	cifar10	[prune_C4, {HP2: 0.1, HP10: 0.5, HP11: 1}]	0.15	0.006
+C4	Resnet-32	cifar10	[prune_C4, {HP2: 0.2, HP10: 0.5, HP11: 1}]	0.29	0.000
+C4	Resnet-32	cifar10	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.42	-0.006
+C4	Resnet-56	cifar10	[prune_C4, {HP2: 0.1, HP10: 0.5, HP11: 1}]	0.15	0.003
+C4	Resnet-56	cifar10	[prune_C4, {HP2: 0.2, HP10: 0.5, HP11: 1}]	0.28	-0.001
+C4	Resnet-56	cifar10	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.41	-0.005
+C4	Resnet-56	cifar10	[prune_C4, {HP2: 0.4, HP10: 0.5, HP11: 1}]	0.53	-0.013
+C4	Resnet-110	cifar10	[prune_C4, {HP2: 0.1, HP10: 0.5, HP11: 1}]	0.15	0.002
+C4	Resnet-110	cifar10	[prune_C4, {HP2: 0.2, HP10: 0.5, HP11: 1}]	0.28	0.003
+C4	Resnet-110	cifar10	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.41	-0.003
+C4	Resnet-18	imagenet	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.42	-0.003
+C4	Resnet-34	imagenet	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.41	-0.002
+C4	Resnet-50	imagenet	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.42	-0.015
+C4	Resnet-101	imagenet	[prune_C4, {HP2: 0.3, HP10: 0.5, HP11: 1}]	0.42	-0.003
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.009
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: l1norm, HP14: 0.23, HP15: 1}]	None	-0.010
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: skew_kur, HP14: 0.23, HP15: 1}]	None	-0.010
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.002
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: l1norm, HP14: 0.23, HP15: 1}]	None	-0.005
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: skew_kur, HP14: 0.23, HP15: 1}]	None	-0.005
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P1, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.009
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.010
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P3, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.010
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P1, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.002
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.004
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P3, HP13: k34, HP14: 0.23, HP15: 1}]	None	-0.005
+C5	Resnet-56	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.7, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.7	0.001
+C5	Resnet-110	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.6, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.6	0.003
+C5	MobileNet-V1	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.4	0.006
+C5	MobileNet-V2	cifar10	[prune_C5, {HP1: 0.05, HP2: 0.2, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.3	0.008
+C5	Resnet-56	cifar100	[prune_C5, {HP1: 0.05, HP2: 0.5, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.5	-0.001
+C5	Resnet-110	cifar100	[prune_C5, {HP1: 0.05, HP2: 0.5, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.5	0.001
+C5	MobileNet-V2	imagenet	[prune_C5, {HP1: 0.05, HP2: 0.3, HP12: P2, HP13: k34, HP14: 0.23, HP15: 1}]	0.44	-0.057
+C7	VGG-16	cifar10	[prune_C7, {HP1: 0.5, HP2: 0.8, HP16: 1, HP17: CE}]	0.8	-0.002
+C7	Densenet-40	cifar10	[prune_C7, {HP1: 0.5, HP2: 0.7, HP16: 1, HP17: CE}]	None	-0.001
+C7	Resnet-56	cifar10	[prune_C7, {HP1: 0.5, HP2: 0.8, HP16: 1, HP17: CE}]	0.5	-0.003
