@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 def get_coef(T, modules, rate, strategy, logger):
     if logger:
         logger.info("getting coef")
-        logger.info("target rate: " + str(rate))
+        logger.info("coef target rate: " + str(rate))
     T_min, T_max = T
     T_minus = T_max - T_min
     now = 0.5

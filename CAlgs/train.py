@@ -185,7 +185,7 @@ def train(model, teacher_model, criterion, optimizer, train_loader, logger, kd_p
 
 
 class Train:
-    def __init__(self, data, save_dir, arch, logger=None, epochs=100, lr=1e-2, lr_sche='MultiStepLR', return_file=True, original_model=None, rate=1, activation='relu', numBins=8, kd_params=(0.0, 1), fixed_seed=False, use_logger=True):
+    def __init__(self, data, save_dir, arch, logger=None, epochs=100, lr=1e-2, lr_sche='MultiStepLR', return_file=True, original_model=None, rate=1, activation='relu', numBins=8, kd_params=(0.0, 1), fixed_seed=False, get_relative_acc=False, use_logger=True):
         self.data_dir = data['dir']
         self.data_name = data['name']
         self.save_dir = save_dir
@@ -204,6 +204,7 @@ class Train:
         self.numBins = numBins
         self.kd_params = kd_params
         self.lr_sche = lr_sche
+        self.get_relative_acc = get_relative_acc
         if fixed_seed:
             seed_torch()
         self.use_logger = use_logger
@@ -234,6 +235,10 @@ class Train:
                 if self.logger:
                     self.logger.warning("Your rate is not working")
 
+        if self.get_relative_acc:
+            model_original = model
+            metrics_original = test_at_beginning_original(model_original, self.data_name, self.data_dir, self.logger, self.arch_name)
+
         # Load data
         train_loader, val_loader = models.load_data(self.data_name, self.data_dir, arch_name=self.arch_name)
         if self.logger:
@@ -253,11 +258,16 @@ class Train:
             self.logger.info('$ FLOPs: {}'.format(metric['FLOPs']))
         save_result_to_json(self.save_dir, metric)
 
+        if self.get_relative_acc:
+            acc_dict, _, _, _ = calc_result(model_original, metrics_original, model, acc_dict, None, None)
+
         if self.use_logger == True:
             close_logger()
         if self.return_file:
             return acc_dict, trained_model
         else:
+            cmd = "rm -rf " + trained_model
+            os.system(cmd)
             return acc_dict, model
 
 '''

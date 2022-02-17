@@ -273,8 +273,8 @@ class LeGR:
         if self.logger:
             self.logger.info('Finished. Use {:.2f} hours. Minimum Loss: {:.3f}'.format(float(total_t) / 3600, minimum_loss))
 
-        np.savetxt(os.path.join(self.save_dir, '{}_ea_loss.txt'.format(self.arch_name)), np.array(mean_loss))
-        np.savetxt(os.path.join(self.save_dir, '{}_ea_min.data'.format(self.arch_name)), best_perturbation)
+        # np.savetxt(os.path.join(self.save_dir, '{}_ea_loss.txt'.format(self.arch_name)), np.array(mean_loss))
+        # np.savetxt(os.path.join(self.save_dir, '{}_ea_min.data'.format(self.arch_name)), best_perturbation)
 
         # Use the best affine transformation to obtain the resulting model
         compression_rate, compressed_model = best_model[0], best_model[1]

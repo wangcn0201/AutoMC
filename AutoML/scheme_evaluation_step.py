@@ -56,7 +56,11 @@ class SchemeEvaluationStep(object):
 			if not os.path.exists(save_dir):
 				os.mkdir(save_dir)
 			else:
-				cmd = "rm -rf "+str(save_dir)+"ceckpoint*.pth.tar"
+				cmd = "rm -rf "+str(save_dir)+"checkpoint*.pth.tar"
+				os.system(cmd)
+				cmd = "rm -rf "+str(save_dir)+"*_step*.pth.tar"
+				os.system(cmd)
+				cmd = "rm -rf "+str(save_dir)+"*_small_unfinetuned_*.pth.tar"
 				os.system(cmd)
 
 			init_rate = self.pre_init_rate

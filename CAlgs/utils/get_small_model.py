@@ -261,7 +261,7 @@ def get_small_model(model, arch_name, prune_type, small_model_with_param=True):
         return small_model
 
     # print('kept_index:\n', kept_index)
-    if arch_name in ['resnet20', 'resnet32', 'resnet44', 'resnet56', 'resnet110']:
+    if arch_name in ['resnet20', 'resnet32', 'resnet44', 'resnet56', 'resnet110', 'resnet164']:
         set_model_params_resnet_cifar(arch_name, kept_index, small_model, modules, prune_type)
     elif 'wide_resnet' in arch_name or 'resnet' in arch_name:
         set_model_params_resnet_and_wide_resnet(arch_name, kept_index, small_model, modules, prune_type)

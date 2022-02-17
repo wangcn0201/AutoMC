@@ -155,7 +155,7 @@ class Mask:
         codebook = np.ones(length)
         # Only applied to conv layer
         if len(weight_torch.size()) == 4:
-            if now_filter_index[0] == -1:
+            if len(now_filter_index) == 1 and now_filter_index[0] == -1:
                 # The filter to be pruned in each conv layer
                 filter_pruned_num = int(
                     weight_torch.size()[0] * (1 - compress_rate))

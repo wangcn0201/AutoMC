@@ -1,3 +1,0 @@
-#!/bin/sh
-
-CUDA_VISIBLE_DEVICES=6 CUDA_LAUNCH_BLOCKING=1 sh comparison_0.sh

@@ -8,4 +8,4 @@ TASKNAME=${DIR##*/}
 
 source $CONFIGFILENAME
 
-nohup sh scripts/comparison/comparison_general.sh $ALGNAME $MODEL $CLASSNUM $RATE $TOP1 $TOP5 $PARAM $FLOP > ./logs/log_${TASKNAME}_random.log &
+nohup sh scripts/comparison/comparison_general.sh $ALGNAME $MODEL $CLASSNUM $RATE $TOP1 $TOP5 $PARAM $FLOP > ./logs/log_${TASKNAME}_${ALGNAME}.log &

@@ -67,7 +67,7 @@ class HOS:
                 prune_prob_stage = get_prune_prob_stage(T, a, self.strategy, coef)
                 arg_max = get_arg_max(m, self.metric)
 
-                num_keep = max(int(out_channels * (1 - prune_prob_stage)), 1)
+                num_keep = max(int(out_channels * (1 - prune_prob_stage)), 2)
                 arg_max_rev = arg_max[::-1][:num_keep]
                 mask = torch.zeros(out_channels)
                 mask[arg_max_rev.tolist()] = 1
@@ -101,26 +101,32 @@ class HOS:
 
         for layer in layers:
             if 'prune' in layer[1]:
-                layer = layer[2]
-                if self.logger:
-                    self.logger.info('Decomposing layer: ' + str(layer))
-                subm_names = layer.strip().split('.')
+                if layer[0].weight.shape[0] == 1 or layer[0].weight.shape[1] == 1: continue
+                try:
+                    layer_now = layer[2]
+                    if self.logger:
+                        self.logger.info('Decomposing layer: ' + str(layer_now))
+                    subm_names = layer_now.strip().split('.')
 
-                layer = model.__getattr__(subm_names[0])
+                    layer_now = model.__getattr__(subm_names[0])
 
-                for s in subm_names[1:]:
-                    layer = layer.__getattr__(s)
+                    for s in subm_names[1:]:
+                        layer_now = layer_now.__getattr__(s)
 
-                decomposed_layer = Tucker2DecomposedLayer(layer, subm_names[-1], self.X_FACTOR)
+                    decomposed_layer = Tucker2DecomposedLayer(layer_now, subm_names[-1], self.X_FACTOR)
 
-                if len(subm_names) > 1:
-                    m = model.__getattr__(subm_names[0])
-                    for s in subm_names[1:-1]:
-                        m = m.__getattr__(s)
-                    m.__setattr__(subm_names[-1], decomposed_layer.new_layers)
-                else:
-                    model.__setattr__(
-                        subm_names[-1], decomposed_layer.new_layers)
+                    if len(subm_names) > 1:
+                        m = model.__getattr__(subm_names[0])
+                        for s in subm_names[1:-1]:
+                            m = m.__getattr__(s)
+                        m.__setattr__(subm_names[-1], decomposed_layer.new_layers)
+                    else:
+                        model.__setattr__(
+                            subm_names[-1], decomposed_layer.new_layers)
+                except:
+                    if self.logger:
+                        self.logger.info("Error while decomposing layer, shape is %s".format(str(layer[0].weight.shape)))
+                    continue
 
         model_dir = os.path.join(
             self.save_dir, self.arch_name + '_step2_{}.pth.tar'.format(time_file_str()))
@@ -191,6 +197,7 @@ class HOS:
     def main(self):
         if self.logger:
             self.logger.info(">>>>>> Starting C5")
+            self.logger.info("Target rate is: {}".format(self.rate))
 
         # Load original model
         model = torch.load(self.arch)

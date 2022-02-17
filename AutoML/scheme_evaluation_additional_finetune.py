@@ -52,8 +52,8 @@ class SchemeEvaluation(object):
 		init_rate = self.rate
 		scheme_score, parameter_remain_rate, flops_remain_rate = None, 1, 1
 		acc_top1_rate, acc_top5_rate = 1, 1
-		try:
-			for i in range(len(scheme_code)):
+		# try:
+		for i in range(len(scheme_code)):
 				self.logger.info('\t## iter: %d, scheme_code_i: %s', i, str(scheme_code[i]))
 				start_time = time.time()
 				calg, calg_hpo = scheme_code[i]
@@ -192,16 +192,16 @@ class SchemeEvaluation(object):
 				self.logger.info('\t## iter: %d, current top1/top1_increased: %.4f / %.4f, top5/top5_increased: %.4f / %.4f, flops/flops_decreased: %s / %.4f, parameter/parameter_decreased: %s / %.4f', i, top1, top1_increased, top5, top5_increased, flops, flops_decreased, parameter, parameter_decreased)
 				self.logger.info('\t## iter: %d, current model_dir: %s', i, str(model['dir']))
 				self.logger.info('\t## time used: %.2f s', time.time()-start_time)
-		except:
-			self.logger.info('\t## evaluation finished (FAILED), scheme_score: 0, compression_rate: 0, flops_decreased_rate: 0, parameter_amount: -M, flops_amount: -G')
-			self.logger.info('\t## evaluation finished (FAILED), top1/top1_increased: 0 / -1, top5/top5_increased: 0 / -1, flops/flops_decreased: - / 0, parameter/parameter_decreased: - / 0')
-			table_infos = {
-					"top1/top1_increased": [0, -1], 
-					"top5/top5_increased": [0, -1],
-					"flops/flops_decreased": ["-", 0], 
-					"parameter/parameter_decreased": ["-", 0]
-					}
-			return [0, 0, 0, '0M', '0G'], table_infos
+		# except:
+		# 	self.logger.info('\t## evaluation finished (FAILED), scheme_score: 0, compression_rate: 0, flops_decreased_rate: 0, parameter_amount: -M, flops_amount: -G')
+		# 	self.logger.info('\t## evaluation finished (FAILED), top1/top1_increased: 0 / -1, top5/top5_increased: 0 / -1, flops/flops_decreased: - / 0, parameter/parameter_decreased: - / 0')
+		# 	table_infos = {
+		# 			"top1/top1_increased": [0, -1], 
+		# 			"top5/top5_increased": [0, -1],
+		# 			"flops/flops_decreased": ["-", 0], 
+		# 			"parameter/parameter_decreased": ["-", 0]
+		# 			}
+		# 	return [0, 0, 0, '0M', '0G'], table_infos
 
 		compression_rate = 1.0-parameter_remain_rate
 		flops_decreased_rate = 1.0-flops_remain_rate
@@ -216,7 +216,6 @@ class SchemeEvaluation(object):
 
 		if self.epoch_total != -1:
 			self.logger.info('## entering additional finetune...')
-			model = torch.load(model['dir'])
 			if calg == "prune_C1":
 				epochs = self.epoch_total - int(self.pretrain_epochs*calg_hpo["HP1"])
 			elif calg == "prune_C2":
@@ -226,14 +225,14 @@ class SchemeEvaluation(object):
 			elif calg == "prune_C4":
 				epochs = self.epoch_total - int(self.pretrain_epochs*calg_hpo["HP10"])
 			elif calg == "prune_C5":
-				epochs = self.epoch_total - int(self.pretrain_epochs*calg_hpo["HP1"]) + int(self.pretrain_epochs*calg_hpo["HP14"])
+				epochs = self.epoch_total - int(self.pretrain_epochs*calg_hpo["HP1"]) - int(self.pretrain_epochs*calg_hpo["HP14"])
 			elif calg == "prune_C7":
 				epochs = self.epoch_total - int(self.pretrain_epochs*calg_hpo["HP1"])
 
 			self.logger.info('## remaining epochs is {}'.format(epochs))
 			if epochs > 0:
 				acc_dict, _ = train.Train(data, save_dir, model, logger=self.logger,
-					epochs=epochs, lr=1e-3, lr_sche='MultiStepLR', return_file=False, use_logger=True).main()
+					epochs=epochs, lr=1e-3, lr_sche='MultiStepLR', return_file=False, get_relative_acc=True, use_logger=True).main()
 				scheme_score = acc_dict['acc_top1']
 
 				acc_top1_rate *= (acc_dict['acc_top1_increased']+1)

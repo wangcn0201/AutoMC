@@ -38,10 +38,11 @@ def environment_setting(config):
 	logging_dir = config["logging_dir"]
 	if not os.path.exists(logging_dir):
 		os.mkdir(logging_dir)
-	logging_path = logging_dir + 'Evaluation-Run-{}'.format(time.strftime("%Y%m%d-%H%M%S"))
+	scs = config["scheme_code_source"].split('-')
+	logging_path = logging_dir + 'Evaluation-Run-{}-{}-{}'.format(scs[1], scs[2], time.strftime("%Y%m%d-%H%M%S"))
 	create_exp_dir(logging_path, scripts_to_save=glob.glob('*.py'))
 	logging_path = logging_path
-		
+
 	log_format = '%(asctime)s %(message)s'
 	logger = logging.getLogger()
 	logger.setLevel(logging.INFO)
@@ -106,6 +107,7 @@ if __name__ == '__main__':
 		config = json.load(f)
 	config['task_name'] = args.task_name
 	config['pretrain_epochs'] = args.pretrain_epochs
+	config['scheme_code_source'] = args.scheme_code_source
 
 	logging_path, logger = environment_setting(config)
 	logger.info('@ args: %s', str(args))
