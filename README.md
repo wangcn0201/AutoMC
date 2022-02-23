@@ -8,7 +8,7 @@ AutoMC is an effective and efficient automatic tool for model compression that c
 
 ## 1. Pretrain
 
-To get pretrained model of VGG-13, VGG-16, VGG-19, ResNet-20, ResNet-56, ResNet-164 on CIFAR-10 and CIFAR-100 (setting pretrained epoch as 200): 
+To get pretrained model of VGG-13, VGG-16, VGG-19, ResNet-20, ResNet-56, ResNet-164 on CIFAR-10 and CIFAR-100, setting pretrained epoch as 200: 
 
 ```bash
 cd ./CAlgs
@@ -38,7 +38,7 @@ python generate_mini_dataset.py {0} {1}
 
 Pretrain models on sampled dataset.
 
-To train VGG-16 and ResNet-56 on mini-CIFAR-10 and mini-CIFAR-100 (setting trained epoch as 50):
+To train VGG-16 and ResNet-56 on mini-CIFAR-10 and mini-CIFAR-100, setting trained epoch as 50:
 
 ```bash
 cd ./CAlgs
@@ -47,17 +47,19 @@ python scripts/pretrain.py {0} {1} 50
 # {1} = vgg16 or resnet56
 ```
 
+The trained models also are available to download at the link above.
+
 ## 4. Get Results of 6 State-of-the-art Human-invented Compression Methods
 
 We represent LMA, LeGR, NS, SFP, HOS, LFB as 1, 2, 3, 4, 5, 7 in our code.
 
-To get results of 6 human-invented compression methods of VGG-16 and ResNet-56 on CIFAR-10 and CIFAR-100 (setting compression rate as 0.3 and 0.6):
+To get results of 6 human-invented compression methods of VGG-13, VGG-16, VGG-19, ResNet-20, ResNet-56 and ResNet-164 on CIFAR-10 and CIFAR-100, setting compression rate as 0.3 and 0.6:
 
 ```bash
 cd ./CAlgs
 python scripts/run.py {0} {1} {2} {3}
 # {0} = cifar10 or cifar100
-# {1} = vgg16 or resnet56
+# {1} = vgg13, vgg16, vgg19, resnet20, resnet56 or resnet164
 # {2} = 1, 2, 3, 4, 5, 7
 # {3} = 0.3 or 0.6
 ```
