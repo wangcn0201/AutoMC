@@ -1,9 +1,6 @@
 import sys
 from mini_dataset_generator import mini_dataset
 
-# resnet20+mini_cifar10/mini_cifar100+100轮
-# vgg13+mini_cifar10/mini_cifar100+100轮
-
 def f(data_name, arch_name):
     arch = {'dir': './trained_models/{}/{}.pth.tar'.format(data_name, arch_name), 'name': arch_name}
     data = {'dir': './data', 'name':data_name}
