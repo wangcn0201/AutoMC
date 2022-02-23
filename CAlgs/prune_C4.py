@@ -1,3 +1,6 @@
+'''
+Our implement of SFP
+'''
 import os
 import numpy as np
 import torch

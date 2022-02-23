@@ -1,3 +1,6 @@
+'''
+Our implement of NS
+'''
 import os
 import torch
 import torch.nn as nn
